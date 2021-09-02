@@ -87,7 +87,7 @@
             <cd:LittleEndian/>
           </cd:Integer>
         </cd:Attribute>
-        <cd:Dimension>450</cd:Dimension>
+        <cd:Dimension/>
         <cd:Float>
           <cd:NativeType>float</cd:NativeType>
         </cd:Float>
@@ -95,7 +95,7 @@
     </cd:Field>
     <cd:Field name="number_radiances">
       <cd:Array>
-        <cd:Dimension>450</cd:Dimension>
+        <cd:Dimension><![CDATA[$col_dim]]></cd:Dimension>
         <cd:Integer>
           <cd:NativeType>int16</cd:NativeType>
         </cd:Integer>
@@ -112,8 +112,8 @@
             </cd:Integer>
           </cd:Array>
         </cd:Attribute>
-        <cd:Dimension>450</cd:Dimension>
-        <cd:Dimension>9533</cd:Dimension>
+        <cd:Dimension><![CDATA[$col_dim]]></cd:Dimension>
+        <cd:Dimension><![CDATA[$spectral_dim]]></cd:Dimension>
         <cd:Float>
           <cd:NativeType>double</cd:NativeType>
         </cd:Float>
@@ -130,8 +130,8 @@
             </cd:Integer>
           </cd:Array>
         </cd:Attribute>
-        <cd:Dimension>450</cd:Dimension>
-        <cd:Dimension>9533</cd:Dimension>
+        <cd:Dimension><![CDATA[$col_dim]]></cd:Dimension>
+        <cd:Dimension><![CDATA[$spectral_dim]]></cd:Dimension>
         <cd:Float>
           <cd:NativeType>double</cd:NativeType>
         </cd:Float>
@@ -151,7 +151,7 @@
             <cd:LittleEndian/>
           </cd:Integer>
         </cd:Attribute>
-        <cd:Dimension>9533</cd:Dimension>
+        <cd:Dimension/>
         <cd:Float>
           <cd:NativeType>float</cd:NativeType>
         </cd:Float>
@@ -159,11 +159,17 @@
     </cd:Field>
     <cd:Field name="use_row">
       <cd:Array>
-        <cd:Dimension>450</cd:Dimension>
+        <cd:Dimension><![CDATA[$col_dim]]></cd:Dimension>
         <cd:Integer>
           <cd:NativeType>int8</cd:NativeType>
         </cd:Integer>
       </cd:Array>
     </cd:Field>
   </cd:Record>
+  <cd:ProductVariable name="col_dim">
+    <cd:Init><![CDATA[$col_dim = dim(/col_dim, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="spectral_dim">
+    <cd:Init><![CDATA[$spectral_dim = dim(/spectral_dim, 0)]]></cd:Init>
+  </cd:ProductVariable>
 </cd:ProductDefinition>
