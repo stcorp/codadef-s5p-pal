@@ -1,12 +1,6 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition id="AUX_RARBD3" format="hdf5" last-modified="2021-09-24" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<cd:ProductDefinition id="AUX_RARBD3" format="hdf5" last-modified="2021-09-27" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
   <cd:Record>
-    <cd:Attribute name="nc3_strict" real_name="_nc3_strict">
-      <cd:Integer>
-        <cd:NativeType>int32</cd:NativeType>
-        <cd:LittleEndian/>
-      </cd:Integer>
-    </cd:Attribute>
     <cd:Attribute name="Conventions">
       <cd:Text/>
     </cd:Attribute>
@@ -47,7 +41,7 @@
       <cd:Array>
         <cd:Dimension>2</cd:Dimension>
         <cd:Integer>
-          <cd:NativeType>int32</cd:NativeType>
+          <cd:NativeType>double</cd:NativeType>
           <cd:LittleEndian/>
         </cd:Integer>
       </cd:Array>
@@ -62,19 +56,16 @@
       </cd:Array>
     </cd:Attribute>
     <cd:Attribute name="input_files">
-      <cd:Text/>
+      <cd:Array>
+        <cd:Dimension/>
+        <cd:Text/>
+      </cd:Array>
     </cd:Attribute>
     <cd:Attribute name="measurement_date">
       <cd:Text/>
     </cd:Attribute>
-    <cd:Attribute name="fillValue">
-      <cd:Array>
-        <cd:Dimension>1</cd:Dimension>
-        <cd:Float>
-          <cd:NativeType>float</cd:NativeType>
-          <cd:LittleEndian/>
-        </cd:Float>
-      </cd:Array>
+    <cd:Attribute name="NCProperties" real_name="_NCProperties">
+      <cd:Text/>
     </cd:Attribute>
     <cd:Field name="col_dim">
       <cd:Array>
@@ -83,6 +74,12 @@
         </cd:Attribute>
         <cd:Attribute name="NAME">
           <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+          <cd:Integer>
+            <cd:NativeType>int32</cd:NativeType>
+            <cd:LittleEndian/>
+          </cd:Integer>
         </cd:Attribute>
         <cd:Dimension/>
         <cd:Float>
@@ -100,6 +97,15 @@
     </cd:Field>
     <cd:Field name="reference_radiance">
       <cd:Array>
+        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+          <cd:Array>
+            <cd:Dimension>2</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+              <cd:LittleEndian/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Attribute>
         <cd:Dimension><![CDATA[$col_dim]]></cd:Dimension>
         <cd:Dimension><![CDATA[$spectral_dim]]></cd:Dimension>
         <cd:Attribute name="units">
@@ -112,6 +118,15 @@
     </cd:Field>
     <cd:Field name="reference_wavelength">
       <cd:Array>
+        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+          <cd:Array>
+            <cd:Dimension>2</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+              <cd:LittleEndian/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Attribute>
         <cd:Dimension><![CDATA[$col_dim]]></cd:Dimension>
         <cd:Dimension><![CDATA[$spectral_dim]]></cd:Dimension>
         <cd:Attribute name="units">
@@ -129,6 +144,12 @@
         </cd:Attribute>
         <cd:Attribute name="NAME">
           <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+          <cd:Integer>
+            <cd:NativeType>int32</cd:NativeType>
+            <cd:LittleEndian/>
+          </cd:Integer>
         </cd:Attribute>
         <cd:Dimension/>
         <cd:Float>
