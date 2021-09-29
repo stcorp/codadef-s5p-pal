@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition id="L2__BRO___" format="hdf5" last-modified="2021-09-27" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<cd:ProductDefinition id="L2__BRO___" format="hdf5" last-modified="2021-09-28" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -59,6 +59,12 @@
       <cd:Text/>
     </cd:Attribute>
     <cd:Attribute name="input_files">
+      <cd:Array>
+        <cd:Dimension/>
+        <cd:Text/>
+      </cd:Array>
+    </cd:Attribute>
+    <cd:Attribute name="NCProperties" real_name="_NCProperties">
       <cd:Text/>
     </cd:Attribute>
     <cd:Field name="PRODUCT">
@@ -71,6 +77,15 @@
                   <cd:Record>
                     <cd:Field name="calibration_polynomial_coefficients">
                       <cd:Array>
+                        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                          <cd:Array>
+                            <cd:Dimension>2</cd:Dimension>
+                            <cd:Integer>
+                              <cd:NativeType>int32</cd:NativeType>
+                              <cd:LittleEndian/>
+                            </cd:Integer>
+                          </cd:Array>
+                        </cd:Attribute>
                         <cd:Attribute name="long_name">
                           <cd:Text/>
                         </cd:Attribute>
@@ -86,6 +101,15 @@
                     </cd:Field>
                     <cd:Field name="calibration_subwindows_root_mean_square">
                       <cd:Array>
+                        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                          <cd:Array>
+                            <cd:Dimension>2</cd:Dimension>
+                            <cd:Integer>
+                              <cd:NativeType>int32</cd:NativeType>
+                              <cd:LittleEndian/>
+                            </cd:Integer>
+                          </cd:Array>
+                        </cd:Attribute>
                         <cd:Attribute name="long_name">
                           <cd:Text/>
                         </cd:Attribute>
@@ -101,6 +125,15 @@
                     </cd:Field>
                     <cd:Field name="calibration_subwindows_shift">
                       <cd:Array>
+                        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                          <cd:Array>
+                            <cd:Dimension>2</cd:Dimension>
+                            <cd:Integer>
+                              <cd:NativeType>int32</cd:NativeType>
+                              <cd:LittleEndian/>
+                            </cd:Integer>
+                          </cd:Array>
+                        </cd:Attribute>
                         <cd:Attribute name="long_name">
                           <cd:Text/>
                         </cd:Attribute>
@@ -116,6 +149,15 @@
                     </cd:Field>
                     <cd:Field name="calibration_subwindows_squeeze">
                       <cd:Array>
+                        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                          <cd:Array>
+                            <cd:Dimension>2</cd:Dimension>
+                            <cd:Integer>
+                              <cd:NativeType>int32</cd:NativeType>
+                              <cd:LittleEndian/>
+                            </cd:Integer>
+                          </cd:Array>
+                        </cd:Attribute>
                         <cd:Attribute name="long_name">
                           <cd:Text/>
                         </cd:Attribute>
@@ -131,6 +173,15 @@
                     </cd:Field>
                     <cd:Field name="calibration_subwindows_wavelength">
                       <cd:Array>
+                        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                          <cd:Array>
+                            <cd:Dimension>2</cd:Dimension>
+                            <cd:Integer>
+                              <cd:NativeType>int32</cd:NativeType>
+                              <cd:LittleEndian/>
+                            </cd:Integer>
+                          </cd:Array>
+                        </cd:Attribute>
                         <cd:Attribute name="long_name">
                           <cd:Text/>
                         </cd:Attribute>
@@ -226,6 +277,15 @@
                 </cd:Field>
                 <cd:Field name="brominemonoxide_geometric_air_mass_factor">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
@@ -251,6 +311,15 @@
                 </cd:Field>
                 <cd:Field name="brominemonoxide_slant_column_corrected">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
@@ -282,6 +351,15 @@
                 </cd:Field>
                 <cd:Field name="brominemonoxide_slant_column_corrected_trueness">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
@@ -313,6 +391,15 @@
                 </cd:Field>
                 <cd:Field name="brominemonoxide_slant_column_correction_flag">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
@@ -344,6 +431,15 @@
                 </cd:Field>
                 <cd:Field name="brominemonoxide_total_vertical_column_correction">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
@@ -375,6 +471,15 @@
                 </cd:Field>
                 <cd:Field name="brominemonoxide_total_vertical_column_trueness">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
@@ -406,6 +511,15 @@
                 </cd:Field>
                 <cd:Field name="fitted_radiance_shift">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
@@ -431,6 +545,15 @@
                 </cd:Field>
                 <cd:Field name="fitted_radiance_squeeze">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
@@ -456,6 +579,15 @@
                 </cd:Field>
                 <cd:Field name="fitted_root_mean_square">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
@@ -481,6 +613,15 @@
                 </cd:Field>
                 <cd:Field name="fitted_slant_columns">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
@@ -516,6 +657,15 @@
                 </cd:Field>
                 <cd:Field name="fitted_slant_columns_precision">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
@@ -577,6 +727,15 @@
                 </cd:Field>
                 <cd:Field name="number_of_spectral_points_in_retrieval">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
@@ -606,6 +765,15 @@
               <cd:Record>
                 <cd:Field name="geolocation_flags">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
@@ -664,6 +832,15 @@
                 </cd:Field>
                 <cd:Field name="latitude_bounds">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:Text/>
                     </cd:Attribute>
@@ -678,6 +855,15 @@
                 </cd:Field>
                 <cd:Field name="longitude_bounds">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:Text/>
                     </cd:Attribute>
@@ -692,6 +878,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_altitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="comment">
                       <cd:Text/>
                     </cd:Attribute>
@@ -716,6 +911,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_latitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="comment">
                       <cd:Text/>
                     </cd:Attribute>
@@ -740,6 +944,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_longitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="comment">
                       <cd:Text/>
                     </cd:Attribute>
@@ -764,6 +977,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_orbit_phase">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="comment">
                       <cd:Text/>
                     </cd:Attribute>
@@ -788,6 +1010,15 @@
                 </cd:Field>
                 <cd:Field name="solar_azimuth_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="comment">
                       <cd:Text/>
                     </cd:Attribute>
@@ -819,6 +1050,15 @@
                 </cd:Field>
                 <cd:Field name="solar_zenith_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="comment">
                       <cd:Text/>
                     </cd:Attribute>
@@ -850,6 +1090,15 @@
                 </cd:Field>
                 <cd:Field name="viewing_azimuth_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="comment">
                       <cd:Text/>
                     </cd:Attribute>
@@ -881,6 +1130,15 @@
                 </cd:Field>
                 <cd:Field name="viewing_zenith_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="comment">
                       <cd:Text/>
                     </cd:Attribute>
@@ -918,6 +1176,15 @@
                   <cd:Record>
                     <cd:Field name="earthshine_reference_radiance">
                       <cd:Array>
+                        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                          <cd:Array>
+                            <cd:Dimension>2</cd:Dimension>
+                            <cd:Integer>
+                              <cd:NativeType>int32</cd:NativeType>
+                              <cd:LittleEndian/>
+                            </cd:Integer>
+                          </cd:Array>
+                        </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:Text/>
                         </cd:Attribute>
@@ -930,6 +1197,15 @@
                     </cd:Field>
                     <cd:Field name="earthshine_reference_wavelength">
                       <cd:Array>
+                        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                          <cd:Array>
+                            <cd:Dimension>2</cd:Dimension>
+                            <cd:Integer>
+                              <cd:NativeType>int32</cd:NativeType>
+                              <cd:LittleEndian/>
+                            </cd:Integer>
+                          </cd:Array>
+                        </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:Text/>
                         </cd:Attribute>
@@ -986,6 +1262,15 @@
                 </cd:Field>
                 <cd:Field name="instrument_configuration_identifier">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="comment">
                       <cd:Text/>
                     </cd:Attribute>
@@ -1005,6 +1290,15 @@
         </cd:Field>
         <cd:Field name="brominemonoxide_total_vertical_column">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>3</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="coordinates">
               <cd:Text/>
             </cd:Attribute>
@@ -1039,6 +1333,15 @@
         </cd:Field>
         <cd:Field name="brominemonoxide_total_vertical_column_precision">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>3</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="coordinates">
               <cd:Text/>
             </cd:Attribute>
@@ -1111,6 +1414,15 @@
         </cd:Field>
         <cd:Field name="delta_time">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>2</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="long_name">
               <cd:Text/>
             </cd:Attribute>
@@ -1164,6 +1476,15 @@
         </cd:Field>
         <cd:Field name="latitude">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>3</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="bounds">
               <cd:Text/>
             </cd:Attribute>
@@ -1198,6 +1519,15 @@
         </cd:Field>
         <cd:Field name="longitude">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>3</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="bounds">
               <cd:Text/>
             </cd:Attribute>
@@ -1232,6 +1562,15 @@
         </cd:Field>
         <cd:Field name="qa_value">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>3</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="comment">
               <cd:Text/>
             </cd:Attribute>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition id="AUX_BGBRO_" format="hdf5" last-modified="2021-09-27" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<cd:ProductDefinition id="AUX_BGBRO_" format="hdf5" last-modified="2021-09-28" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -19,19 +19,19 @@
     <cd:Attribute name="lat_bound">
       <cd:Array>
         <cd:Dimension>2</cd:Dimension>
-        <cd:Integer>
-          <cd:NativeType>int64</cd:NativeType>
+        <cd:Float>
+          <cd:NativeType>double</cd:NativeType>
           <cd:LittleEndian/>
-        </cd:Integer>
+        </cd:Float>
       </cd:Array>
     </cd:Attribute>
     <cd:Attribute name="lon_bound">
       <cd:Array>
         <cd:Dimension>2</cd:Dimension>
-        <cd:Integer>
-          <cd:NativeType>int64</cd:NativeType>
+        <cd:Float>
+          <cd:NativeType>double</cd:NativeType>
           <cd:LittleEndian/>
-        </cd:Integer>
+        </cd:Float>
       </cd:Array>
     </cd:Attribute>
     <cd:Attribute name="time_coverage_start">
