@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductClass xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" name="S5P_PAL" last-modified="2021-09-02">
+<cd:ProductClass xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" name="S5P_PAL" last-modified="2021-11-07">
   <cd:Description>S5P-PAL products</cd:Description>
   <cd:ProductType name="AUX_BGBRO_">
     <cd:Description>BGBRO background correction file</cd:Description>
@@ -22,12 +22,22 @@
     </cd:ProductDefinition>
   </cd:ProductType>
   <cd:ProductType name="L2__BRO___">
-    <cd:Description>TCBRO L2 file</cd:Description>
+    <cd:Description>Total Column BrO L2 file</cd:Description>
     <cd:ProductDefinition id="L2__BRO___" format="hdf5" version="0">
       <cd:Description>This definition is based on version 1.0.0 of the S5P L2 BrO Product Format Specification S5P-BIRA-L2-PFS-TCBRO</cd:Description>
       <cd:DetectionRule>
         <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
         <cd:MatchExpression>substr(9,10,filename())=="L2__BRO___"</cd:MatchExpression>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
+  <cd:ProductType name="L2__TCWV__">
+    <cd:Description>Total Column Water Vapour L2 file</cd:Description>
+    <cd:ProductDefinition id="L2__TCWV__" format="hdf5" version="0">
+      <cd:Description>This definition is based on version 1.0.0 of the S5P L2 TCWV Product Format Specification S5P-DLR-L2-PFS-TCWV</cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
+        <cd:MatchExpression>substr(9,10,filename())=="L2__TCWV__"</cd:MatchExpression>
       </cd:DetectionRule>
     </cd:ProductDefinition>
   </cd:ProductType>
