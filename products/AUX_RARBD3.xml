@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition id="AUX_RARBD3" format="hdf5" last-modified="2021-09-28" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<cd:ProductDefinition id="AUX_RARBD3" format="hdf5" last-modified="2021-11-07" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -159,7 +159,7 @@
     </cd:Field>
     <cd:Field name="use_row">
       <cd:Array>
-        <cd:Attribute name="val_max">
+        <cd:Attribute name="valid_max">
           <cd:Array>
             <cd:Dimension>1</cd:Dimension>
             <cd:Integer>
@@ -168,7 +168,7 @@
             </cd:Integer>
           </cd:Array>
         </cd:Attribute>
-        <cd:Attribute name="val_min">
+        <cd:Attribute name="valid_min">
           <cd:Array>
             <cd:Dimension>1</cd:Dimension>
             <cd:Integer>
