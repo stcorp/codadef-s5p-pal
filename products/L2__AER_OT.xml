@@ -1,0 +1,1717 @@
+<?xml version="1.0"?>
+<cd:ProductDefinition id="untitled" format="hdf5" last-modified="2022-04-05" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+  <cd:Record>
+    <cd:Attribute name="Conventions">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="title">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="id">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="tracking_id">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="description">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="source">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="institution">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="project">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="references">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="date_created">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="history">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="summary">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="license">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="processor_name">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="processor_version">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="algorithm_version">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="product_version">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="processing_status">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="processing_center">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="platform">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="sensor">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="spatial_resolution">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="time_reference">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="time_coverage_start">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="time_coverage_end">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="time_coverage_resolution">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="time_coverage_duration">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="orbit">
+      <cd:Array>
+        <cd:Dimension>1</cd:Dimension>
+        <cd:Integer>
+          <cd:NativeType>int32</cd:NativeType>
+          <cd:LittleEndian/>
+        </cd:Integer>
+      </cd:Array>
+    </cd:Attribute>
+    <cd:Attribute name="footprint">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="cdm_data_type">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="file_class">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="collection_identifier">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="input_files">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="creator_name">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="creator_url">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="creator_email">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="naming_authority">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="identifier_product_doi">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="identifier_product_doi_authority">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="keywords_vocabulary">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="keywords">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="standard_name_vocabulary">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Field name="PRODUCT">
+      <cd:Record>
+        <cd:Field name="SUPPORT_DATA">
+          <cd:Record>
+            <cd:Field name="DETAILED_RESULTS">
+              <cd:Record>
+                <cd:Field name="aerosol_reflectance">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension>5</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="surface_reflectance_diffuse">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension>5</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="surface_reflectance_direct">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension>5</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+              </cd:Record>
+            </cd:Field>
+            <cd:Field name="GEOLOCATIONS">
+              <cd:Record>
+                <cd:Field name="geolocation_flags">
+                  <cd:Array>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_values">
+                      <cd:Array>
+                        <cd:Dimension>7</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint8</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_meanings">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_masks">
+                      <cd:Array>
+                        <cd:Dimension>7</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint8</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Integer>
+                      <cd:NativeType>uint8</cd:NativeType>
+                    </cd:Integer>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="latitude_bounds">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension>4</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="longitude_bounds">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension>4</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="satellite_altitude">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="satellite_latitude">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="satellite_longitude">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="satellite_orbit_phase">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="solar_azimuth_angle">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="solar_zenith_angle">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="viewing_azimuth_angle">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="viewing_zenith_angle">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+              </cd:Record>
+            </cd:Field>
+            <cd:Field name="INPUT_DATA">
+              <cd:Record>
+                <cd:Field name="absorbing_aerosol_index">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="aerosol_layer_pressure">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="chlorophyll">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="unit_long">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="cloud_fraction">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="co_totalcolumn">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="reflectance">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension>5</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="snow_ice_flag">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint8</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_meanings">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_masks">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="description">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Integer>
+                      <cd:NativeType>uint8</cd:NativeType>
+                    </cd:Integer>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="surface_classification">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint8</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_values">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_meanings">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_masks">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="description">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Integer>
+                      <cd:NativeType>uint8</cd:NativeType>
+                    </cd:Integer>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="surface_pressure">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="wind_speed">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4173</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+              </cd:Record>
+            </cd:Field>
+          </cd:Record>
+        </cd:Field>
+        <cd:Field name="aerosol_optical_thickness">
+          <cd:Array>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>float</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="comment">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="standard_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="coordinates">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Dimension>4173</cd:Dimension>
+            <cd:Dimension>450</cd:Dimension>
+            <cd:Dimension>5</cd:Dimension>
+            <cd:Float>
+              <cd:NativeType>float</cd:NativeType>
+            </cd:Float>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="aerosol_subtype">
+          <cd:Array>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>float</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="standard_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="comment">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="coordinates">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Dimension>4173</cd:Dimension>
+            <cd:Dimension>450</cd:Dimension>
+            <cd:Float>
+              <cd:NativeType>float</cd:NativeType>
+            </cd:Float>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="aerosol_type">
+          <cd:Array>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="comment">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="standard_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="coordinates">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Dimension>4173</cd:Dimension>
+            <cd:Dimension>450</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="corner">
+          <cd:Array>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="comment">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension>4</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="delta_time">
+          <cd:Array>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="standard_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Dimension>4173</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="ground_pixel">
+          <cd:Array>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="axis">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="comment">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension>450</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="latitude">
+          <cd:Array>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>float</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="standard_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="valid_min">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>float</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="valid_max">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>float</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="bounds">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Dimension>4173</cd:Dimension>
+            <cd:Dimension>450</cd:Dimension>
+            <cd:Float>
+              <cd:NativeType>float</cd:NativeType>
+              <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
+            </cd:Float>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="longitude">
+          <cd:Array>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>float</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="standard_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="valid_min">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>float</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="valid_max">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>float</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="bounds">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Dimension>4173</cd:Dimension>
+            <cd:Dimension>450</cd:Dimension>
+            <cd:Float>
+              <cd:NativeType>float</cd:NativeType>
+              <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
+            </cd:Float>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="qa_value">
+          <cd:Array>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>float</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="scale_factor">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>float</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="add_offset">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>float</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="valid_min">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>float</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="valid_max">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>float</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="comment">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="coordinates">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Dimension>4173</cd:Dimension>
+            <cd:Dimension>450</cd:Dimension>
+            <cd:Dimension>5</cd:Dimension>
+            <cd:Float>
+              <cd:NativeType>float</cd:NativeType>
+            </cd:Float>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="scanline">
+          <cd:Array>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="axis">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="comment">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension>4173</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="single_scattering_albedo">
+          <cd:Array>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>float</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="comment">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="standard_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="coordinates">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Dimension>4173</cd:Dimension>
+            <cd:Dimension>450</cd:Dimension>
+            <cd:Dimension>5</cd:Dimension>
+            <cd:Float>
+              <cd:NativeType>float</cd:NativeType>
+            </cd:Float>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="time">
+          <cd:Array>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="standard_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="axis">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="comment">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="time_utc">
+          <cd:Array>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="standard_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Dimension>4173</cd:Dimension>
+            <cd:Text/>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="wavelength">
+          <cd:Array>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="axis">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="comment">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="standard_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension>5</cd:Dimension>
+            <cd:Float>
+              <cd:NativeType>float</cd:NativeType>
+            </cd:Float>
+          </cd:Array>
+        </cd:Field>
+      </cd:Record>
+    </cd:Field>
+    <cd:Field name="corner">
+      <cd:Array>
+        <cd:Attribute name="CLASS">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="NAME">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Dimension>4</cd:Dimension>
+        <cd:Float>
+          <cd:NativeType>float</cd:NativeType>
+        </cd:Float>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="ground_pixel">
+      <cd:Array>
+        <cd:Attribute name="CLASS">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="NAME">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Dimension>450</cd:Dimension>
+        <cd:Float>
+          <cd:NativeType>float</cd:NativeType>
+        </cd:Float>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="scanline">
+      <cd:Array>
+        <cd:Attribute name="CLASS">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="NAME">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Dimension>4173</cd:Dimension>
+        <cd:Float>
+          <cd:NativeType>float</cd:NativeType>
+        </cd:Float>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="time">
+      <cd:Array>
+        <cd:Attribute name="CLASS">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="NAME">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Dimension>1</cd:Dimension>
+        <cd:Float>
+          <cd:NativeType>float</cd:NativeType>
+        </cd:Float>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="wavelength">
+      <cd:Array>
+        <cd:Attribute name="CLASS">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="NAME">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Dimension>5</cd:Dimension>
+        <cd:Float>
+          <cd:NativeType>float</cd:NativeType>
+        </cd:Float>
+      </cd:Array>
+    </cd:Field>
+  </cd:Record>
+</cd:ProductDefinition>
