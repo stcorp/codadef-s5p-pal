@@ -1532,7 +1532,7 @@
             <cd:Attribute name="long_name">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>4173</cd:Dimension>
+            <cd:Dimension>4172</cd:Dimension>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
@@ -1679,7 +1679,7 @@
         <cd:Attribute name="NAME">
           <cd:Text/>
         </cd:Attribute>
-        <cd:Dimension>4173</cd:Dimension>
+        <cd:Dimension>4172</cd:Dimension>
         <cd:Float>
           <cd:NativeType>float</cd:NativeType>
         </cd:Float>
