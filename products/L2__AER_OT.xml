@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition id="L2__AER_OT" format="hdf5" last-modified="2022-04-20" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<cd:ProductDefinition id="L2__AER_OT" format="hdf5" last-modified="2022-05-02" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -1270,6 +1270,12 @@
                 </cd:Integer>
               </cd:Array>
             </cd:Attribute>
+            <cd:Attribute name="CLASS">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="NAME">
+              <cd:Text/>
+            </cd:Attribute>
             <cd:Attribute name="units">
               <cd:Text/>
             </cd:Attribute>
@@ -1279,7 +1285,7 @@
             <cd:Attribute name="long_name">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension><![CDATA[$corner]]></cd:Dimension>
+            <cd:Dimension/>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
@@ -1323,6 +1329,12 @@
                 </cd:Integer>
               </cd:Array>
             </cd:Attribute>
+            <cd:Attribute name="CLASS">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="NAME">
+              <cd:Text/>
+            </cd:Attribute>
             <cd:Attribute name="units">
               <cd:Text/>
             </cd:Attribute>
@@ -1335,7 +1347,7 @@
             <cd:Attribute name="long_name">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+            <cd:Dimension/>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
@@ -1520,6 +1532,12 @@
                 </cd:Integer>
               </cd:Array>
             </cd:Attribute>
+            <cd:Attribute name="CLASS">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="NAME">
+              <cd:Text/>
+            </cd:Attribute>
             <cd:Attribute name="units">
               <cd:Text/>
             </cd:Attribute>
@@ -1532,7 +1550,7 @@
             <cd:Attribute name="long_name">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>4172</cd:Dimension>
+            <cd:Dimension/>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
@@ -1584,6 +1602,12 @@
                 </cd:Integer>
               </cd:Array>
             </cd:Attribute>
+            <cd:Attribute name="CLASS">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="NAME">
+              <cd:Text/>
+            </cd:Attribute>
             <cd:Attribute name="units">
               <cd:Text/>
             </cd:Attribute>
@@ -1599,7 +1623,7 @@
             <cd:Attribute name="long_name">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension/>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
@@ -1620,6 +1644,12 @@
         </cd:Field>
         <cd:Field name="wavelength">
           <cd:Array>
+            <cd:Attribute name="CLASS">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="NAME">
+              <cd:Text/>
+            </cd:Attribute>
             <cd:Attribute name="units">
               <cd:Text/>
             </cd:Attribute>
@@ -1635,83 +1665,13 @@
             <cd:Attribute name="standard_name">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>5</cd:Dimension>
+            <cd:Dimension/>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
             </cd:Float>
           </cd:Array>
         </cd:Field>
       </cd:Record>
-    </cd:Field>
-    <cd:Field name="corner">
-      <cd:Array>
-        <cd:Attribute name="CLASS">
-          <cd:Text/>
-        </cd:Attribute>
-        <cd:Attribute name="NAME">
-          <cd:Text/>
-        </cd:Attribute>
-        <cd:Dimension><![CDATA[$corner]]></cd:Dimension>
-        <cd:Float>
-          <cd:NativeType>float</cd:NativeType>
-        </cd:Float>
-      </cd:Array>
-    </cd:Field>
-    <cd:Field name="ground_pixel">
-      <cd:Array>
-        <cd:Attribute name="CLASS">
-          <cd:Text/>
-        </cd:Attribute>
-        <cd:Attribute name="NAME">
-          <cd:Text/>
-        </cd:Attribute>
-        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
-        <cd:Float>
-          <cd:NativeType>float</cd:NativeType>
-        </cd:Float>
-      </cd:Array>
-    </cd:Field>
-    <cd:Field name="scanline">
-      <cd:Array>
-        <cd:Attribute name="CLASS">
-          <cd:Text/>
-        </cd:Attribute>
-        <cd:Attribute name="NAME">
-          <cd:Text/>
-        </cd:Attribute>
-        <cd:Dimension>4172</cd:Dimension>
-        <cd:Float>
-          <cd:NativeType>float</cd:NativeType>
-        </cd:Float>
-      </cd:Array>
-    </cd:Field>
-    <cd:Field name="time">
-      <cd:Array>
-        <cd:Attribute name="CLASS">
-          <cd:Text/>
-        </cd:Attribute>
-        <cd:Attribute name="NAME">
-          <cd:Text/>
-        </cd:Attribute>
-        <cd:Dimension><![CDATA[$time]]></cd:Dimension>
-        <cd:Float>
-          <cd:NativeType>float</cd:NativeType>
-        </cd:Float>
-      </cd:Array>
-    </cd:Field>
-    <cd:Field name="wavelength">
-      <cd:Array>
-        <cd:Attribute name="CLASS">
-          <cd:Text/>
-        </cd:Attribute>
-        <cd:Attribute name="NAME">
-          <cd:Text/>
-        </cd:Attribute>
-        <cd:Dimension>5</cd:Dimension>
-        <cd:Float>
-          <cd:NativeType>float</cd:NativeType>
-        </cd:Float>
-      </cd:Array>
     </cd:Field>
   </cd:Record>
   <cd:ProductVariable name="time">
