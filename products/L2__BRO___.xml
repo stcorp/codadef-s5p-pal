@@ -38,7 +38,7 @@
       <cd:Array>
         <cd:Dimension>1</cd:Dimension>
         <cd:Integer>
-          <cd:NativeType>int64</cd:NativeType>
+          <cd:NativeType>int32</cd:NativeType>
           <cd:LittleEndian/>
         </cd:Integer>
       </cd:Array>
