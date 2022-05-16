@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition id="L2__BRO___" format="hdf5" last-modified="2022-05-05" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<cd:ProductDefinition id="L2__BRO___" format="hdf5" last-modified="2022-05-16" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -1805,6 +1805,43 @@
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
+                <cd:Field name="eastward_wind">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
                 <cd:Field name="cloud_pressure_crb">
                   <cd:Array>
                     <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
@@ -1949,6 +1986,117 @@
                     <cd:Integer>
                       <cd:NativeType>int16</cd:NativeType>
                     </cd:Integer>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="northward_wind">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="sea_ice_cover">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="snow_cover">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
                   </cd:Array>
                 </cd:Field>
                 <cd:Field name="snow_ice_flag">
@@ -2215,6 +2363,46 @@
                   </cd:Array>
                 </cd:Field>
                 <cd:Field name="surface_pressure">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="source">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="surface_temperature">
                   <cd:Array>
                     <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
                       <cd:Array>
