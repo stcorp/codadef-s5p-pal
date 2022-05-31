@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition id="L2__SCNLER" format="hdf5" last-modified="2022-04-05" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<cd:ProductDefinition id="L2__SCNLER" format="hdf5" last-modified="2022-05-31" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -130,8 +130,14 @@
     <cd:Attribute name="standard_name_vocabulary">
       <cd:Text/>
     </cd:Attribute>
-    <cd:Attribute name="input_files">
+    <cd:Attribute name="NCProperties" real_name="_NCProperties">
       <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="input_files">
+      <cd:Array>
+        <cd:Dimension/>
+        <cd:Text/>
+      </cd:Array>
     </cd:Attribute>
     <cd:Field name="BAND34_PRODUCT">
       <cd:Record>
@@ -141,6 +147,15 @@
               <cd:Record>
                 <cd:Field name="reflectance">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -182,6 +197,15 @@
                 </cd:Field>
                 <cd:Field name="spectral_channel_quality">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -251,6 +275,15 @@
               <cd:Record>
                 <cd:Field name="geolocation_flags">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -312,6 +345,15 @@
                 </cd:Field>
                 <cd:Field name="latitude_bounds">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -369,6 +411,15 @@
                 </cd:Field>
                 <cd:Field name="longitude_bounds">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -426,6 +477,15 @@
                 </cd:Field>
                 <cd:Field name="relative_azimuth_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -464,6 +524,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_altitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -516,6 +585,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_latitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -568,6 +646,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_longitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -620,6 +707,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_orbit_phase">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -672,6 +768,15 @@
                 </cd:Field>
                 <cd:Field name="solar_azimuth_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -728,6 +833,15 @@
                 </cd:Field>
                 <cd:Field name="solar_zenith_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -787,6 +901,15 @@
                 </cd:Field>
                 <cd:Field name="viewing_azimuth_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -843,6 +966,15 @@
                 </cd:Field>
                 <cd:Field name="viewing_zenith_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -906,6 +1038,15 @@
               <cd:Record>
                 <cd:Field name="absorbing_aerosol_index">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -952,6 +1093,15 @@
                 </cd:Field>
                 <cd:Field name="aerosol_layer_height">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -989,6 +1139,15 @@
                 </cd:Field>
                 <cd:Field name="carbonmonoxide_column">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1029,6 +1188,15 @@
                 </cd:Field>
                 <cd:Field name="cloud_fraction">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1069,6 +1237,15 @@
                 </cd:Field>
                 <cd:Field name="cloud_height">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1109,6 +1286,15 @@
                 </cd:Field>
                 <cd:Field name="geometrical_cloud_fraction_nominal">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1149,6 +1335,15 @@
                 </cd:Field>
                 <cd:Field name="geometrical_cloud_fraction_relaxed">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1189,6 +1384,15 @@
                 </cd:Field>
                 <cd:Field name="geometrical_cloud_fraction_strict">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1229,6 +1433,15 @@
                 </cd:Field>
                 <cd:Field name="ozone_column">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1272,6 +1485,15 @@
                 </cd:Field>
                 <cd:Field name="snow_ice_flag">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1324,6 +1546,15 @@
                 </cd:Field>
                 <cd:Field name="surface_altitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1364,6 +1595,15 @@
                 </cd:Field>
                 <cd:Field name="surface_classification">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1431,6 +1671,15 @@
                 </cd:Field>
                 <cd:Field name="surface_pressure">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1471,6 +1720,15 @@
                 </cd:Field>
                 <cd:Field name="wind_speed">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1544,6 +1802,15 @@
         </cd:Field>
         <cd:Field name="delta_time">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>2</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -1612,6 +1879,15 @@
         </cd:Field>
         <cd:Field name="latitude">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>3</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -1668,6 +1944,15 @@
         </cd:Field>
         <cd:Field name="longitude">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>3</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -1756,6 +2041,15 @@
         </cd:Field>
         <cd:Field name="scene_ler">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>4</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -1794,6 +2088,15 @@
         </cd:Field>
         <cd:Field name="scene_ler_precision">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>4</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -1876,6 +2179,15 @@
         </cd:Field>
         <cd:Field name="time_utc">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>2</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
               <cd:Integer>
                 <cd:NativeType>int32</cd:NativeType>
@@ -1955,6 +2267,15 @@
               <cd:Record>
                 <cd:Field name="reflectance">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1996,6 +2317,15 @@
                 </cd:Field>
                 <cd:Field name="spectral_channel_quality">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2065,6 +2395,15 @@
               <cd:Record>
                 <cd:Field name="geolocation_flags">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2126,6 +2465,15 @@
                 </cd:Field>
                 <cd:Field name="latitude_bounds">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2183,6 +2531,15 @@
                 </cd:Field>
                 <cd:Field name="longitude_bounds">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2240,6 +2597,15 @@
                 </cd:Field>
                 <cd:Field name="relative_azimuth_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2278,6 +2644,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_altitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2330,6 +2705,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_latitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2382,6 +2766,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_longitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2434,6 +2827,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_orbit_phase">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2486,6 +2888,15 @@
                 </cd:Field>
                 <cd:Field name="solar_azimuth_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2542,6 +2953,15 @@
                 </cd:Field>
                 <cd:Field name="solar_zenith_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2601,6 +3021,15 @@
                 </cd:Field>
                 <cd:Field name="viewing_azimuth_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2657,6 +3086,15 @@
                 </cd:Field>
                 <cd:Field name="viewing_zenith_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2720,6 +3158,15 @@
               <cd:Record>
                 <cd:Field name="absorbing_aerosol_index">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2766,6 +3213,15 @@
                 </cd:Field>
                 <cd:Field name="cloud_fraction">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2806,6 +3262,15 @@
                 </cd:Field>
                 <cd:Field name="cloud_height">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2846,6 +3311,15 @@
                 </cd:Field>
                 <cd:Field name="geometrical_cloud_fraction_nominal">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2886,6 +3360,15 @@
                 </cd:Field>
                 <cd:Field name="geometrical_cloud_fraction_relaxed">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2926,6 +3409,15 @@
                 </cd:Field>
                 <cd:Field name="geometrical_cloud_fraction_strict">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -2966,6 +3458,15 @@
                 </cd:Field>
                 <cd:Field name="ozone_column">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -3009,6 +3510,15 @@
                 </cd:Field>
                 <cd:Field name="snow_ice_flag">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -3061,6 +3571,15 @@
                 </cd:Field>
                 <cd:Field name="surface_altitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -3101,6 +3620,15 @@
                 </cd:Field>
                 <cd:Field name="surface_classification">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -3201,6 +3729,15 @@
         </cd:Field>
         <cd:Field name="delta_time">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>2</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -3269,6 +3806,15 @@
         </cd:Field>
         <cd:Field name="latitude">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>3</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -3325,6 +3871,15 @@
         </cd:Field>
         <cd:Field name="longitude">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>3</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -3413,6 +3968,15 @@
         </cd:Field>
         <cd:Field name="scene_ler">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>4</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -3451,6 +4015,15 @@
         </cd:Field>
         <cd:Field name="scene_ler_precision">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>4</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -3533,6 +4106,15 @@
         </cd:Field>
         <cd:Field name="time_utc">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>2</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
               <cd:Integer>
                 <cd:NativeType>int32</cd:NativeType>
@@ -3612,6 +4194,15 @@
               <cd:Record>
                 <cd:Field name="reflectance">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -3653,6 +4244,15 @@
                 </cd:Field>
                 <cd:Field name="spectral_channel_quality">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -3722,6 +4322,15 @@
               <cd:Record>
                 <cd:Field name="geolocation_flags">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -3783,6 +4392,15 @@
                 </cd:Field>
                 <cd:Field name="latitude_bounds">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -3840,6 +4458,15 @@
                 </cd:Field>
                 <cd:Field name="longitude_bounds">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -3897,6 +4524,15 @@
                 </cd:Field>
                 <cd:Field name="relative_azimuth_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -3935,6 +4571,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_altitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -3987,6 +4632,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_latitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4039,6 +4693,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_longitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4091,6 +4754,15 @@
                 </cd:Field>
                 <cd:Field name="satellite_orbit_phase">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4143,6 +4815,15 @@
                 </cd:Field>
                 <cd:Field name="solar_azimuth_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4199,6 +4880,15 @@
                 </cd:Field>
                 <cd:Field name="solar_zenith_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4258,6 +4948,15 @@
                 </cd:Field>
                 <cd:Field name="viewing_azimuth_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4314,6 +5013,15 @@
                 </cd:Field>
                 <cd:Field name="viewing_zenith_angle">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4377,6 +5085,15 @@
               <cd:Record>
                 <cd:Field name="absorbing_aerosol_index">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4423,6 +5140,15 @@
                 </cd:Field>
                 <cd:Field name="cloud_fraction">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4463,6 +5189,15 @@
                 </cd:Field>
                 <cd:Field name="cloud_height">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4503,6 +5238,15 @@
                 </cd:Field>
                 <cd:Field name="geometrical_cloud_fraction_nominal">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4543,6 +5287,15 @@
                 </cd:Field>
                 <cd:Field name="geometrical_cloud_fraction_relaxed">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4583,6 +5336,15 @@
                 </cd:Field>
                 <cd:Field name="geometrical_cloud_fraction_strict">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4623,6 +5385,15 @@
                 </cd:Field>
                 <cd:Field name="ozone_column">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4666,6 +5437,15 @@
                 </cd:Field>
                 <cd:Field name="snow_ice_flag">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4718,6 +5498,15 @@
                 </cd:Field>
                 <cd:Field name="surface_altitude">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4758,6 +5547,15 @@
                 </cd:Field>
                 <cd:Field name="surface_classification">
                   <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4858,6 +5656,15 @@
         </cd:Field>
         <cd:Field name="delta_time">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>2</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -4926,6 +5733,15 @@
         </cd:Field>
         <cd:Field name="latitude">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>3</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -4982,6 +5798,15 @@
         </cd:Field>
         <cd:Field name="longitude">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>3</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -5070,6 +5895,15 @@
         </cd:Field>
         <cd:Field name="scene_ler">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>4</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -5108,6 +5942,15 @@
         </cd:Field>
         <cd:Field name="scene_ler_precision">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>4</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -5190,6 +6033,15 @@
         </cd:Field>
         <cd:Field name="time_utc">
           <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>2</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
               <cd:Integer>
                 <cd:NativeType>int32</cd:NativeType>
