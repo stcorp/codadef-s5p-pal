@@ -2801,7 +2801,7 @@
             <cd:Attribute name="valid_min">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
-                 <cd:Integer>
+                <cd:Integer>
                   <cd:NativeType>uint8</cd:NativeType>
                   <cd:LittleEndian/>
                 </cd:Integer>
@@ -2810,7 +2810,7 @@
             <cd:Attribute name="valid_max">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
-                 <cd:Integer>
+                <cd:Integer>
                   <cd:NativeType>uint8</cd:NativeType>
                   <cd:LittleEndian/>
                 </cd:Integer>
