@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition id="L2__TCWV__" format="hdf5" last-modified="2022-06-08" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<cd:ProductDefinition id="L2__TCWV__" format="hdf5" last-modified="2022-07-05" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
   <cd:Record>
     <cd:Attribute name="NCProperties" real_name="_NCProperties">
       <cd:Text/>
@@ -921,7 +921,7 @@
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
-                <cd:Field name="surfce_albedo">
+                <cd:Field name="surface_albedo">
                   <cd:Array>
                     <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
                       <cd:Integer>
