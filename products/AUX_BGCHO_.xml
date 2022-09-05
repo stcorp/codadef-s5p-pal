@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<cd:ProductDefinition id="AUX_BGCHO_" format="hdf5" last-modified="2022-09-05" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+  <cd:Record>
+    <cd:Attribute name="summary">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="processing_center">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="institution">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="Conventions">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="NCProperties" real_name="_NCProperties">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="lat_bound">
+      <cd:Array>
+        <cd:Dimension>2</cd:Dimension>
+        <cd:Integer>
+          <cd:NativeType>int64</cd:NativeType>
+          <cd:LittleEndian/>
+        </cd:Integer>
+      </cd:Array>
+    </cd:Attribute>
+    <cd:Attribute name="lon_bound">
+      <cd:Array>
+        <cd:Dimension>2</cd:Dimension>
+        <cd:Integer>
+          <cd:NativeType>int64</cd:NativeType>
+          <cd:LittleEndian/>
+        </cd:Integer>
+      </cd:Array>
+    </cd:Attribute>
+    <cd:Attribute name="processor_version">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="processor_name">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="file_class">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="history">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="time_coverage_start">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="time_coverage_end">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="time_reference">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="input_files">
+      <cd:Array>
+        <cd:Dimension>40</cd:Dimension>
+        <cd:Text/>
+      </cd:Array>
+    </cd:Attribute>
+    <cd:Attribute name="created">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="comment">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="id">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Field name="glyoxal_reference_sector_mean_air_mass_factor">
+      <cd:Array>
+        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+          <cd:Array>
+            <cd:Dimension>2</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+              <cd:LittleEndian/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Attribute>
+        <cd:Dimension>4</cd:Dimension>
+        <cd:Dimension>450</cd:Dimension>
+        <cd:Float>
+          <cd:NativeType>float</cd:NativeType>
+        </cd:Float>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="glyoxal_reference_sector_mean_air_mass_factor_trueness">
+      <cd:Array>
+        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+          <cd:Array>
+            <cd:Dimension>2</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+              <cd:LittleEndian/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Attribute>
+        <cd:Dimension>4</cd:Dimension>
+        <cd:Dimension>450</cd:Dimension>
+        <cd:Float>
+          <cd:NativeType>float</cd:NativeType>
+        </cd:Float>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="glyoxal_reference_sector_mean_model_scd">
+      <cd:Array>
+        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+          <cd:Array>
+            <cd:Dimension>2</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+              <cd:LittleEndian/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Attribute>
+        <cd:Dimension>4</cd:Dimension>
+        <cd:Dimension>450</cd:Dimension>
+        <cd:Float>
+          <cd:NativeType>float</cd:NativeType>
+        </cd:Float>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="glyoxal_reference_sector_mean_scd">
+      <cd:Array>
+        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+          <cd:Array>
+            <cd:Dimension>2</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+              <cd:LittleEndian/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Attribute>
+        <cd:Dimension>4</cd:Dimension>
+        <cd:Dimension>450</cd:Dimension>
+        <cd:Float>
+          <cd:NativeType>float</cd:NativeType>
+        </cd:Float>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="ground_pixel">
+      <cd:Array>
+        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+          <cd:Array>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+              <cd:LittleEndian/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Attribute>
+        <cd:Attribute name="CLASS">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="NAME">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+          <cd:Integer>
+            <cd:NativeType>int32</cd:NativeType>
+            <cd:LittleEndian/>
+          </cd:Integer>
+        </cd:Attribute>
+        <cd:Dimension>450</cd:Dimension>
+        <cd:Integer>
+          <cd:NativeType>int32</cd:NativeType>
+        </cd:Integer>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="lat_nbins">
+      <cd:Array>
+        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+          <cd:Array>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+              <cd:LittleEndian/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Attribute>
+        <cd:Attribute name="CLASS">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="NAME">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+          <cd:Integer>
+            <cd:NativeType>int32</cd:NativeType>
+            <cd:LittleEndian/>
+          </cd:Integer>
+        </cd:Attribute>
+        <cd:Dimension>4</cd:Dimension>
+        <cd:Integer>
+          <cd:NativeType>int32</cd:NativeType>
+        </cd:Integer>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="number_of_reference_sector_mean_obs">
+      <cd:Array>
+        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+          <cd:Array>
+            <cd:Dimension>2</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+              <cd:LittleEndian/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Attribute>
+        <cd:Dimension>4</cd:Dimension>
+        <cd:Dimension>450</cd:Dimension>
+        <cd:Integer>
+          <cd:NativeType>int32</cd:NativeType>
+        </cd:Integer>
+      </cd:Array>
+    </cd:Field>
+  </cd:Record>
+</cd:ProductDefinition>
