@@ -66,7 +66,7 @@
     </cd:Attribute>
     <cd:Attribute name="input_files">
       <cd:Array>
-        <cd:Dimension>35</cd:Dimension>
+        <cd:Dimension />
         <cd:Text/>
       </cd:Array>
     </cd:Attribute>
@@ -101,8 +101,8 @@
                         <cd:Attribute name="standard_name">
                           <cd:Text/>
                         </cd:Attribute>
-                        <cd:Dimension>450</cd:Dimension>
-                        <cd:Dimension>7</cd:Dimension>
+                        <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
+                        <cd:Dimension><![CDATA[$number_of_subwindows]]></cd:Dimension>
                         <cd:Float>
                           <cd:NativeType>float</cd:NativeType>
                         </cd:Float>
@@ -128,8 +128,8 @@
                         <cd:Attribute name="standard_name">
                           <cd:Text/>
                         </cd:Attribute>
-                        <cd:Dimension>450</cd:Dimension>
-                        <cd:Dimension>7</cd:Dimension>
+                        <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
+                        <cd:Dimension><![CDATA[$number_of_subwindows]]></cd:Dimension>
                         <cd:Float>
                           <cd:NativeType>float</cd:NativeType>
                         </cd:Float>
@@ -155,8 +155,8 @@
                         <cd:Attribute name="standard_name">
                           <cd:Text/>
                         </cd:Attribute>
-                        <cd:Dimension>450</cd:Dimension>
-                        <cd:Dimension>7</cd:Dimension>
+                        <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
+                        <cd:Dimension><![CDATA[$number_of_subwindows]]></cd:Dimension>
                         <cd:Float>
                           <cd:NativeType>float</cd:NativeType>
                         </cd:Float>
@@ -182,8 +182,8 @@
                         <cd:Attribute name="standard_name">
                           <cd:Text/>
                         </cd:Attribute>
-                        <cd:Dimension>450</cd:Dimension>
-                        <cd:Dimension>7</cd:Dimension>
+                        <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
+                        <cd:Dimension><![CDATA[$number_of_subwindows]]></cd:Dimension>
                         <cd:Float>
                           <cd:NativeType>float</cd:NativeType>
                         </cd:Float>
@@ -227,7 +227,7 @@
                         <cd:Attribute name="long_name">
                           <cd:Text/>
                         </cd:Attribute>
-                        <cd:Dimension>450</cd:Dimension>
+                        <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
                         <cd:Integer>
                           <cd:NativeType>int32</cd:NativeType>
                         </cd:Integer>
@@ -271,7 +271,7 @@
                         <cd:Attribute name="long_name">
                           <cd:Text/>
                         </cd:Attribute>
-                        <cd:Dimension>7</cd:Dimension>
+                        <cd:Dimension><![CDATA[$number_of_subwindows]]></cd:Dimension>
                         <cd:Integer>
                           <cd:NativeType>int32</cd:NativeType>
                         </cd:Integer>
@@ -299,10 +299,10 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
-                    <cd:Dimension>40</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$layer]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -328,9 +328,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -356,9 +356,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -384,9 +384,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -418,10 +418,10 @@
                     <cd:Attribute name="multiplication_factor_to_convert_to_molecules_percm2">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
-                    <cd:Dimension>14</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$number_of_slant_columns]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>double</cd:NativeType>
                     </cd:Float>
@@ -453,10 +453,10 @@
                     <cd:Attribute name="multiplication_factor_to_convert_to_molecules_percm2">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
-                    <cd:Dimension>14</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$number_of_slant_columns]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -482,10 +482,10 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
-                    <cd:Dimension>40</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$layer]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -511,10 +511,10 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
-                    <cd:Dimension>40</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$layer]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -549,9 +549,9 @@
                     <cd:Attribute name="multiplication_factor_to_convert_to_molecules_percm2">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -586,9 +586,9 @@
                     <cd:Attribute name="multiplication_factor_to_convert_to_molecules_percm2">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -614,9 +614,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -642,9 +642,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -670,9 +670,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -698,9 +698,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -726,9 +726,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -760,9 +760,9 @@
                     <cd:Attribute name="multiplication_factor_to_convert_to_molecules_percm2">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -806,7 +806,7 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>14</cd:Dimension>
+                    <cd:Dimension><![CDATA[$number_of_slant_columns]]></cd:Dimension>
                     <cd:Integer>
                       <cd:NativeType>int32</cd:NativeType>
                     </cd:Integer>
@@ -835,9 +835,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -861,10 +861,10 @@
                     <cd:Attribute name="units">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
-                    <cd:Dimension>4</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$corner]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -884,10 +884,10 @@
                     <cd:Attribute name="units">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
-                    <cd:Dimension>4</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$corner]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -925,9 +925,9 @@
                     <cd:Attribute name="comment">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -965,9 +965,9 @@
                     <cd:Attribute name="comment">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -1005,9 +1005,9 @@
                     <cd:Attribute name="comment">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -1045,9 +1045,9 @@
                     <cd:Attribute name="comment">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -1073,8 +1073,8 @@
                         <cd:Attribute name="units">
                           <cd:Text/>
                         </cd:Attribute>
-                        <cd:Dimension>4</cd:Dimension>
-                        <cd:Dimension>450</cd:Dimension>
+                        <cd:Dimension><![CDATA[$lat_nbins]]></cd:Dimension>
+                        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                         <cd:Float>
                           <cd:NativeType>float</cd:NativeType>
                         </cd:Float>
@@ -1094,8 +1094,8 @@
                         <cd:Attribute name="units">
                           <cd:Text/>
                         </cd:Attribute>
-                        <cd:Dimension>4</cd:Dimension>
-                        <cd:Dimension>450</cd:Dimension>
+                        <cd:Dimension><![CDATA[$lat_nbins]]></cd:Dimension>
+                        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                         <cd:Float>
                           <cd:NativeType>float</cd:NativeType>
                         </cd:Float>
@@ -1115,8 +1115,8 @@
                         <cd:Attribute name="units">
                           <cd:Text/>
                         </cd:Attribute>
-                        <cd:Dimension>4</cd:Dimension>
-                        <cd:Dimension>450</cd:Dimension>
+                        <cd:Dimension><![CDATA[$lat_nbins]]></cd:Dimension>
+                        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                         <cd:Float>
                           <cd:NativeType>float</cd:NativeType>
                         </cd:Float>
@@ -1136,8 +1136,8 @@
                         <cd:Attribute name="units">
                           <cd:Text/>
                         </cd:Attribute>
-                        <cd:Dimension>4</cd:Dimension>
-                        <cd:Dimension>450</cd:Dimension>
+                        <cd:Dimension><![CDATA[$lat_nbins]]></cd:Dimension>
+                        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                         <cd:Float>
                           <cd:NativeType>float</cd:NativeType>
                         </cd:Float>
@@ -1169,7 +1169,7 @@
                         <cd:Attribute name="multiplication_factor_to_convert_to_molecules_percm2">
                           <cd:Text/>
                         </cd:Attribute>
-                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                         <cd:Float>
                           <cd:NativeType>float</cd:NativeType>
                         </cd:Float>
@@ -1201,7 +1201,7 @@
                         <cd:Attribute name="multiplication_factor_to_convert_to_molecules_percm2">
                           <cd:Text/>
                         </cd:Attribute>
-                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                         <cd:Float>
                           <cd:NativeType>float</cd:NativeType>
                         </cd:Float>
@@ -1259,8 +1259,8 @@
                         <cd:Attribute name="units">
                           <cd:Text/>
                         </cd:Attribute>
-                        <cd:Dimension>4</cd:Dimension>
-                        <cd:Dimension>450</cd:Dimension>
+                        <cd:Dimension><![CDATA[$lat_nbins]]></cd:Dimension>
+                        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                         <cd:Integer>
                           <cd:NativeType>int32</cd:NativeType>
                         </cd:Integer>
@@ -1294,9 +1294,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -1331,9 +1331,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -1368,9 +1368,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -1417,9 +1417,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Integer>
                       <cd:NativeType>uint8</cd:NativeType>
                     </cd:Integer>
@@ -1466,9 +1466,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Integer>
                       <cd:NativeType>uint8</cd:NativeType>
                     </cd:Integer>
@@ -1497,9 +1497,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -1528,9 +1528,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -1568,9 +1568,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Integer>
                       <cd:NativeType>uint8</cd:NativeType>
                     </cd:Integer>
@@ -1602,9 +1602,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -1639,7 +1639,7 @@
             </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
-                <cd:Dimension>1</cd:Dimension>
+                <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                 <cd:Integer>
                   <cd:NativeType>int32</cd:NativeType>
                   <cd:LittleEndian/>
@@ -1687,8 +1687,8 @@
             <cd:Attribute name="units">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
@@ -1723,9 +1723,9 @@
             <cd:Attribute name="multiplication_factor_to_convert_to_molecules_percm2">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
-            <cd:Dimension>450</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
             </cd:Float>
@@ -1760,9 +1760,9 @@
             <cd:Attribute name="multiplication_factor_to_convert_to_molecules_percm2">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
-            <cd:Dimension>450</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
             </cd:Float>
@@ -1812,7 +1812,7 @@
             <cd:Attribute name="comment">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>450</cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
@@ -1847,9 +1847,9 @@
             <cd:Attribute name="bounds">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
-            <cd:Dimension>450</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
             </cd:Float>
@@ -1893,7 +1893,7 @@
             <cd:Attribute name="long_name">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>40</cd:Dimension>
+            <cd:Dimension><![CDATA[$layer]]></cd:Dimension>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
@@ -1928,9 +1928,9 @@
             <cd:Attribute name="bounds">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
-            <cd:Dimension>450</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
             </cd:Float>
@@ -2004,9 +2004,9 @@
             <cd:Attribute name="coordinates">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
-            <cd:Dimension>450</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Integer>
               <cd:NativeType>uint8</cd:NativeType>
               <cd:Conversion numerator="0.01" denominator="1" invalid="255"/>
@@ -2057,7 +2057,7 @@
             <cd:Attribute name="comment">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>4172</cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
@@ -2110,7 +2110,7 @@
             <cd:Attribute name="comment">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
@@ -2119,4 +2119,31 @@
       </cd:Record>
     </cd:Field>
   </cd:Record>
+   <cd:ProductVariable name="time">
+    <cd:Init><![CDATA[$time = dim(/PRODUCT/time, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="scanline">
+    <cd:Init><![CDATA[$scanline = dim(/PRODUCT/scanline, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="ground_pixel">
+    <cd:Init><![CDATA[$ground_pixel = dim(/PRODUCT/ground_pixel, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="corner">
+    <cd:Init><![CDATA[$corner = dim(/PRODUCT/corner, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="layer">
+    <cd:Init><![CDATA[$layer = dim(/PRODUCT/layer, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="lat_nbins">
+    <cd:Init><![CDATA[$lat_nbins = dim(/PRODUCT/SUPPORT_DATA/INPUT_DATA/BACKGROUND_CORRECTION/lat_nbins, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="number_of_slant_columns">
+    <cd:Init><![CDATA[$number_of_slant_columns = dim(/PRODUCT/SUPPORT_DATA/DETAILED_RESULTS/number_of_slant_columns, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="number_of_subwindows">
+    <cd:Init><![CDATA[$number_of_subwindows = dim(/PRODUCT/SUPPORT_DATA/DETAILED_RESULTS/WAVELENGTH_CALIBRATIONS/number_of_subwindows, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="number_of_calibrations">
+    <cd:Init><![CDATA[$number_of_calibrations = dim(/PRODUCT/SUPPORT_DATA/DETAILED_RESULTS/WAVELENGTH_CALIBRATIONS/number_of_calibrations, 0)]]></cd:Init>
+  </cd:ProductVariable>
 </cd:ProductDefinition>

@@ -4,7 +4,7 @@
     <cd:Attribute name="Conventions">
       <cd:Text/>
     </cd:Attribute>
-    <cd:Attribute name="Institution">
+    <cd:Attribute name="institution">
       <cd:Text/>
     </cd:Attribute>
     <cd:Attribute name="processor_name">
@@ -14,6 +14,12 @@
       <cd:Text/>
     </cd:Attribute>
     <cd:Attribute name="summary">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="created">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="comment">
       <cd:Text/>
     </cd:Attribute>
     <cd:Attribute name="history">
@@ -69,6 +75,15 @@
     </cd:Attribute>
     <cd:Field name="col_dim">
       <cd:Array>
+        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+          <cd:Array>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+              <cd:LittleEndian/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Attribute>
         <cd:Attribute name="CLASS">
           <cd:Text/>
         </cd:Attribute>
@@ -89,6 +104,15 @@
     </cd:Field>
     <cd:Field name="number_radiances">
       <cd:Array>
+        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+          <cd:Array>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+              <cd:LittleEndian/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Attribute>
         <cd:Dimension><![CDATA[$col_dim]]></cd:Dimension>
         <cd:Integer>
           <cd:NativeType>int16</cd:NativeType>
@@ -109,6 +133,9 @@
         <cd:Dimension><![CDATA[$col_dim]]></cd:Dimension>
         <cd:Dimension><![CDATA[$spectral_dim]]></cd:Dimension>
         <cd:Attribute name="units">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="long_name">
           <cd:Text/>
         </cd:Attribute>
         <cd:Float>
@@ -132,6 +159,9 @@
         <cd:Attribute name="units">
           <cd:Text/>
         </cd:Attribute>
+        <cd:Attribute name="standard_name">
+          <cd:Text/>
+        </cd:Attribute>
         <cd:Float>
           <cd:NativeType>double</cd:NativeType>
         </cd:Float>
@@ -139,6 +169,15 @@
     </cd:Field>
     <cd:Field name="spectral_dim">
       <cd:Array>
+        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+          <cd:Array>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+              <cd:LittleEndian/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Attribute>
         <cd:Attribute name="CLASS">
           <cd:Text/>
         </cd:Attribute>
@@ -159,27 +198,18 @@
     </cd:Field>
     <cd:Field name="use_row">
       <cd:Array>
-        <cd:Attribute name="valid_max">
+        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
           <cd:Array>
             <cd:Dimension>1</cd:Dimension>
             <cd:Integer>
-              <cd:NativeType>int8</cd:NativeType>
-              <cd:LittleEndian/>
-            </cd:Integer>
-          </cd:Array>
-        </cd:Attribute>
-        <cd:Attribute name="valid_min">
-          <cd:Array>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Integer>
-              <cd:NativeType>int8</cd:NativeType>
+              <cd:NativeType>int32</cd:NativeType>
               <cd:LittleEndian/>
             </cd:Integer>
           </cd:Array>
         </cd:Attribute>
         <cd:Dimension><![CDATA[$col_dim]]></cd:Dimension>
         <cd:Integer>
-          <cd:NativeType>int8</cd:NativeType>
+          <cd:NativeType>int32</cd:NativeType>
         </cd:Integer>
       </cd:Array>
     </cd:Field>

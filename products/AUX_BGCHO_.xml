@@ -57,7 +57,7 @@
     </cd:Attribute>
     <cd:Attribute name="input_files">
       <cd:Array>
-        <cd:Dimension>40</cd:Dimension>
+        <cd:Dimension/>
         <cd:Text/>
       </cd:Array>
     </cd:Attribute>
@@ -81,8 +81,8 @@
             </cd:Integer>
           </cd:Array>
         </cd:Attribute>
-        <cd:Dimension>4</cd:Dimension>
-        <cd:Dimension>450</cd:Dimension>
+        <cd:Dimension><![CDATA[$lat_nbins]]></cd:Dimension>
+        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
         <cd:Float>
           <cd:NativeType>float</cd:NativeType>
         </cd:Float>
@@ -99,8 +99,8 @@
             </cd:Integer>
           </cd:Array>
         </cd:Attribute>
-        <cd:Dimension>4</cd:Dimension>
-        <cd:Dimension>450</cd:Dimension>
+        <cd:Dimension><![CDATA[$lat_nbins]]></cd:Dimension>
+        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
         <cd:Float>
           <cd:NativeType>float</cd:NativeType>
         </cd:Float>
@@ -117,8 +117,8 @@
             </cd:Integer>
           </cd:Array>
         </cd:Attribute>
-        <cd:Dimension>4</cd:Dimension>
-        <cd:Dimension>450</cd:Dimension>
+        <cd:Dimension><![CDATA[$lat_nbins]]></cd:Dimension>
+        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
         <cd:Float>
           <cd:NativeType>float</cd:NativeType>
         </cd:Float>
@@ -135,8 +135,8 @@
             </cd:Integer>
           </cd:Array>
         </cd:Attribute>
-        <cd:Dimension>4</cd:Dimension>
-        <cd:Dimension>450</cd:Dimension>
+        <cd:Dimension><![CDATA[$lat_nbins]]></cd:Dimension>
+        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
         <cd:Float>
           <cd:NativeType>float</cd:NativeType>
         </cd:Float>
@@ -165,7 +165,7 @@
             <cd:LittleEndian/>
           </cd:Integer>
         </cd:Attribute>
-        <cd:Dimension>450</cd:Dimension>
+        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
         <cd:Integer>
           <cd:NativeType>int32</cd:NativeType>
         </cd:Integer>
@@ -194,7 +194,7 @@
             <cd:LittleEndian/>
           </cd:Integer>
         </cd:Attribute>
-        <cd:Dimension>4</cd:Dimension>
+        <cd:Dimension><![CDATA[$lat_nbins]]></cd:Dimension>
         <cd:Integer>
           <cd:NativeType>int32</cd:NativeType>
         </cd:Integer>
@@ -211,12 +211,18 @@
             </cd:Integer>
           </cd:Array>
         </cd:Attribute>
-        <cd:Dimension>4</cd:Dimension>
-        <cd:Dimension>450</cd:Dimension>
+        <cd:Dimension><![CDATA[$lat_nbins]]></cd:Dimension>
+        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
         <cd:Integer>
           <cd:NativeType>int32</cd:NativeType>
         </cd:Integer>
       </cd:Array>
     </cd:Field>
   </cd:Record>
+  <cd:ProductVariable name="lat_nbins">
+    <cd:Init><![CDATA[$lat_nbins = dim(/lat_nbins, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="ground_pixel">
+    <cd:Init><![CDATA[$ground_pixel = dim(/ground_pixel, 0)]]></cd:Init>
+  </cd:ProductVariable>
 </cd:ProductDefinition>
