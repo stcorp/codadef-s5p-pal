@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition id="L2__SIF___" format="hdf5" last-modified="2022-07-01" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<cd:ProductDefinition id="L2__SIF___" format="hdf5" last-modified="2022-09-30" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -226,9 +226,9 @@
                 <cd:LittleEndian/>
               </cd:Integer>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
-            <cd:Dimension>448</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
               <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -270,9 +270,9 @@
                 <cd:LittleEndian/>
               </cd:Integer>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
-            <cd:Dimension>448</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
               <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -314,9 +314,9 @@
                 <cd:LittleEndian/>
               </cd:Integer>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
-            <cd:Dimension>448</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
               <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -358,9 +358,9 @@
                 <cd:LittleEndian/>
               </cd:Integer>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
-            <cd:Dimension>448</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
               <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -402,9 +402,9 @@
                 <cd:LittleEndian/>
               </cd:Integer>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
-            <cd:Dimension>448</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
               <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -446,9 +446,9 @@
                 <cd:LittleEndian/>
               </cd:Integer>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
-            <cd:Dimension>448</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
               <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -516,9 +516,9 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -554,9 +554,9 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -592,9 +592,9 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -630,9 +630,9 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -668,10 +668,10 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
-                    <cd:Dimension>7</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$num_bd_rfl]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -689,7 +689,7 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>7</cd:Dimension>
+                    <cd:Dimension><![CDATA[$num_bd_rfl]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -715,9 +715,9 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -743,9 +743,9 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -826,9 +826,9 @@
                     <cd:Attribute name="units">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Integer>
                       <cd:NativeType>uint8</cd:NativeType>
                     </cd:Integer>
@@ -860,10 +860,10 @@
                     <cd:Attribute name="units">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
-                    <cd:Dimension>4</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$corner]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -896,10 +896,10 @@
                     <cd:Attribute name="units">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
-                    <cd:Dimension>4</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$corner]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -953,8 +953,8 @@
                     <cd:Attribute name="units">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -1008,8 +1008,8 @@
                     <cd:Attribute name="units">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -1060,8 +1060,8 @@
                     <cd:Attribute name="units">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -1115,8 +1115,8 @@
                     <cd:Attribute name="units">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -1176,9 +1176,9 @@
                     <cd:Attribute name="units">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -1238,9 +1238,9 @@
                     <cd:Attribute name="units">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -1300,9 +1300,9 @@
                         </cd:Float>
                       </cd:Array>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -1362,9 +1362,9 @@
                     <cd:Attribute name="standard_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -1404,9 +1404,9 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Integer>
                       <cd:NativeType>uint8</cd:NativeType>
                     </cd:Integer>
@@ -1447,9 +1447,9 @@
                     <cd:Attribute name="coordinates">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -1509,8 +1509,8 @@
             <cd:Attribute name="units">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
@@ -1542,7 +1542,7 @@
             <cd:Attribute name="axis">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>448</cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
@@ -1607,9 +1607,9 @@
                 <cd:LittleEndian/>
               </cd:Integer>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
-            <cd:Dimension>448</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
               <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -1675,9 +1675,9 @@
                 <cd:LittleEndian/>
               </cd:Integer>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
-            <cd:Dimension>4172</cd:Dimension>
-            <cd:Dimension>448</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
               <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -1698,7 +1698,7 @@
                 <cd:LittleEndian/>
               </cd:Integer>
             </cd:Attribute>
-            <cd:Dimension>7</cd:Dimension>
+            <cd:Dimension><![CDATA[$num_bd_rfl]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
             </cd:Float>
@@ -1730,7 +1730,7 @@
             <cd:Attribute name="axis">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>4172</cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
@@ -1765,7 +1765,7 @@
             <cd:Attribute name="axis">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Dimension>1</cd:Dimension>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
@@ -1774,4 +1774,19 @@
       </cd:Record>
     </cd:Field>
   </cd:Record>
+  <cd:ProductVariable name="time">
+    <cd:Init><![CDATA[$time = dim(/PRODUCT/time, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="scanline">
+    <cd:Init><![CDATA[$scanline = dim(/PRODUCT/scanline, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="ground_pixel">
+    <cd:Init><![CDATA[$ground_pixel = dim(/PRODUCT/ground_pixel, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="corner">
+    <cd:Init><![CDATA[$corner = dim(/PRODUCT/corner, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="num_bd_rfl">
+    <cd:Init><![CDATA[$num_bd_rfl = dim(/PRODUCT/num_bd_rfl, 0)]]></cd:Init>
+  </cd:ProductVariable>
 </cd:ProductDefinition>
