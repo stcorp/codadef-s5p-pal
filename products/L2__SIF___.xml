@@ -231,7 +231,6 @@
             <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
-              <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
             </cd:Float>
           </cd:Array>
         </cd:Field>
@@ -275,7 +274,6 @@
             <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
-              <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
             </cd:Float>
           </cd:Array>
         </cd:Field>
@@ -319,7 +317,6 @@
             <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
-              <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
             </cd:Float>
           </cd:Array>
         </cd:Field>
@@ -363,7 +360,6 @@
             <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
-              <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
             </cd:Float>
           </cd:Array>
         </cd:Field>
@@ -407,7 +403,6 @@
             <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
-              <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
             </cd:Float>
           </cd:Array>
         </cd:Field>
@@ -451,7 +446,6 @@
             <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
-              <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
             </cd:Float>
           </cd:Array>
         </cd:Field>
@@ -521,7 +515,6 @@
                     <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -559,7 +552,6 @@
                     <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -597,7 +589,6 @@
                     <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -635,7 +626,6 @@
                     <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -674,7 +664,6 @@
                     <cd:Dimension><![CDATA[$num_bd_rfl]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -866,7 +855,6 @@
                     <cd:Dimension><![CDATA[$corner]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -902,7 +890,6 @@
                     <cd:Dimension><![CDATA[$corner]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -957,7 +944,6 @@
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -1012,7 +998,6 @@
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -1064,7 +1049,6 @@
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -1119,7 +1103,6 @@
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -1181,7 +1164,6 @@
                     <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -1243,7 +1225,6 @@
                     <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -1305,7 +1286,6 @@
                     <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -1367,7 +1347,6 @@
                     <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -1452,7 +1431,6 @@
                     <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
@@ -1612,7 +1590,6 @@
             <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
-              <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
             </cd:Float>
           </cd:Array>
         </cd:Field>
@@ -1680,7 +1657,6 @@
             <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
-              <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
             </cd:Float>
           </cd:Array>
         </cd:Field>
