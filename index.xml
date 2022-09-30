@@ -103,4 +103,14 @@
       </cd:DetectionRule>
     </cd:ProductDefinition>
   </cd:ProductType>
+  <cd:ProductType name="L2__SIF___">
+    <cd:Description>UPV SIF L2 file</cd:Description>
+    <cd:ProductDefinition id="L2__SIF___" format="hdf5" version="0">
+      <cd:Description>This definition is based on TBD</cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
+        <cd:MatchExpression>substr(9,10,filename())=="L2__SIF___"</cd:MatchExpression>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
 </cd:ProductClass>
