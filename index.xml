@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductClass xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" name="S5P_PAL" last-modified="2022-09-27">
+<cd:ProductClass xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" name="S5P_PAL" last-modified="2022-10-11">
   <cd:Description>S5P-PAL products</cd:Description>
   <cd:ProductType name="AUX_BGBRO_">
     <cd:Description>BGBRO background correction file</cd:Description>
@@ -106,7 +106,8 @@
   <cd:ProductType name="L2__SIF___">
     <cd:Description>UPV SIF L2 file</cd:Description>
     <cd:ProductDefinition id="L2__SIF___" format="hdf5" version="0">
-      <cd:Description>This definition is based on TBD</cd:Description>
+      <cd:Description>This definition is based on the S5P-TROPOMI SIF Data Product (TROPOSIF) Product User Manual.
+        Issue 3, Ref NOV-FE-0956-MU-019, 2022-09-26</cd:Description>
       <cd:DetectionRule>
         <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
         <cd:MatchExpression>substr(9,10,filename())=="L2__SIF___"</cd:MatchExpression>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition id="L2__SIF___" format="hdf5" last-modified="2022-09-30" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<cd:ProductDefinition id="L2__SIF___" format="hdf5" last-modified="2022-10-11" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -473,9 +473,9 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
@@ -794,7 +794,7 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Attribute name="max_val">
+                    <cd:Attribute name="valid_max">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Integer>
@@ -803,7 +803,7 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
-                    <cd:Attribute name="min_val">
+                    <cd:Attribute name="valid_min">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Integer>
@@ -919,7 +919,7 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Attribute name="max_val">
+                    <cd:Attribute name="valid_max">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -928,7 +928,7 @@
                         </cd:Float>
                       </cd:Array>
                     </cd:Attribute>
-                    <cd:Attribute name="min_val">
+                    <cd:Attribute name="valid_min">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -973,7 +973,7 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Attribute name="max_val">
+                    <cd:Attribute name="valid_max">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -982,7 +982,7 @@
                         </cd:Float>
                       </cd:Array>
                     </cd:Attribute>
-                    <cd:Attribute name="min_val">
+                    <cd:Attribute name="valid_min">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -1024,7 +1024,7 @@
                         </cd:Float>
                       </cd:Array>
                     </cd:Attribute>
-                    <cd:Attribute name="max_val">
+                    <cd:Attribute name="valid_max">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -1033,7 +1033,7 @@
                         </cd:Float>
                       </cd:Array>
                     </cd:Attribute>
-                    <cd:Attribute name="min_val">
+                    <cd:Attribute name="valid_min">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -1078,7 +1078,7 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Attribute name="max_val">
+                    <cd:Attribute name="valid_max">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -1087,7 +1087,7 @@
                         </cd:Float>
                       </cd:Array>
                     </cd:Attribute>
-                    <cd:Attribute name="min_val">
+                    <cd:Attribute name="valid_min">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -1135,7 +1135,7 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Attribute name="max_val">
+                    <cd:Attribute name="valid_max">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -1144,7 +1144,7 @@
                         </cd:Float>
                       </cd:Array>
                     </cd:Attribute>
-                    <cd:Attribute name="min_val">
+                    <cd:Attribute name="valid_min">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -1199,7 +1199,7 @@
                     <cd:Attribute name="standard_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Attribute name="max_val">
+                    <cd:Attribute name="valid_max">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -1208,7 +1208,7 @@
                         </cd:Float>
                       </cd:Array>
                     </cd:Attribute>
-                    <cd:Attribute name="min_val">
+                    <cd:Attribute name="valid_min">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -1263,7 +1263,7 @@
                     <cd:Attribute name="standard_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Attribute name="max_val">
+                    <cd:Attribute name="valid_max">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -1272,7 +1272,7 @@
                         </cd:Float>
                       </cd:Array>
                     </cd:Attribute>
-                    <cd:Attribute name="min_val">
+                    <cd:Attribute name="valid_min">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -1318,7 +1318,7 @@
                     <cd:Attribute name="long_name">
                       <cd:Text/>
                     </cd:Attribute>
-                    <cd:Attribute name="max_val">
+                    <cd:Attribute name="valid_max">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -1327,7 +1327,7 @@
                         </cd:Float>
                       </cd:Array>
                     </cd:Attribute>
-                    <cd:Attribute name="min_val">
+                    <cd:Attribute name="valid_min">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
                         <cd:Float>
@@ -1552,7 +1552,7 @@
             <cd:Attribute name="long_name">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Attribute name="max_val">
+            <cd:Attribute name="valid_max">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
                 <cd:Float>
@@ -1561,7 +1561,7 @@
                 </cd:Float>
               </cd:Array>
             </cd:Attribute>
-            <cd:Attribute name="min_val">
+            <cd:Attribute name="valid_min">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
                 <cd:Float>
@@ -1619,7 +1619,7 @@
             <cd:Attribute name="long_name">
               <cd:Text/>
             </cd:Attribute>
-            <cd:Attribute name="max_val">
+            <cd:Attribute name="valid_max">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
                 <cd:Float>
@@ -1628,7 +1628,7 @@
                 </cd:Float>
               </cd:Array>
             </cd:Attribute>
-            <cd:Attribute name="min_val">
+            <cd:Attribute name="valid_min">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
                 <cd:Float>
