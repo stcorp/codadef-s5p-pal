@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductClass xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" name="S5P_PAL" last-modified="2023-10-27">
+<cd:ProductClass xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" name="S5P_PAL" last-modified="2023-12-04">
   <cd:Description>S5P-PAL products</cd:Description>
   <cd:ProductType name="AUX_BGBRO_">
     <cd:Description>BGBRO background correction file</cd:Description>
@@ -71,8 +71,16 @@
   </cd:ProductType>
   <cd:ProductType name="L2__AER_OT">
     <cd:Description>Aerosol Optical Thickness L2 file</cd:Description>
-    <cd:ProductDefinition id="L2__AER_OT" format="hdf5" version="0">
-      <cd:Description>This definition is based on ??</cd:Description>
+    <cd:ProductDefinition id="L2__AER_OT_v0" format="hdf5" version="0">
+      <cd:Description>This definition is based on version 1.1.0 of the S5P L2 AOT Product User Manual S5P-KNMI-L2-0034-MA</cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
+        <cd:MatchExpression>substr(9,10,filename())=="L2__AER_OT"</cd:MatchExpression>
+        <cd:MatchExpression>substr(60,8,filename())=="_010100_"</cd:MatchExpression>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+    <cd:ProductDefinition id="L2__AER_OT_v1" format="hdf5" version="1">
+      <cd:Description>This definition is based on version 1.1.0 of the S5P L2 AOT Product User Manual S5P-KNMI-L2-0034-MA</cd:Description>
       <cd:DetectionRule>
         <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
         <cd:MatchExpression>substr(9,10,filename())=="L2__AER_OT"</cd:MatchExpression>
