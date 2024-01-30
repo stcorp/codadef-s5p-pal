@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<cd:ProductDefinition id="L2__SO2CBR" format="hdf5" last-modified="2022-09-05" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<?xml version='1.0' encoding='UTF-8'?>
+<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="L2__SO2CBR_v1" format="hdf5" last-modified="2024-01-26">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -66,7 +66,7 @@
     </cd:Attribute>
     <cd:Attribute name="input_files">
       <cd:Array>
-        <cd:Dimension>11</cd:Dimension>
+        <cd:Dimension>12</cd:Dimension>
         <cd:Text/>
       </cd:Array>
     </cd:Attribute>
@@ -93,10 +93,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>computed coefficients of the polynomial function in fitting window 1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$degrees_of_polynomial_shift_win1]]></cd:Dimension>
@@ -117,10 +117,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>computed coefficients of the polynomial function in fitting window 2</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$degrees_of_polynomial_shift_win2]]></cd:Dimension>
@@ -141,10 +141,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>computed coefficients of the polynomial function in fitting window 3</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$degrees_of_polynomial_shift_win3]]></cd:Dimension>
@@ -165,10 +165,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>calibration rms per subwindow in fitting window 1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win1]]></cd:Dimension>
@@ -189,10 +189,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>calibration rms per subwindow in fitting window 2</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win2]]></cd:Dimension>
@@ -213,10 +213,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>calibration rms per subwindow in fitting window 3</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win3]]></cd:Dimension>
@@ -237,10 +237,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>nm</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>irradiance wavelengths shift values per subwindow in fitting window 1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win1]]></cd:Dimension>
@@ -261,10 +261,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>nm</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>irradiance wavelengths shift fitted values per subwindow in fitting window 2</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win2]]></cd:Dimension>
@@ -285,10 +285,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>nm</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>irradiance wavelengths shift values per subwindow in fitting window 3</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win3]]></cd:Dimension>
@@ -309,10 +309,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>irradiance wavelengths squeeze fitted values per subwindow in fitting window 1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win1]]></cd:Dimension>
@@ -333,10 +333,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>irradiance wavelengths squeeze fitted values per subwindow in fitting window 1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win2]]></cd:Dimension>
@@ -357,10 +357,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>irradiance wavelengths squeeze fitted values per subwindow in fitting window 3</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win3]]></cd:Dimension>
@@ -381,10 +381,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>nm</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>calibration wavelength center in each subwindow in fitting window 1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win1]]></cd:Dimension>
                         <cd:Float>
@@ -404,10 +404,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>nm</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>calibration wavelength center in each subwindow in fitting window 2</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win2]]></cd:Dimension>
                         <cd:Float>
@@ -427,10 +427,10 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>nm</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>calibration wavelength center in each subwindow of the wavelength calibration in window 3</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win3]]></cd:Dimension>
                         <cd:Float>
@@ -462,10 +462,10 @@
                           </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>degrees_of_polynomial_shift_win1 dimension index</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$degrees_of_polynomial_shift_win1]]></cd:Dimension>
                         <cd:Integer>
@@ -497,10 +497,10 @@
                           </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>degrees_of_polynomial_shift_win2 dimension index</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$degrees_of_polynomial_shift_win2]]></cd:Dimension>
                         <cd:Integer>
@@ -532,10 +532,10 @@
                           </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>degrees_of_polynomial_shift_win3 dimension index</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$degrees_of_polynomial_shift_win3]]></cd:Dimension>
                         <cd:Integer>
@@ -567,10 +567,10 @@
                           </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>number_of_calibrations dimension index</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_calibrations]]></cd:Dimension>
                         <cd:Integer>
@@ -602,10 +602,10 @@
                           </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>number_of_subwindows_win1 dimension index</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win1]]></cd:Dimension>
                         <cd:Integer>
@@ -637,10 +637,10 @@
                           </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>number_of_subwindows_win2 dimension index</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win2]]></cd:Dimension>
                         <cd:Integer>
@@ -672,10 +672,10 @@
                           </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>number_of_subwindows_win3 dimension index</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$number_of_subwindows_win3]]></cd:Dimension>
                         <cd:Integer>
@@ -697,10 +697,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>averaging kernel</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -723,10 +723,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>cloud fraction intensity weighted</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -747,10 +747,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>VCD clear sky vs. cloudy weighting factor.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -772,10 +772,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>random error of the cloud fraction intensity weighted</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -796,7 +796,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -818,16 +818,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>DOAS polynomial coefficients</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Values of the DOAS polynomial coefficients</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -850,16 +850,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>DOAS polynomial coefficients</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Values of the DOAS polynomial coefficients</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -882,10 +882,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>nm</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>radiance wavelength shift from the doas fit</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -907,10 +910,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>nm</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>radiance wavelength shift from the doas fit in fitting window 2</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -932,10 +938,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>nm</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>radiance wavelength shift from the doas fit in fitting window 3</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -957,10 +966,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>radiance wavelength squeeze from the doas fit</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -982,10 +994,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>radiance wavelength shift from the doas fit in fitting window 2</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1007,10 +1022,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>radiance wavelength shift from the doas fit in fitting window 3</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1032,13 +1050,41 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>root mean square of the sulfur dioxide slant column</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="fitted_root_mean_square_win1">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:FixedValue>1</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:FixedValue>root mean square residual of the fit in fitting window 1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1060,10 +1106,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>root mean square residual of the fit in fitting window 2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1085,10 +1134,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>root mean square residual of the fit in fitting window 3</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1110,16 +1162,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>slant columns of all absorbers in fitting window 1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="index_meaning">
-                      <cd:Text/>
+                      <cd:FixedValue>SO2_203K_Bogumil_deconv_resampled_301_364_NOMOPS_BF2bd2-6_band_3.xs</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1142,16 +1194,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>slant column random errors of all absorbers in fitting window 1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="index_meaning">
-                      <cd:Text/>
+                      <cd:FixedValue>SO2_203K_Bogumil_deconv_resampled_301_364_NOMOPS_BF2bd2-6_band_3.xs</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1174,16 +1226,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>slant columns of all absorbers in fitting window 2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="index_meaning">
-                      <cd:Text/>
+                      <cd:FixedValue>SO2_203K_Bogumil_deconv_resampled_301_364_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x1080.bis O3_228K_Brion_vac_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x2010.bis O3_243K_Brion_vac_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x2010.bis o3lambda_Io_S5P_OPT_SFP.xs#1#float64#2#451x2002.bis o3squared_Io_S5P_OPT_SFP.xs#1#float64#2#451x2002.bis Ringev1_HR_200_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x1100.bis Ringev2_HR_870_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x1100.bis </cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1206,16 +1258,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>slant column random all absorbers in fitting window 2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="index_meaning">
-                      <cd:Text/>
+                      <cd:FixedValue>SO2_203K_Bogumil_deconv_resampled_301_364_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x1080.bis O3_228K_Brion_vac_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x2010.bis O3_243K_Brion_vac_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x2010.bis o3lambda_Io_S5P_OPT_SFP.xs#1#float64#2#451x2002.bis o3squared_Io_S5P_OPT_SFP.xs#1#float64#2#451x2002.bis Ringev1_HR_200_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x1100.bis Ringev2_HR_870_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x1100.bis </cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1238,16 +1290,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>slant columns of all absorbers in fitting window 3</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="index_meaning">
-                      <cd:Text/>
+                      <cd:FixedValue>SO2_203K_vandaele_extrapol_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x2010.bis no2_cb_vac_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x2010.bis ring_sao2010_combined_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x2010.bis o4_hand_vac_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x2001.bis </cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1270,16 +1322,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>slant column random errors of all absorbers in fitting window 3</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="index_meaning">
-                      <cd:Text/>
+                      <cd:FixedValue>SO2_203K_vandaele_extrapol_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x2010.bis no2_cb_vac_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x2010.bis ring_sao2010_combined_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x2010.bis o4_hand_vac_NOMOPS_BF2bd2-6_band_3.xs#1#float64#2#451x2001.bis </cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1314,10 +1366,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>number_of_doas_polynomial_coefficients_win2 dimension index</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$number_of_doas_polynomial_coefficients_win2]]></cd:Dimension>
                     <cd:Integer>
@@ -1349,10 +1401,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>number_of_doas_polynomial_coefficients_win3 dimension index</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$number_of_doas_polynomial_coefficients_win3]]></cd:Dimension>
                     <cd:Integer>
@@ -1381,13 +1433,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>number of iterations used in the retrieval</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1418,13 +1470,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>number of iterations used in the retrieval for window 2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1455,13 +1507,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>number of iterations used in the retrieval for window 3</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1495,10 +1547,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>number_of_slant_columns_win1 dimension index</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$number_of_slant_columns_win1]]></cd:Dimension>
                     <cd:Integer>
@@ -1530,10 +1582,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>number_of_slant_columns_win2 dimension index</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$number_of_slant_columns_win2]]></cd:Dimension>
                     <cd:Integer>
@@ -1565,10 +1617,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>number_of_slant_columns_win3 dimension index</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$number_of_slant_columns_win3]]></cd:Dimension>
                     <cd:Integer>
@@ -1597,13 +1649,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Number of spectral points used in the DOAS retrieval</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1634,13 +1686,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Number of spectral points used in the DOAS retrieval for window 2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1671,13 +1723,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Number of spectral points used in the DOAS retrieval for window 3</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1708,16 +1760,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Processing quality flags</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Flags indicating conditions that affect quality of the retrieval.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>success radiance_missing irradiance_missing input_spectrum_missing reflectance_range_error ler_range_error snr_range_error sza_range_error vza_range_error lut_range_error ozone_range_error wavelength_offset_error initialization_error memory_error assertion_error io_error numerical_error lut_error ISRF_error convergence_error cloud_filter_convergence_error max_iteration_convergence_error aot_lower_boundary_convergence_error other_boundary_convergence_error geolocation_error ch4_noscat_zero_error h2o_noscat_zero_error max_optical_thickness_error aerosol_boundary_error boundary_hit_error chi2_error svd_error dfs_error radiative_transfer_error optimal_estimation_error profile_error cloud_error model_error number_of_input_data_points_too_low_error cloud_pressure_spread_too_low_error cloud_too_low_level_error generic_range_error generic_exception input_spectrum_alignment_error abort_error wrong_input_type_error wavelength_calibration_error coregistration_error slant_column_density_error airmass_factor_error vertical_column_density_error signal_to_noise_ratio_error configuration_error key_error saturation_error solar_eclipse_filter cloud_filter altitude_consistency_filter altitude_roughness_filter sun_glint_filter mixed_surface_type_filter snow_ice_filter aai_filter cloud_fraction_fresco_filter aai_scene_albedo_filter small_pixel_radiance_std_filter cloud_fraction_viirs_filter cirrus_reflectance_viirs_filter cf_viirs_swir_ifov_filter cf_viirs_swir_ofova_filter cf_viirs_swir_ofovb_filter cf_viirs_swir_ofovc_filter cf_viirs_nir_ifov_filter cf_viirs_nir_ofova_filter cf_viirs_nir_ofovb_filter cf_viirs_nir_ofovc_filter refl_cirrus_viirs_swir_filter refl_cirrus_viirs_nir_filter diff_refl_cirrus_viirs_filter ch4_noscat_ratio_filter ch4_noscat_ratio_std_filter h2o_noscat_ratio_filter h2o_noscat_ratio_std_filter diff_psurf_fresco_ecmwf_filter psurf_fresco_stdv_filter ocean_filter time_range_filter pixel_or_scanline_index_filter geographic_region_filter input_spectrum_warning wavelength_calibration_warning extrapolation_warning sun_glint_warning south_atlantic_anomaly_warning sun_glint_correction snow_ice_warning cloud_warning AAI_warning pixel_level_input_data_missing data_range_warning low_cloud_fraction_warning altitude_consistency_warning signal_to_noise_ratio_warning deconvolution_warning so2_volcanic_origin_likely_warning so2_volcanic_origin_certain_warning interpolation_warning saturation_warning high_sza_warning cloud_retrieval_warning cloud_inhomogeneity_warning</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_masks">
                       <cd:Array>
@@ -1738,7 +1790,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1769,7 +1821,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="scale_factor">
                       <cd:Array>
@@ -1808,13 +1860,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>data quality value</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>A continuous quality descriptor, varying between 0 (no data) and 1 (full quality data). Recommend to ignore data with qa_value &lt; 0.5</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1846,10 +1898,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>flag describing the selected fitting window for sulfur dioxide retrieval</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -1880,13 +1935,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>scaling box of the total air mass factor for a sulfur dioxide plume at 15km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1894,6 +1949,55 @@
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                     </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="sulfurdioxide_cobra_flag">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint8</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:FixedValue>1</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:FixedValue>sulfur dioxide slant column density cobra retrieval flag</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_meanings">
+                      <cd:FixedValue>0: not applied, 1: not all iterations done, 2: all iterations done</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_values">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint8</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Integer>
+                      <cd:NativeType>uint8</cd:NativeType>
+                    </cd:Integer>
                   </cd:Array>
                 </cd:Field>
                 <cd:Field name="sulfurdioxide_averaging_kernel_scaling_box_1km">
@@ -1908,13 +2012,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>scaling box of the total air mass factor for a sulfur dioxide plume at 1km altitude w.r.t. the topography</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1936,13 +2040,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>scaling box of the total air mass factor for a sulfur dioxide plume at 7km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1964,13 +2068,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>clear sky air mass factor for a sulfur dioxide plume at 15km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1992,13 +2096,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>clear sky air mass factor for a sulfur dioxide plume at 1km altitude w.r.t. the topography</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2020,13 +2124,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>clear sky air mass factor for a sulfur dioxide plume at 7km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2048,13 +2152,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>clear sky air mass factor for the boundary layer polluted scenario</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2076,13 +2180,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>cloudy sky air mass factor for a sulfur dioxide plume at 15km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2104,13 +2208,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>cloudy sky air mass factor for a sulfur dioxide plume at 1km altitude w.r.t. the topography</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2132,13 +2236,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>cloudy sky air mass factor for a sulfur dioxide plume at 7km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2160,13 +2264,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>cloudy sky air mass factor for the boundary layer polluted scenario</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2197,13 +2301,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>sulfur dioxide volcano activity flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>no detection,detection,clear detection close to known volcano,clear detection close to known anthropogenic source,detection at high SZA</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -2215,7 +2319,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2237,13 +2341,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>volume mixing ratio profile of sulfur dioxide</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2266,13 +2370,59 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>background corrected sulfur dioxide slant column density for final selected fitting window</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="multiplication_factor_to_convert_to_DU">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="multiplication_factor_to_convert_to_molecules_percm2">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="sulfurdioxide_slant_column_corrected_doas">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:FixedValue>background corrected sulfur dioxide slant column density obtained by a DOAS retrieval for final selected fitting window</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -2312,13 +2462,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>systematic error of the corrected sulfur dioxide slant column</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2340,13 +2490,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>background corrected sulfur dioxide slant column density for fitting window 1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -2386,13 +2536,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>background corrected sulfur dioxide slant column density for fitting window 2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -2432,13 +2582,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>background corrected sulfur dioxide slant column density for fitting window 3</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -2466,55 +2616,6 @@
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
-                <cd:Field name="sulfurdioxide_slant_column_correction_flag">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="FillValue" real_name="_FillValue">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>uint8</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="flag_values">
-                      <cd:Array>
-                        <cd:Dimension>2</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>uint8</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
-                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
-                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
-                    <cd:Integer>
-                      <cd:NativeType>uint8</cd:NativeType>
-                    </cd:Integer>
-                  </cd:Array>
-                </cd:Field>
                 <cd:Field name="sulfurdioxide_total_air_mass_factor_15km">
                   <cd:Array>
                     <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
@@ -2527,13 +2628,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>total air mass factor for a sulfur dioxide plume at 15km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2555,13 +2656,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>systematic error of the total air mass factor using kernels for a sulfur dioxide plume at 15km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2583,13 +2684,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>random error of the total air mass factor for a sulfur dioxide plume at 15km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2611,13 +2712,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>systematic error of the total air mass factor for a sulfur dioxide plume at 15km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2639,13 +2740,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>total air mass factor for a sulfur dioxide plume at 1km altitude w.r.t. the topography</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2667,13 +2768,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>systematic error of the total air mass factor using kernels for a sulfur dioxide plume at 1km altitude w.r.t. the topography</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2695,13 +2796,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>random error of the total air mass factor for a sulfur dioxide plume at 1km altitude w.r.t. the topography</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2723,13 +2824,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>systematic error of the total air mass factor for a sulfur dioxide plume at 1km altitude w.r.t. the topography</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2751,13 +2852,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>total air mass factor for a sulfur dioxide plume at 7km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2779,13 +2880,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>systematic error of the total air mass factor using kernels for a sulfur dioxide plume at 7km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2807,13 +2908,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>random error of the total air mass factor for a sulfur dioxide plume at 7km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2835,13 +2936,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>systematic error of the total air mass factor for a sulfur dioxide plume at 7km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2863,13 +2964,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>total air mass factor for boundary layer polluted scenario</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2891,13 +2992,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>systematic error of the total air mass factor for the kernel polluted scenario</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2919,13 +3020,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>random error of the total air mass factor for the boundary layer polluted scenario</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2947,13 +3048,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>systematic error of the total air mass factor for the boundary layer polluted scenario</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -2975,16 +3076,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>atmosphere_mole_content_of_sulfur_dioxide</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>total vertical column density of sulfur dioxide for a sulfur dioxide plume at 15km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -3024,16 +3125,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>atmosphere_mole_content_of_sulfur_dioxide_standard_error</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>random error of the total vertical column density of sulfur dioxide for a sulfur dioxide plume at 15km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -3073,13 +3174,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>systematic error of the total vertical column density of sulfur dioxide for a sulfur dioxide plume at 15km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -3119,16 +3220,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>atmosphere_mole_content_of_sulfur_dioxide</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>total vertical column density of sulfur dioxide for a sulfur dioxide plume at 1km altitude w.r.t. the topography</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -3168,16 +3269,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>atmosphere_mole_content_of_sulfur_dioxide standard_error</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>random error of the total vertical column density of sulfur dioxide for a sulfur dioxide plume at 1km altitude w.r.t. the topography</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -3217,13 +3318,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>systematic error of the total vertical column density of sulfur dioxide for a sulfur dioxide plume at 1km altitude w.r.t. the topography</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -3263,16 +3364,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>atmosphere_mole_content_of_sulfur_dioxide</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>total vertical column density of sulfur dioxide for a sulfur dioxide plume at 7km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -3312,16 +3413,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>atmosphere_mole_content_of_sulfur_dioxide_standard_error</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>random error of the total vertical column of sulfur dioxide for a sulfur dioxide plume at 7km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -3361,13 +3462,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>systematic error of the total vertical column of sulfur dioxide for a sulfur dioxide plume at 7km altitude w.r.t. the sea level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -3407,13 +3508,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>systematic error of the total vertical column density of sulfur dioxide for the polluted scenario</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -3466,7 +3567,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_masks">
                       <cd:Array>
@@ -3478,7 +3579,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>no_error solar_eclipse sun_glint_possible descending night geo_boundary_crossing geolocation_error</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -3490,7 +3591,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>ground pixel quality flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="max_val">
                       <cd:Array>
@@ -3511,7 +3612,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -3533,7 +3634,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_north</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -3556,7 +3657,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_east</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -3579,13 +3680,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>satellite altitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>The altitude of the satellite with respect to the geodetic sub satellite point on the WGS84 reference ellipsoid</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -3624,13 +3725,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>sub satellite latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_north</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Latitude of the geodetic sub satellite point on the WGS84 reference ellipsoid</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -3669,13 +3770,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>satellite_longitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_east</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Longitude of the geodetic sub satellite point on the WGS84 reference ellipsoid</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -3714,13 +3815,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>fractional satellite orbit phase</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Relative offset [0.0, ..., 1.0] of the measurement in the orbit</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -3759,13 +3860,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar azimuth angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar_azimuth_angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degree</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -3786,10 +3887,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Solar azimuth angle at the ground pixel location on the reference ellipsoid. Angle is measured clockwise from the North (East = 90, South = 180, West = 270)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -3811,13 +3912,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar zenith angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar_zenith_angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degree</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -3838,10 +3939,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Solar zenith angle at the ground pixel location on the reference ellipsoid. Angle is measured away from the vertical</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -3863,13 +3964,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>viewing azimuth angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>viewing_azimuth_angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degree</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -3890,10 +3991,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Satellite azimuth angle at the ground pixel location on the reference ellipsoid. Angle is measured clockwise from the North (East = 90, South = 180, West = 270)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -3915,13 +4016,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>viewing zenith angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>viewing_zenith_angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degree</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -3942,10 +4043,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Zenith angle of the satellite at the ground pixel location on the reference ellipsoid. Angle is measured away from the vertical</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -3985,10 +4086,10 @@
                           </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>detector_rows dimension index</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$detector_rows]]></cd:Dimension>
                         <cd:Integer>
@@ -4008,7 +4109,7 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>mol.m-2.nm-1.sr-1.s-1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$detector_rows]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$wavelengths]]></cd:Dimension>
@@ -4029,7 +4130,7 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>nm</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$wavelengths]]></cd:Dimension>
                         <cd:Float>
@@ -4061,7 +4162,7 @@
                           </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>degrees_north</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$lat_grid]]></cd:Dimension>
                         <cd:Float>
@@ -4093,15 +4194,74 @@
                           </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Attribute name="long_name">
-                          <cd:Text/>
+                          <cd:FixedValue>wavelengths dimension index</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$wavelengths]]></cd:Dimension>
                         <cd:Integer>
                           <cd:NativeType>int32</cd:NativeType>
                         </cd:Integer>
+                      </cd:Array>
+                    </cd:Field>
+                    <cd:Field name="o3_grid">
+                      <cd:Array>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
+                        </cd:Attribute>
+                        <cd:Attribute name="CLASS">
+                          <cd:Text/>
+                        </cd:Attribute>
+                        <cd:Attribute name="NAME">
+                          <cd:Text/>
+                        </cd:Attribute>
+                        <cd:Dimension><![CDATA[$o3_grid]]></cd:Dimension>
+                      </cd:Array>
+                    </cd:Field>
+                    <cd:Field name="window1_north">
+                      <cd:Array>
+                        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                          <cd:Array>
+                            <cd:Dimension>2</cd:Dimension>
+                            <cd:Integer>
+                              <cd:NativeType>int32</cd:NativeType>
+                              <cd:LittleEndian/>
+                            </cd:Integer>
+                          </cd:Array>
+                        </cd:Attribute>
+                        <cd:Attribute name="units">
+                          <cd:FixedValue>mol m-2</cd:FixedValue>
+                        </cd:Attribute>
+                        <cd:Dimension><![CDATA[$o3_grid]]></cd:Dimension>
+                        <cd:Dimension><![CDATA[$detector_rows]]></cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Field>
+                    <cd:Field name="window1_south">
+                      <cd:Array>
+                        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                          <cd:Array>
+                            <cd:Dimension>2</cd:Dimension>
+                            <cd:Integer>
+                              <cd:NativeType>int32</cd:NativeType>
+                              <cd:LittleEndian/>
+                            </cd:Integer>
+                          </cd:Array>
+                        </cd:Attribute>
+                        <cd:Attribute name="units">
+                          <cd:FixedValue>mol m-2</cd:FixedValue>
+                        </cd:Attribute>
+                        <cd:Dimension><![CDATA[$o3_grid]]></cd:Dimension>
+                        <cd:Dimension><![CDATA[$detector_rows]]></cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                        </cd:Float>
                       </cd:Array>
                     </cd:Field>
                     <cd:Field name="window2">
@@ -4116,7 +4276,7 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>mol m-2</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$lat_grid]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$detector_rows]]></cd:Dimension>
@@ -4137,7 +4297,7 @@
                           </cd:Array>
                         </cd:Attribute>
                         <cd:Attribute name="units">
-                          <cd:Text/>
+                          <cd:FixedValue>mol m-2</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$lat_grid]]></cd:Dimension>
                         <cd:Dimension><![CDATA[$detector_rows]]></cd:Dimension>
@@ -4160,16 +4320,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>ultraviolet_aerosol_index</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Aerosol index from 380 and 340 nm</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>aerosol index from 380 and 340 nm</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="radiation_wavelength">
                       <cd:Array>
@@ -4181,7 +4341,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4203,22 +4363,22 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>cloud_albedo</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>cloud albedo from the CRB model</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>crb</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Coregistered cloud albedo based on the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4240,22 +4400,22 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>cloud_albedo_standard_error</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>cloud albedo precision from the CRB model</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>crb</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Error of the coregistered cloud albedo based on the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4277,22 +4437,22 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>TBD</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>effective radiometric cloud fraction from the CRB model</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>crb</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Coregistered effective radiometric cloud fraction using the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4314,22 +4474,22 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>TBD</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>effective radiometric cloud fraction precision from the CRB model</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>crb</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Error of the coregistered effective radiometric cloud fraction using the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4351,22 +4511,22 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>TBD</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>cloud radiometric optical centroid height from the CRB model</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>crb</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Coregistered height at the level of cloud w.r.t. the geoid/MSL using the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4388,22 +4548,22 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>TBD</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>cloud radiometric optical centroid height precision from the CRB model</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>crb</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Error of the coregistered height at the level of cloud w.r.t. the geoid/MSL using the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4425,22 +4585,22 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>Pa</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>TBD</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>cloud radiometric optical centroid pressure from the CRB model</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>crb</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Coregistered and converted atmospheric pressure at the level of cloud using the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4462,22 +4622,22 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>Pa</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>TBD</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>cloud radiometric optical centroid pressure precision from the CRB model</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>crb</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Error of the coregistered and converted atmospheric pressure at the level of cloud using the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4499,16 +4659,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m s-1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>eastward_wind</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Eastward wind from ECMWF at 10 meter height level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4539,10 +4699,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>IcID</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>The Instrument Configuration ID defines the type of measurement and its purpose. The number of instrument configuration IDs will increase over the mission as new types of measurements are created and used</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4572,10 +4732,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>IcVersion</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Version of the instrument_configuration_identifier</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4596,16 +4756,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m s-1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>northward_wind</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Northward wind from ECMWF at 10 meter height level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4627,16 +4787,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>atmosphere_mole_content_of_ozone</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>total ozone column</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -4676,16 +4836,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>atmosphere_mole_content_of_ozone error</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>total ozone column random error</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="multiplication_factor_to_convert_to_DU">
                       <cd:Array>
@@ -4725,81 +4885,19 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>scaled small pixel variance</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>The scaled variance of the reflectances of the small pixels</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="radiation_wavelength">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
-                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
-                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
-                    <cd:Float>
-                      <cd:NativeType>float</cd:NativeType>
-                    </cd:Float>
-                  </cd:Array>
-                </cd:Field>
-                <cd:Field name="sea_ice_cover">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
-                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
-                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
-                    <cd:Float>
-                      <cd:NativeType>float</cd:NativeType>
-                    </cd:Float>
-                  </cd:Array>
-                </cd:Field>
-                <cd:Field name="snow_cover">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue> </cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4821,13 +4919,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="threshold">
-                      <cd:Text/>
+                      <cd:FixedValue>0.3</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>snow-ice mask</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -4839,13 +4937,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>flag indicating snow/ice at center of ground pixel</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue> </cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>snow_free snow_ice</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -4857,62 +4955,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
-                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
-                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
-                    <cd:Integer>
-                      <cd:NativeType>uint8</cd:NativeType>
-                    </cd:Integer>
-                  </cd:Array>
-                </cd:Field>
-                <cd:Field name="snow_ice_flag_nise">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="FillValue" real_name="_FillValue">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>uint8</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="comment">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="flag_values">
-                      <cd:Array>
-                        <cd:Dimension>107</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>uint8</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4934,16 +4977,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface_albedo</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface albdeo at 328nm</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4965,16 +5008,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface_albedo</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface albdeo at 376nm</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4996,22 +5039,22 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface altitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface_altitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>http://topotools.cr.usgs.gov/gmted_viewer/</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>The mean of the sub-pixels of the surface altitude above the reference geoid (WGS84) within the approximate field of view, based on the GMTED2010 surface elevation database</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -5033,13 +5076,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface altitude precision</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface_altitude standard_error</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_error_multiplier">
                       <cd:Array>
@@ -5051,13 +5094,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>http://topotools.cr.usgs.gov/gmted_viewer/</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>The standard deviation of sub-pixels used in calculating the mean surface altitude above the reference geoid (WGS84) within the approximate field of view, based on the GMTED2010 surface elevation database</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -5088,19 +5131,19 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>land-water mask</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>flag indicating land/water and further surface classifications for the ground pixel</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>USGS (http://edc2.usgs.gov/glcc/globdoc2_0.php) and NASA SDP toolkit (http://newsroom.gsfc.nasa.gov/sdptoolkit/toolkit.html)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>land, water, some_water, coast, value_covers_majority_of_pixel, water+shallow_ocean, water+shallow_inland_water, water+ocean_coastline-lake_shoreline, water+intermittent_water, water+deep_inland_water, water+continental_shelf_ocean, water+deep_ocean, land+urban_and_built-up_land, land+dryland_cropland_and_pasture, land+irrigated_cropland_and_pasture, land+mixed_dryland-irrigated_cropland_and_pasture, land+cropland-grassland_mosaic, land+cropland-woodland_mosaic, land+grassland, land+shrubland, land+mixed_shrubland-grassland, land+savanna, land+deciduous_broadleaf_forest, land+deciduous_needleleaf_forest, land+evergreen_broadleaf_forest, land+evergreen_needleleaf_forest, land+mixed_forest, land+herbaceous_wetland, land+wooded_wetland, land+barren_or_sparsely_vegetated, land+herbaceous_tundra, land+wooded_tundra, land+mixed_tundra, land+bare_ground_tundra, land+snow_or_ice</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -5121,7 +5164,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -5143,19 +5186,19 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>Pa</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface_air_pressure</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface_air_pressure</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue> </cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -5177,19 +5220,19 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>K</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface_air_temperature</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface_air_temperature</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue> </cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -5211,7 +5254,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>Pa</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$layer]]></cd:Dimension>
@@ -5232,7 +5275,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$layer]]></cd:Dimension>
@@ -5262,7 +5305,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -5309,13 +5352,13 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>pixel corner index</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>This coordinate variable defines the indices for the pixel corners; index starts a 0 (counter-clockwise, starting from south-western corner of the pixel in ascending part of the orbit).</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>4</cd:Dimension>
             <cd:Integer>
@@ -5344,10 +5387,10 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>offset from reference start time of measurement</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>milliseconds since 2024-01-02 00:00:00Z</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension><![CDATA[$time]]></cd:Dimension>
             <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -5389,16 +5432,16 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>X</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>across-track dimension index</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>This coordinate variable defines the indices across track, from west to east; index starts at 0</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Integer>
@@ -5418,13 +5461,13 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>pixel center latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>degrees_north</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="valid_min">
               <cd:Array>
@@ -5445,7 +5488,7 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="bounds">
-              <cd:Text/>
+              <cd:FixedValue>/PRODUCT/SUPPORT_DATA/GEOLOCATIONS/latitude_bounds</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension><![CDATA[$time]]></cd:Dimension>
             <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -5479,10 +5522,10 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>layer dimension index</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension><![CDATA[$layer]]></cd:Dimension>
             <cd:Integer>
@@ -5502,13 +5545,13 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>pixel center longitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>degrees_east</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>longitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="valid_min">
               <cd:Array>
@@ -5529,7 +5572,7 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="bounds">
-              <cd:Text/>
+              <cd:FixedValue>/PRODUCT/SUPPORT_DATA/GEOLOCATIONS/longitude_bounds</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension><![CDATA[$time]]></cd:Dimension>
             <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -5560,7 +5603,7 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="scale_factor">
               <cd:Array>
@@ -5599,13 +5642,13 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>data quality value</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>A continuous quality descriptor, varying between 0 (no data) and 1 (full quality data). Recommend to ignore data with qa_value &lt; 0.5</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="coordinates">
-              <cd:Text/>
+              <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension><![CDATA[$time]]></cd:Dimension>
             <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -5649,16 +5692,16 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>Y</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>along-track dimension index</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>This coordinate variable defines the indices along track; index starts at 0</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
             <cd:Integer>
@@ -5678,16 +5721,16 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>mol m-2</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>atmosphere_mole_content_of_sulfur_dioxide</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>total vertical column of sulfur dioxide for the polluted scenario derived from the total slant column</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="coordinates">
-              <cd:Text/>
+              <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="multiplication_factor_to_convert_to_DU">
               <cd:Array>
@@ -5727,16 +5770,16 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>mol m-2</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>atmosphere_mole_content_of_sulfur_dioxide_standard_error</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>precision of the total vertical column of sulfur dioxide for the polluted scenario derived from the total slant column</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="coordinates">
-              <cd:Text/>
+              <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="multiplication_factor_to_convert_to_DU">
               <cd:Array>
@@ -5797,19 +5840,19 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>seconds since 2010-01-01 00:00:00</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>time</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>T</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>reference time for the measurements</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>The time in this variable corresponds to the time in the time_reference global attribute</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension><![CDATA[$time]]></cd:Dimension>
             <cd:Integer>
@@ -5847,8 +5890,11 @@
   <cd:ProductVariable name="wavelengths">
    <cd:Init><![CDATA[$wavelengths = dim(/PRODUCT/SUPPORT_DATA/INPUT_DATA/BACKGROUND_CORRECTION/wavelengths, 0)]]></cd:Init>
   </cd:ProductVariable>
+  <cd:ProductVariable name="o3_grid">
+   <cd:Init><![CDATA[$o3_grid = dim(/PRODUCT/SUPPORT_DATA/INPUT_DATA/BACKGROUND_CORRECTION/o3_grid, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  
   <!--/PRODUCT/SUPPORT_DATA/DETAILED_RESULTS -->
-
   <cd:ProductVariable name="number_of_doas_polynomial_coefficients_win2">
    <cd:Init><![CDATA[$number_of_doas_polynomial_coefficients_win2 = dim(/PRODUCT/SUPPORT_DATA/DETAILED_RESULTS/number_of_doas_polynomial_coefficients_win2, 0)]]></cd:Init>
   </cd:ProductVariable>
@@ -5888,3 +5934,4 @@
     <cd:Init><![CDATA[$number_of_subwindows_win3 = dim(/PRODUCT/SUPPORT_DATA/DETAILED_RESULTS/WAVELENGTH_CALIBRATIONS/number_of_subwindows_win3, 0)]]></cd:Init>
   </cd:ProductVariable>
 </cd:ProductDefinition>
+
