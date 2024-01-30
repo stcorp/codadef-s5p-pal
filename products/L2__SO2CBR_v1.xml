@@ -4220,10 +4220,10 @@
                           <cd:Text/>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$o3_grid]]></cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                        </cd:Float>
                       </cd:Array>
-                      <cd:Float>
-                        <cd:NativeType>float</cd:NativeType>
-                      </cd:Float>
                     </cd:Field>
                     <cd:Field name="window1_north">
                       <cd:Array>
