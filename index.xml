@@ -106,7 +106,7 @@
       </cd:DetectionRule>
     </cd:ProductDefinition>
     <cd:ProductDefinition id="L2__AER_OT_v1" format="hdf5" version="1">
-      <cd:Description>This definition is based on version 1.1.0 of the S5P L2 AOT Product User Manual S5P-KNMI-L2-0034-MA</cd:Description>
+      <cd:Description>This definition is based on version 2.0.0 of the S5P L2 AOT Product User Manual S5P-KNMI-L2-0034-MA</cd:Description>
       <cd:DetectionRule>
         <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
         <cd:MatchExpression>substr(9,10,filename())=="L2__AER_OT"</cd:MatchExpression>
