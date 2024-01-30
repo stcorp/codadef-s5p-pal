@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="AUX_BGBRO__v0" format="hdf5" last-modified="2021-11-07">
+  <cd:Record>
+    <cd:Attribute name="Conventions">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="institution">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="history">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="summary">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="id">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="lat_bound">
+      <cd:Array>
+        <cd:Dimension>2</cd:Dimension>
+        <cd:Float>
+          <cd:NativeType>double</cd:NativeType>
+          <cd:LittleEndian/>
+        </cd:Float>
+      </cd:Array>
+    </cd:Attribute>
+    <cd:Attribute name="lon_bound">
+      <cd:Array>
+        <cd:Dimension>2</cd:Dimension>
+        <cd:Float>
+          <cd:NativeType>double</cd:NativeType>
+          <cd:LittleEndian/>
+        </cd:Float>
+      </cd:Array>
+    </cd:Attribute>
+    <cd:Attribute name="time_coverage_start">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="time_coverage_end">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="processor_name">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="processor_version">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="processor_center">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="file_class">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="input_files">
+      <cd:Array>
+        <cd:Dimension/>
+        <cd:Text/>
+      </cd:Array>
+    </cd:Attribute>
+    <cd:Attribute name="NCProperties" real_name="_NCProperties">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Field name="brominemonoxide_geometric_air_mass_factor_background">
+      <cd:Array>
+        <cd:Attribute name="comment">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="units">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+        <cd:Float>
+          <cd:NativeType>float</cd:NativeType>
+        </cd:Float>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="brominemonoxide_slant_column_average_background">
+      <cd:Array>
+        <cd:Attribute name="comment">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="multiplication_factor_to_convert_to_molecules_percm2">
+          <cd:Array>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Float>
+              <cd:NativeType>float</cd:NativeType>
+              <cd:LittleEndian/>
+            </cd:Float>
+          </cd:Array>
+        </cd:Attribute>
+        <cd:Attribute name="units">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+        <cd:Float>
+          <cd:NativeType>float</cd:NativeType>
+        </cd:Float>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="brominemonoxide_total_vertical_column_background">
+      <cd:Array>
+        <cd:Attribute name="comment">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="multiplication_factor_to_convert_to_molecules_percm2">
+          <cd:Array>
+            <cd:Dimension>1</cd:Dimension>
+            <cd:Float>
+              <cd:NativeType>float</cd:NativeType>
+              <cd:LittleEndian/>
+            </cd:Float>
+          </cd:Array>
+        </cd:Attribute>
+        <cd:Attribute name="units">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+        <cd:Float>
+          <cd:NativeType>float</cd:NativeType>
+        </cd:Float>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="count_row">
+      <cd:Array>
+        <cd:Attribute name="comment">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+        <cd:Integer>
+          <cd:NativeType>int32</cd:NativeType>
+        </cd:Integer>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="ground_pixel">
+      <cd:Array>
+        <cd:Attribute name="CLASS">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="NAME">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+          <cd:Integer>
+            <cd:NativeType>int32</cd:NativeType>
+            <cd:LittleEndian/>
+          </cd:Integer>
+        </cd:Attribute>
+        <cd:Attribute name="axis">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="comment">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Attribute name="long_name">
+          <cd:Text/>
+        </cd:Attribute>
+        <cd:Dimension/>
+        <cd:Integer>
+          <cd:NativeType>int32</cd:NativeType>
+        </cd:Integer>
+      </cd:Array>
+    </cd:Field>
+  </cd:Record>
+  <cd:ProductVariable name="ground_pixel">
+    <cd:Init><![CDATA[$ground_pixel = dim(/ground_pixel, 0)]]></cd:Init>
+  </cd:ProductVariable>
+</cd:ProductDefinition>
+
