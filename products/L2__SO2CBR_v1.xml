@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="L2__SO2CBR_v1" format="hdf5" last-modified="2024-01-30">
+<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="L2__SO2CBR_v1" format="hdf5" last-modified="2024-02-06">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -92,6 +92,12 @@
                             </cd:Integer>
                           </cd:Array>
                         </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
+                        </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
@@ -115,6 +121,12 @@
                               <cd:LittleEndian/>
                             </cd:Integer>
                           </cd:Array>
+                        </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>1</cd:FixedValue>
@@ -140,6 +152,12 @@
                             </cd:Integer>
                           </cd:Array>
                         </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
+                        </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
@@ -163,6 +181,12 @@
                               <cd:LittleEndian/>
                             </cd:Integer>
                           </cd:Array>
+                        </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>1</cd:FixedValue>
@@ -188,6 +212,12 @@
                             </cd:Integer>
                           </cd:Array>
                         </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
+                        </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
@@ -211,6 +241,12 @@
                               <cd:LittleEndian/>
                             </cd:Integer>
                           </cd:Array>
+                        </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>1</cd:FixedValue>
@@ -236,6 +272,12 @@
                             </cd:Integer>
                           </cd:Array>
                         </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
+                        </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>nm</cd:FixedValue>
                         </cd:Attribute>
@@ -259,6 +301,12 @@
                               <cd:LittleEndian/>
                             </cd:Integer>
                           </cd:Array>
+                        </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>nm</cd:FixedValue>
@@ -284,6 +332,12 @@
                             </cd:Integer>
                           </cd:Array>
                         </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
+                        </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>nm</cd:FixedValue>
                         </cd:Attribute>
@@ -307,6 +361,12 @@
                               <cd:LittleEndian/>
                             </cd:Integer>
                           </cd:Array>
+                        </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>1</cd:FixedValue>
@@ -332,6 +392,12 @@
                             </cd:Integer>
                           </cd:Array>
                         </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
+                        </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>1</cd:FixedValue>
                         </cd:Attribute>
@@ -355,6 +421,12 @@
                               <cd:LittleEndian/>
                             </cd:Integer>
                           </cd:Array>
+                        </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>1</cd:FixedValue>
@@ -380,6 +452,12 @@
                             </cd:Integer>
                           </cd:Array>
                         </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
+                        </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>nm</cd:FixedValue>
                         </cd:Attribute>
@@ -403,6 +481,12 @@
                             </cd:Integer>
                           </cd:Array>
                         </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
+                        </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>nm</cd:FixedValue>
                         </cd:Attribute>
@@ -425,6 +509,12 @@
                               <cd:LittleEndian/>
                             </cd:Integer>
                           </cd:Array>
+                        </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>nm</cd:FixedValue>
@@ -696,6 +786,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -721,6 +817,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -771,6 +873,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -817,6 +925,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -848,6 +962,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -881,6 +1001,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>nm</cd:FixedValue>
                     </cd:Attribute>
@@ -908,6 +1034,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>nm</cd:FixedValue>
@@ -937,6 +1069,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>nm</cd:FixedValue>
                     </cd:Attribute>
@@ -964,6 +1102,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -993,6 +1137,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -1020,6 +1170,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -1049,6 +1205,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -1077,6 +1239,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -1084,7 +1252,7 @@
                       <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:FixedValue>root mean square residual of the fit in fitting window 1</cd:FixedValue>
+                      <cd:FixedValue>root mean square residual in fitting window 1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1104,6 +1272,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -1133,6 +1307,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -1160,6 +1340,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
@@ -1193,6 +1379,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
@@ -1224,6 +1416,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
@@ -1257,6 +1455,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
@@ -1289,6 +1493,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
@@ -1320,6 +1530,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
@@ -1423,6 +1639,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1460,6 +1682,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1496,6 +1724,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -1639,6 +1873,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1675,6 +1915,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -1713,6 +1959,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1749,6 +2001,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -1810,6 +2068,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -1888,6 +2152,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -1934,6 +2204,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -1961,6 +2237,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -2011,6 +2293,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -2038,6 +2326,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -2067,6 +2361,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -2094,6 +2394,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -2123,6 +2429,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -2150,6 +2462,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -2179,6 +2497,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -2206,6 +2530,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -2235,6 +2565,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -2263,6 +2599,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -2290,6 +2632,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -2340,6 +2688,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -2368,6 +2722,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
@@ -2415,6 +2775,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
@@ -2461,6 +2827,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
@@ -2488,6 +2860,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
@@ -2535,6 +2913,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
@@ -2580,6 +2964,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
@@ -2627,6 +3017,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -2654,6 +3050,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -2683,6 +3085,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -2710,6 +3118,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -2739,6 +3153,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -2766,6 +3186,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -2795,6 +3221,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -2822,6 +3254,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -2851,6 +3289,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -2878,6 +3322,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -2907,6 +3357,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -2934,6 +3390,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -2963,6 +3425,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -2990,6 +3458,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -3019,6 +3493,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -3047,6 +3527,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -3074,6 +3560,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
@@ -3124,6 +3616,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
@@ -3173,6 +3671,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
@@ -3218,6 +3722,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
@@ -3268,6 +3778,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
@@ -3317,6 +3833,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
@@ -3362,6 +3884,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
@@ -3412,6 +3940,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
@@ -3461,6 +3995,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
@@ -3506,6 +4046,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
@@ -3556,6 +4102,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -3633,6 +4185,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>degrees_north</cd:FixedValue>
                     </cd:Attribute>
@@ -3656,6 +4214,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>degrees_east</cd:FixedValue>
                     </cd:Attribute>
@@ -3678,6 +4242,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>satellite altitude</cd:FixedValue>
@@ -3724,6 +4294,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>sub satellite latitude</cd:FixedValue>
                     </cd:Attribute>
@@ -3768,6 +4344,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>satellite_longitude</cd:FixedValue>
@@ -3814,6 +4396,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>fractional satellite orbit phase</cd:FixedValue>
                     </cd:Attribute>
@@ -3858,6 +4446,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>solar azimuth angle</cd:FixedValue>
@@ -3911,6 +4505,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>solar zenith angle</cd:FixedValue>
                     </cd:Attribute>
@@ -3963,6 +4563,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>viewing azimuth angle</cd:FixedValue>
                     </cd:Attribute>
@@ -4014,6 +4620,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>viewing zenith angle</cd:FixedValue>
@@ -4108,6 +4720,12 @@
                             </cd:Integer>
                           </cd:Array>
                         </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
+                        </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>mol.m-2.nm-1.sr-1.s-1</cd:FixedValue>
                         </cd:Attribute>
@@ -4129,6 +4747,12 @@
                             </cd:Integer>
                           </cd:Array>
                         </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
+                        </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>nm</cd:FixedValue>
                         </cd:Attribute>
@@ -4149,17 +4773,17 @@
                             </cd:Integer>
                           </cd:Array>
                         </cd:Attribute>
-                        <cd:Attribute name="CLASS">
-                          <cd:Text/>
-                        </cd:Attribute>
-                        <cd:Attribute name="NAME">
-                          <cd:Text/>
-                        </cd:Attribute>
                         <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
                           <cd:Integer>
                             <cd:NativeType>int32</cd:NativeType>
                             <cd:LittleEndian/>
                           </cd:Integer>
+                        </cd:Attribute>
+                        <cd:Attribute name="CLASS">
+                          <cd:Text/>
+                        </cd:Attribute>
+                        <cd:Attribute name="NAME">
+                          <cd:Text/>
                         </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>degrees_north</cd:FixedValue>
@@ -4181,17 +4805,17 @@
                             </cd:Integer>
                           </cd:Array>
                         </cd:Attribute>
-                        <cd:Attribute name="CLASS">
-                          <cd:Text/>
-                        </cd:Attribute>
-                        <cd:Attribute name="NAME">
-                          <cd:Text/>
-                        </cd:Attribute>
                         <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
                           <cd:Integer>
                             <cd:NativeType>int32</cd:NativeType>
                             <cd:LittleEndian/>
                           </cd:Integer>
+                        </cd:Attribute>
+                        <cd:Attribute name="CLASS">
+                          <cd:Text/>
+                        </cd:Attribute>
+                        <cd:Attribute name="NAME">
+                          <cd:Text/>
                         </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>1</cd:FixedValue>
@@ -4207,6 +4831,15 @@
                     </cd:Field>
                     <cd:Field name="o3_grid">
                       <cd:Array>
+                        <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                          <cd:Array>
+                            <cd:Dimension>1</cd:Dimension>
+                            <cd:Integer>
+                              <cd:NativeType>int32</cd:NativeType>
+                              <cd:LittleEndian/>
+                            </cd:Integer>
+                          </cd:Array>
+                        </cd:Attribute>
                         <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
                           <cd:Integer>
                             <cd:NativeType>int32</cd:NativeType>
@@ -4218,6 +4851,9 @@
                         </cd:Attribute>
                         <cd:Attribute name="NAME">
                           <cd:Text/>
+                        </cd:Attribute>
+                        <cd:Attribute name="units">
+                          <cd:FixedValue>DU</cd:FixedValue>
                         </cd:Attribute>
                         <cd:Dimension><![CDATA[$o3_grid]]></cd:Dimension>
                         <cd:Float>
@@ -4235,6 +4871,12 @@
                               <cd:LittleEndian/>
                             </cd:Integer>
                           </cd:Array>
+                        </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>mol m-2</cd:FixedValue>
@@ -4257,6 +4899,12 @@
                             </cd:Integer>
                           </cd:Array>
                         </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
+                        </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>mol m-2</cd:FixedValue>
                         </cd:Attribute>
@@ -4278,6 +4926,12 @@
                             </cd:Integer>
                           </cd:Array>
                         </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
+                        </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>mol m-2</cd:FixedValue>
                         </cd:Attribute>
@@ -4298,6 +4952,12 @@
                               <cd:LittleEndian/>
                             </cd:Integer>
                           </cd:Array>
+                        </cd:Attribute>
+                        <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                          <cd:Integer>
+                            <cd:NativeType>int32</cd:NativeType>
+                            <cd:LittleEndian/>
+                          </cd:Integer>
                         </cd:Attribute>
                         <cd:Attribute name="units">
                           <cd:FixedValue>mol m-2</cd:FixedValue>
@@ -4321,6 +4981,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -4365,6 +5031,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -4374,9 +5046,7 @@
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>cloud albedo from the CRB model</cd:FixedValue>
                     </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:FixedValue>crb</cd:FixedValue>
-                    </cd:Attribute>
+                    <cd:Attribute name="source"/>
                     <cd:Attribute name="comment">
                       <cd:FixedValue>Coregistered cloud albedo based on the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
@@ -4402,6 +5072,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -4411,9 +5087,7 @@
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>cloud albedo precision from the CRB model</cd:FixedValue>
                     </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:FixedValue>crb</cd:FixedValue>
-                    </cd:Attribute>
+                    <cd:Attribute name="source"/>
                     <cd:Attribute name="comment">
                       <cd:FixedValue>Error of the coregistered cloud albedo based on the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
@@ -4439,6 +5113,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -4448,9 +5128,7 @@
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>effective radiometric cloud fraction from the CRB model</cd:FixedValue>
                     </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:FixedValue>crb</cd:FixedValue>
-                    </cd:Attribute>
+                    <cd:Attribute name="source"/>
                     <cd:Attribute name="comment">
                       <cd:FixedValue>Coregistered effective radiometric cloud fraction using the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
@@ -4476,6 +5154,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -4485,9 +5169,7 @@
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>effective radiometric cloud fraction precision from the CRB model</cd:FixedValue>
                     </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:FixedValue>crb</cd:FixedValue>
-                    </cd:Attribute>
+                    <cd:Attribute name="source"/>
                     <cd:Attribute name="comment">
                       <cd:FixedValue>Error of the coregistered effective radiometric cloud fraction using the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
@@ -4513,6 +5195,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
@@ -4522,9 +5210,7 @@
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>cloud radiometric optical centroid height from the CRB model</cd:FixedValue>
                     </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:FixedValue>crb</cd:FixedValue>
-                    </cd:Attribute>
+                    <cd:Attribute name="source"/>
                     <cd:Attribute name="comment">
                       <cd:FixedValue>Coregistered height at the level of cloud w.r.t. the geoid/MSL using the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
@@ -4550,6 +5236,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
@@ -4559,9 +5251,7 @@
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>cloud radiometric optical centroid height precision from the CRB model</cd:FixedValue>
                     </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:FixedValue>crb</cd:FixedValue>
-                    </cd:Attribute>
+                    <cd:Attribute name="source"/>
                     <cd:Attribute name="comment">
                       <cd:FixedValue>Error of the coregistered height at the level of cloud w.r.t. the geoid/MSL using the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
@@ -4587,6 +5277,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>Pa</cd:FixedValue>
                     </cd:Attribute>
@@ -4596,9 +5292,7 @@
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>cloud radiometric optical centroid pressure from the CRB model</cd:FixedValue>
                     </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:FixedValue>crb</cd:FixedValue>
-                    </cd:Attribute>
+                    <cd:Attribute name="source"/>
                     <cd:Attribute name="comment">
                       <cd:FixedValue>Coregistered and converted atmospheric pressure at the level of cloud using the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
@@ -4624,6 +5318,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>Pa</cd:FixedValue>
                     </cd:Attribute>
@@ -4633,9 +5333,7 @@
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>cloud radiometric optical centroid pressure precision from the CRB model</cd:FixedValue>
                     </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:FixedValue>crb</cd:FixedValue>
-                    </cd:Attribute>
+                    <cd:Attribute name="source"/>
                     <cd:Attribute name="comment">
                       <cd:FixedValue>Error of the coregistered and converted atmospheric pressure at the level of cloud using the OCRA/ROCINN CRB model.</cd:FixedValue>
                     </cd:Attribute>
@@ -4660,6 +5358,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>m s-1</cd:FixedValue>
@@ -4691,6 +5395,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -4725,6 +5435,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -4758,6 +5474,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>m s-1</cd:FixedValue>
                     </cd:Attribute>
@@ -4788,6 +5510,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
@@ -4838,6 +5566,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>mol m-2</cd:FixedValue>
                     </cd:Attribute>
@@ -4887,6 +5621,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>scaled small pixel variance</cd:FixedValue>
                     </cd:Attribute>
@@ -4898,9 +5638,6 @@
                     </cd:Attribute>
                     <cd:Attribute name="comment">
                       <cd:FixedValue>The scaled variance of the reflectances of the small pixels</cd:FixedValue>
-                    </cd:Attribute>
-                    <cd:Attribute name="radiation_wavelength">
-                      <cd:FixedValue> </cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -4920,6 +5657,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -4941,9 +5684,6 @@
                     </cd:Attribute>
                     <cd:Attribute name="comment">
                       <cd:FixedValue>flag indicating snow/ice at center of ground pixel</cd:FixedValue>
-                    </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:FixedValue> </cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
                       <cd:FixedValue>snow_free snow_ice</cd:FixedValue>
@@ -4979,6 +5719,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -5009,6 +5755,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
@@ -5041,6 +5793,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>surface altitude</cd:FixedValue>
                     </cd:Attribute>
@@ -5053,9 +5811,7 @@
                     <cd:Attribute name="coordinates">
                       <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:FixedValue>http://topotools.cr.usgs.gov/gmted_viewer/</cd:FixedValue>
-                    </cd:Attribute>
+                    <cd:Attribute name="source"/>
                     <cd:Attribute name="comment">
                       <cd:FixedValue>The mean of the sub-pixels of the surface altitude above the reference geoid (WGS84) within the approximate field of view, based on the GMTED2010 surface elevation database</cd:FixedValue>
                     </cd:Attribute>
@@ -5078,6 +5834,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>surface altitude precision</cd:FixedValue>
                     </cd:Attribute>
@@ -5099,9 +5861,7 @@
                     <cd:Attribute name="coordinates">
                       <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:FixedValue>http://topotools.cr.usgs.gov/gmted_viewer/</cd:FixedValue>
-                    </cd:Attribute>
+                    <cd:Attribute name="source"/>
                     <cd:Attribute name="comment">
                       <cd:FixedValue>The standard deviation of sub-pixels used in calculating the mean surface altitude above the reference geoid (WGS84) within the approximate field of view, based on the GMTED2010 surface elevation database</cd:FixedValue>
                     </cd:Attribute>
@@ -5124,6 +5884,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
                         <cd:Dimension>1</cd:Dimension>
@@ -5142,9 +5908,7 @@
                     <cd:Attribute name="comment">
                       <cd:FixedValue>flag indicating land/water and further surface classifications for the ground pixel</cd:FixedValue>
                     </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:FixedValue>USGS (http://edc2.usgs.gov/glcc/globdoc2_0.php) and NASA SDP toolkit (http://newsroom.gsfc.nasa.gov/sdptoolkit/toolkit.html)</cd:FixedValue>
-                    </cd:Attribute>
+                    <cd:Attribute name="source"/>
                     <cd:Attribute name="flag_meanings">
                       <cd:FixedValue>land, water, some_water, coast, value_covers_majority_of_pixel, water+shallow_ocean, water+shallow_inland_water, water+ocean_coastline-lake_shoreline, water+intermittent_water, water+deep_inland_water, water+continental_shelf_ocean, water+deep_ocean, land+urban_and_built-up_land, land+dryland_cropland_and_pasture, land+irrigated_cropland_and_pasture, land+mixed_dryland-irrigated_cropland_and_pasture, land+cropland-grassland_mosaic, land+cropland-woodland_mosaic, land+grassland, land+shrubland, land+mixed_shrubland-grassland, land+savanna, land+deciduous_broadleaf_forest, land+deciduous_needleleaf_forest, land+evergreen_broadleaf_forest, land+evergreen_needleleaf_forest, land+mixed_forest, land+herbaceous_wetland, land+wooded_wetland, land+barren_or_sparsely_vegetated, land+herbaceous_tundra, land+wooded_tundra, land+mixed_tundra, land+bare_ground_tundra, land+snow_or_ice</cd:FixedValue>
                     </cd:Attribute>
@@ -5188,6 +5952,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>Pa</cd:FixedValue>
                     </cd:Attribute>
@@ -5196,9 +5966,6 @@
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>surface_air_pressure</cd:FixedValue>
-                    </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:FixedValue> </cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
@@ -5222,6 +5989,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>K</cd:FixedValue>
                     </cd:Attribute>
@@ -5230,9 +6003,6 @@
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
                       <cd:FixedValue>surface_air_temperature</cd:FixedValue>
-                    </cd:Attribute>
-                    <cd:Attribute name="source">
-                      <cd:FixedValue> </cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
                       <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
@@ -5256,6 +6026,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>Pa</cd:FixedValue>
                     </cd:Attribute>
@@ -5277,6 +6053,12 @@
                         </cd:Integer>
                       </cd:Array>
                     </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
                     <cd:Attribute name="units">
                       <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
@@ -5297,6 +6079,12 @@
                           <cd:LittleEndian/>
                         </cd:Integer>
                       </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -5380,6 +6168,12 @@
                 </cd:Integer>
               </cd:Array>
             </cd:Attribute>
+            <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+              <cd:Integer>
+                <cd:NativeType>int32</cd:NativeType>
+                <cd:LittleEndian/>
+              </cd:Integer>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -5392,9 +6186,7 @@
             <cd:Attribute name="long_name">
               <cd:FixedValue>offset from reference start time of measurement</cd:FixedValue>
             </cd:Attribute>
-            <cd:Attribute name="units">
-              <cd:FixedValue>milliseconds since 2024-01-02 00:00:00Z</cd:FixedValue>
-            </cd:Attribute>
+            <cd:Attribute name="units"/>
             <cd:Dimension><![CDATA[$time]]></cd:Dimension>
             <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
             <cd:Integer>
@@ -5413,17 +6205,17 @@
                 </cd:Integer>
               </cd:Array>
             </cd:Attribute>
-            <cd:Attribute name="CLASS">
-              <cd:Text/>
-            </cd:Attribute>
-            <cd:Attribute name="NAME">
-              <cd:Text/>
-            </cd:Attribute>
             <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
               <cd:Integer>
                 <cd:NativeType>int32</cd:NativeType>
                 <cd:LittleEndian/>
               </cd:Integer>
+            </cd:Attribute>
+            <cd:Attribute name="CLASS">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="NAME">
+              <cd:Text/>
             </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
@@ -5462,6 +6254,12 @@
                   <cd:LittleEndian/>
                 </cd:Integer>
               </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+              <cd:Integer>
+                <cd:NativeType>int32</cd:NativeType>
+                <cd:LittleEndian/>
+              </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
               <cd:FixedValue>pixel center latitude</cd:FixedValue>
@@ -5512,17 +6310,17 @@
                 </cd:Integer>
               </cd:Array>
             </cd:Attribute>
-            <cd:Attribute name="CLASS">
-              <cd:Text/>
-            </cd:Attribute>
-            <cd:Attribute name="NAME">
-              <cd:Text/>
-            </cd:Attribute>
             <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
               <cd:Integer>
                 <cd:NativeType>int32</cd:NativeType>
                 <cd:LittleEndian/>
               </cd:Integer>
+            </cd:Attribute>
+            <cd:Attribute name="CLASS">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="NAME">
+              <cd:Text/>
             </cd:Attribute>
             <cd:Attribute name="units">
               <cd:FixedValue>1</cd:FixedValue>
@@ -5546,6 +6344,12 @@
                   <cd:LittleEndian/>
                 </cd:Integer>
               </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+              <cd:Integer>
+                <cd:NativeType>int32</cd:NativeType>
+                <cd:LittleEndian/>
+              </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
               <cd:FixedValue>pixel center longitude</cd:FixedValue>
@@ -5595,6 +6399,12 @@
                   <cd:LittleEndian/>
                 </cd:Integer>
               </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+              <cd:Integer>
+                <cd:NativeType>int32</cd:NativeType>
+                <cd:LittleEndian/>
+              </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
@@ -5723,6 +6533,12 @@
                 </cd:Integer>
               </cd:Array>
             </cd:Attribute>
+            <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+              <cd:Integer>
+                <cd:NativeType>int32</cd:NativeType>
+                <cd:LittleEndian/>
+              </cd:Integer>
+            </cd:Attribute>
             <cd:Attribute name="units">
               <cd:FixedValue>mol m-2</cd:FixedValue>
             </cd:Attribute>
@@ -5771,6 +6587,12 @@
                   <cd:LittleEndian/>
                 </cd:Integer>
               </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+              <cd:Integer>
+                <cd:NativeType>int32</cd:NativeType>
+                <cd:LittleEndian/>
+              </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="units">
               <cd:FixedValue>mol m-2</cd:FixedValue>
