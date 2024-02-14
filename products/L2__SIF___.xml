@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<cd:ProductDefinition id="L2__SIF___" format="hdf5" last-modified="2023-07-13" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<?xml version='1.0' encoding='UTF-8'?>
+<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="L2__SIF___" format="hdf5" last-modified="2024-02-02">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -215,13 +215,13 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>mW/m2/sr/nm</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>retrieved SIF@740 735-758 nm fitting window (for clear-sky analysis only)</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>retrieved SIF@740 (for clear-sky analysis only)</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
               <cd:Integer>
@@ -258,13 +258,13 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>mW/m2/sr/nm</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>retrieved SIF@740 743-758 nm fitting window</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>retrieved SIF@740</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
               <cd:Integer>
@@ -301,13 +301,13 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>mW/m2/sr/nm</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>daylength-corr SIF@740 735-758 nm fitting window</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>daylength-corr SIF@740</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
               <cd:Integer>
@@ -344,13 +344,13 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>mW/m2/sr/nm</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>daylength-corr SIF@740 743-758 nm fitting window</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>daylength-corr SIF@740</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
               <cd:Integer>
@@ -387,13 +387,13 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>mW/m2/sr/nm</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>1-sigma error 735-758 nm fitting window</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>1-sigma SIF retrieval error</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
               <cd:Integer>
@@ -430,13 +430,13 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>mW/m2/sr/nm</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>1-sigma error 743-758 nm fitting window</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>1-sigma SIF retrieval error</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
               <cd:Integer>
@@ -471,10 +471,10 @@
                       <cd:Text/>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Day-length_factor</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Daylength correction factor = int(cosSZA(t)) / cosSZA(tm)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -505,13 +505,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mW/m2/sr/nm</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>TOA Radiance</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Mean TOA Radiance in fitting window</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -542,13 +542,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>mW/m2/sr/nm</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>TOA Radiance</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Mean TOA Radiance in fitting window</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -582,10 +582,10 @@
                       <cd:Text/>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Quality flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Quality flag [0-1]</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -619,10 +619,10 @@
                       <cd:Text/>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Quality flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Quality flag [0-1]</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -656,10 +656,10 @@
                       <cd:Text/>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>TOA Reflectance</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>TOA Reflectance in far-red atmospheric windows</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -682,13 +682,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>nm</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>WVL_RFL</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Spectral points at which TOA_RFL is calculated</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$num_bd_rfl]]></cd:Dimension>
                     <cd:Float>
@@ -711,10 +711,10 @@
                       <cd:Text/>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>reduced CHI2  735-758 nm fitting window</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Reduced Chi^2 value of the fit</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -739,10 +739,10 @@
                       <cd:Text/>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>reduced CHI2 743-758 nm fitting window</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Reduced Chi^2 value of the fit</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -768,10 +768,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Quality assessment information for each ground pixel</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND6_RADIANCE/STANDARD_MODE/GEODATA/longitude /BAND6_RADIANCE/STANDARD_MODE/GEODATA/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -801,10 +801,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>no_error solar_eclipse sun_glint_possible descending night geo_boundary_crossing geolocation_error</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>ground pixel quality flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_max">
                       <cd:Array>
@@ -825,7 +825,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -847,7 +847,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>The four latitude boundaries of each ground pixel.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -859,7 +859,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_north</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -882,7 +882,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>The four longitude boundaries of each ground pixel.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -894,7 +894,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_east</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -917,7 +917,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>The altitude of the spacecraft relative to the WGS84 reference ellipsoid</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -929,7 +929,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>satellite altitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_max">
                       <cd:Array>
@@ -950,7 +950,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -971,7 +971,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Latitude of the spacecraft sub-satellite point on the WGS84 reference ellipsoid</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -983,7 +983,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>sub-satellite latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_max">
                       <cd:Array>
@@ -1004,7 +1004,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_north</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1025,7 +1025,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Longitude of the spacecraft sub-satellite point on the WGS84 reference ellipsoid</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -1055,7 +1055,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_east</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1076,7 +1076,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Relative offset (0.0 ... 1.0) of the measurement in the orbit</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -1088,7 +1088,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>fractional satellite orbit phase</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_max">
                       <cd:Array>
@@ -1109,7 +1109,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1130,10 +1130,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Solar azimuth angle at the ground pixel location on the reference ellipsoid. Angle is measured clockwise from the North (East = +90, South = -+180, West = -90)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>longitude latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -1145,7 +1145,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar azimuth angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_max">
                       <cd:Array>
@@ -1166,10 +1166,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar_azimuth_angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degree</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1191,10 +1191,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Solar zenith angle at the ground pixel location on the reference ellipsoid. Angle is measured away from the vertical. ESA definition of day side: SZA less the 92 degrees</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>longitude latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -1206,10 +1206,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar zenith angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar_zenith_angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_max">
                       <cd:Array>
@@ -1230,7 +1230,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degree</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1252,10 +1252,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Azimuth angle of the satellite at the ground pixel location on the reference ellipsoid. Angle is measured clockwise from the North (East = +90, South = -+180, West = -90)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>longitude latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -1267,13 +1267,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degree</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>viewing azimuth angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>platform_azimuth_angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_max">
                       <cd:Array>
@@ -1313,10 +1313,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Zenith angle of the satellite at the ground pixel location on the reference ellipsoid. Angle is measured away from the vertical.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>longitude latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -1328,7 +1328,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>viewing zenith angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_max">
                       <cd:Array>
@@ -1349,10 +1349,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degree</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>platform_zenith_angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1387,13 +1387,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>([ENF=1, EBF=2, DNF=3, DBF=4, MF=5, CS=6, OS=7, WS=8, S=9, G=10, PW=11, C=12, U=13, CNV=14, SI=15, B=16])</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Land Cover Map (MODIS MCD12C1 2018)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>Land Cover Map</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1424,19 +1424,19 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>effective radiometric cloud fraction</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>cal</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Coregistered effective radiometric cloud fraction using the OCRA/ROCINN CAL model.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension><![CDATA[$time]]></cd:Dimension>
                     <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1491,13 +1491,13 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>Time difference with time for each measurement</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>offset from the reference start time of measurement</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>milliseconds since 2024-01-29 00:00:00</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension><![CDATA[$time]]></cd:Dimension>
             <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
@@ -1530,16 +1530,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>This dimension variable defines the indices across track; index starts at 0</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>across track dimension index</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>X</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
             <cd:Integer>
@@ -1559,7 +1559,7 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>Latitude of the center of each ground pixel on the WGS84  reference ellipsoid</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
@@ -1571,7 +1571,7 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>pixel center latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="valid_max">
               <cd:Array>
@@ -1592,13 +1592,13 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="bounds">
-              <cd:Text/>
+              <cd:FixedValue>/PRODUCT/SUPPORT_DATA/GEOLOCATIONS/latitude_bounds</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>degrees_north</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
               <cd:Integer>
@@ -1626,7 +1626,7 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>Longitude of the center of each ground pixel on the WGS84 reference ellipsoid</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
@@ -1638,7 +1638,7 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>pixel center longitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="valid_max">
               <cd:Array>
@@ -1659,13 +1659,13 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>longitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="bounds">
-              <cd:Text/>
+              <cd:FixedValue>/PRODUCT/SUPPORT_DATA/GEOLOCATIONS/longitude_bounds</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>degrees_east</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
               <cd:Integer>
@@ -1725,16 +1725,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>This dimension variable defines the indices along track; index starts at 0</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>along track dimension index</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>Y</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
             <cd:Integer>
@@ -1766,19 +1766,19 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>Reference time of the measurements. The reference time is set to yyyy-mm-ddT00:00:00 UTC, where yyyy-mm-dd is the day on which the measurements of a particular data granule start.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>reference start time of measurement</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>time</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>seconds since 2010-01-01 00:00:00</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>T</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension><![CDATA[$time]]></cd:Dimension>
             <cd:Integer>

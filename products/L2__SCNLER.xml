@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<cd:ProductDefinition id="L2__SCNLER" format="hdf5" last-modified="2022-05-31" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<?xml version='1.0' encoding='UTF-8'?>
+<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="L2__SCNLER" format="hdf5" last-modified="2024-02-14">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -172,19 +172,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>toa_bidirectional_reflectance</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>band reflectance</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L1B_RA_BD3_20240124T222754_20240125T000925_32554_03_020100_20240125T015156.nc S5P_OFFL_L1B_RA_BD4_20240124T222754_20240125T000925_32554_03_020100_20240125T015156.nc S5P_OFFL_L1B_IR_UVN_20240124T121854_20240124T140024_32548_03_020100_20240124T154916.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -222,10 +222,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>status_flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>spectral channel quality flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -237,7 +237,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>no_error missing bad_pixel processing_error saturated transient rts underflow</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_masks">
                       <cd:Array>
@@ -249,16 +249,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This field is comparable to the spectral channel quality flag in the L1B product, but calculated for the individual wavelength bands.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L1B_RA_BD3_20240124T222754_20240125T000925_32554_03_020100_20240125T015156.nc S5P_OFFL_L1B_RA_BD4_20240124T222754_20240125T000925_32554_03_020100_20240125T015156.nc S5P_OFFL_L1B_IR_UVN_20240124T121854_20240124T140024_32548_03_020100_20240124T154916.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -266,6 +266,76 @@
                     <cd:Dimension>13</cd:Dimension>
                     <cd:Integer>
                       <cd:NativeType>uint8</cd:NativeType>
+                    </cd:Integer>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="cloud_shadow_flag">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:FixedValue>status_flag</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:FixedValue>cloud shadow flag</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_values">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint16</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_meanings">
+                      <cd:FixedValue>no_cloud_shadow pcsf_set scsf_set_494 undetermined</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_masks">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint16</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:FixedValue>This flag contains the geometry-based potential cloud shadow flag (PCSF), which is derived from the the viewing and solar angles, cloud fraction, and cloud height, and the spectral cloud shadow flag (SCSF), which is a subset of the PCSF and which is based on the contrast parameter Gamma. The SCSF is calculated for 494 nm.</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:FixedValue>1</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4172</cd:Dimension>
+                    <cd:Dimension>450</cd:Dimension>
+                    <cd:Integer>
+                      <cd:NativeType>uint32</cd:NativeType>
                     </cd:Integer>
                   </cd:Array>
                 </cd:Field>
@@ -300,10 +370,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>status_flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>ground pixel quality flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -315,7 +385,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>no_error solar_eclipse sun_glint_possible descending night geo_boundary_crossing geolocation_error</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_masks">
                       <cd:Array>
@@ -327,13 +397,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -370,13 +440,13 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>latitudes of the four corners of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -397,7 +467,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_north</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -436,13 +506,13 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>longitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>longitudes of the four corners of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -463,59 +533,12 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_east</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
                     <cd:Dimension>450</cd:Dimension>
                     <cd:Dimension>4</cd:Dimension>
-                    <cd:Float>
-                      <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
-                    </cd:Float>
-                  </cd:Array>
-                </cd:Field>
-                <cd:Field name="relative_azimuth_angle">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="FillValue" real_name="_FillValue">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Float>
-                          <cd:NativeType>float</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Float>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
-                      <cd:Integer>
-                        <cd:NativeType>int32</cd:NativeType>
-                        <cd:LittleEndian/>
-                      </cd:Integer>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="comment">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -549,10 +572,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>satellite altitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>The altitude of the satellite with respect to the geodetic sub-satellite point on the WGS84 reference ellipsoid. This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -573,7 +596,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -610,10 +633,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>sub-satellite latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Latitude of the geodetic sub-satellite point on the WGS84 reference ellipsoid. This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -634,7 +657,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_north</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -671,10 +694,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>sub-satellite longitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Longitude of the geodetic sub-satellite point on the WGS84 reference ellipsoid. This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -695,7 +718,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_east</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -732,10 +755,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>fractional satellite orbit phase</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Relative offset [0.0, ..., 1.0] of the measurement in the orbit. This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -756,7 +779,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -793,10 +816,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar azimuth angle of the centre of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -817,10 +840,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -858,13 +881,13 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar_zenith_angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar zenith angle of the centre of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -885,10 +908,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -926,10 +949,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>viewing azimuth angle of the centre of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -950,10 +973,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -991,13 +1014,13 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>sensor_zenith_angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>viewing zenith angle of the centre of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -1018,10 +1041,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -1063,7 +1086,7 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>absorbing aerosol index retrieved from the 354/388-nm wavelength pair</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="radiation_wavelength">
                       <cd:Array>
@@ -1075,13 +1098,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__AER_AI_20240124T222754_20240125T000925_32554_03_020600_20240126T121413.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -1118,16 +1141,16 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>height at the centre of the aerosol layer</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__AER_LH_20240124T222754_20240125T000925_32554_03_020600_20240126T143017.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -1164,117 +1187,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>atmosphere_mole_content_of_carbon_monoxide</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>total carbonmonoxide column</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__CO_____20240124T222754_20240125T000925_32554_03_020600_20240126T121410.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
-                    <cd:Float>
-                      <cd:NativeType>float</cd:NativeType>
-                    </cd:Float>
-                  </cd:Array>
-                </cd:Field>
-                <cd:Field name="cloud_fraction">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="FillValue" real_name="_FillValue">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Float>
-                          <cd:NativeType>float</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Float>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
-                      <cd:Integer>
-                        <cd:NativeType>int32</cd:NativeType>
-                        <cd:LittleEndian/>
-                      </cd:Integer>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="comment">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="origin">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>450</cd:Dimension>
-                    <cd:Float>
-                      <cd:NativeType>float</cd:NativeType>
-                    </cd:Float>
-                  </cd:Array>
-                </cd:Field>
-                <cd:Field name="cloud_height">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="FillValue" real_name="_FillValue">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Float>
-                          <cd:NativeType>float</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Float>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
-                      <cd:Integer>
-                        <cd:NativeType>int32</cd:NativeType>
-                        <cd:LittleEndian/>
-                      </cd:Integer>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="comment">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="origin">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>molecules per cm2</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -1311,19 +1236,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>geometrical cloud fraction determined from NPP-VIIRS observations (NOMINAL)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This geometrical cloud fraction is based on the smallest relative footprint size (scale factor 1.0). The definition used is: gcf = (conf_cloudy + prob_cloudy) / (conf_cloudy + prob_cloudy + conf_clear + prob_clear).</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__NP_BD3_20240124T222754_20240125T000925_32554_03_020000_20240126T121410.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -1360,19 +1285,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>geometrical cloud fraction determined from NPP-VIIRS observations (RELAXED)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This geometrical cloud fraction is based on the smallest relative footprint size (scale factor 1.0). The definition used is: gcf = conf_cloudy / (conf_cloudy + prob_cloudy + conf_clear + prob_clear).</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__NP_BD3_20240124T222754_20240125T000925_32554_03_020000_20240126T121410.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -1409,19 +1334,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>geometrical cloud fraction determined from NPP-VIIRS observations (STRICT)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This geometrical cloud fraction is based on the largest relative footprint size (scale factor 2.0). The definition used is: gcf = (conf_cloudy + prob_cloudy) / (conf_cloudy + prob_cloudy + conf_clear + prob_clear).</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__NP_BD3_20240124T222754_20240125T000925_32554_03_020000_20240126T121410.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -1458,22 +1383,22 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>atmosphere_mole_content_of_ozone</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>total ozone column from ECMWF model data</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>DU = Dobson unit, 2.687E16 molecules per cm2.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__AER_AI_20240124T222754_20240125T000925_32554_03_020600_20240126T121413.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>DU</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -1510,10 +1435,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>status_flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>snow/ice information based on ECMWF information presented in NISE format</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -1525,16 +1450,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>snow-free_land sea_ice_1_percent sea_ice_2_percent sea_ice_3_percent sea_ice_4_percent sea_ice_5_percent sea_ice_6_percent sea_ice_7_percent sea_ice_8_percent sea_ice_9_percent sea_ice_10_percent sea_ice_11_percent sea_ice_12_percent sea_ice_13_percent sea_ice_14_percent sea_ice_15_percent sea_ice_16_percent sea_ice_17_percent sea_ice_18_percent sea_ice_19_percent sea_ice_20_percent sea_ice_21_percent sea_ice_22_percent sea_ice_23_percent sea_ice_24_percent sea_ice_25_percent sea_ice_26_percent sea_ice_27_percent sea_ice_28_percent sea_ice_29_percent sea_ice_30_percent sea_ice_31_percent sea_ice_32_percent sea_ice_33_percent sea_ice_34_percent sea_ice_35_percent sea_ice_36_percent sea_ice_37_percent sea_ice_38_percent sea_ice_39_percent sea_ice_40_percent sea_ice_41_percent sea_ice_42_percent sea_ice_43_percent sea_ice_44_percent sea_ice_45_percent sea_ice_46_percent sea_ice_47_percent sea_ice_48_percent sea_ice_49_percent sea_ice_50_percent sea_ice_51_percent sea_ice_52_percent sea_ice_53_percent sea_ice_54_percent sea_ice_55_percent sea_ice_56_percent sea_ice_57_percent sea_ice_58_percent sea_ice_59_percent sea_ice_60_percent sea_ice_61_percent sea_ice_62_percent sea_ice_63_percent sea_ice_64_percent sea_ice_65_percent sea_ice_66_percent sea_ice_67_percent sea_ice_68_percent sea_ice_69_percent sea_ice_70_percent sea_ice_71_percent sea_ice_72_percent sea_ice_73_percent sea_ice_74_percent sea_ice_75_percent sea_ice_76_percent sea_ice_77_percent sea_ice_78_percent sea_ice_79_percent sea_ice_80_percent sea_ice_81_percent sea_ice_82_percent sea_ice_83_percent sea_ice_84_percent sea_ice_85_percent sea_ice_86_percent sea_ice_87_percent sea_ice_88_percent sea_ice_89_percent sea_ice_90_percent sea_ice_91_percent sea_ice_92_percent sea_ice_93_percent sea_ice_94_percent sea_ice_95_percent sea_ice_96_percent sea_ice_97_percent sea_ice_98_percent sea_ice_99_percent sea_ice_100_percent permanent_ice snow mixed_pixels_at_coastlines suspect_ice_value undefined ocean</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__NO2____20240124T222754_20240125T000925_32554_03_020600_20240126T143018.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -1571,19 +1496,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface_altitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface elevation in meters above sea level, based on GMTED2010</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__AER_AI_20240124T222754_20240125T000925_32554_03_020600_20240126T121413.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -1620,10 +1545,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>status_flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>land-water mask and surface classification based on a static database</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -1635,7 +1560,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>land water some_water coast value_covers_majority_of_pixel water+shallow_ocean water+shallow_inland_water water+ocean_coastline-lake_shoreline water+intermittent_water water+deep_inland_water water+continental_shelf_ocean water+deep_ocean land+urban_and_built-up_land land+dryland_cropland_and_pasture land+irrigated_cropland_and_pasture land+mixed_dryland-irrigated_cropland_and_pasture land+cropland-grassland_mosaic land+cropland-woodland_mosaic land+grassland land+shrubland land+mixed_shrubland-grassland land+savanna land+deciduous_broadleaf_forest land+deciduous_needleleaf_forest land+evergreen_broadleaf_forest land+evergreen_needleleaf_forest land+mixed_forest land+herbaceous_wetland land+wooded_wetland land+barren_or_sparsely_vegetated land+herbaceous_tundra land+wooded_tundra land+mixed_tundra land+bare_ground_tundra land+snow_or_ice</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_masks">
                       <cd:Array>
@@ -1647,19 +1572,19 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Flag indicating land/water and further surface classifications for the ground pixel.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>https://topotools.cr.usgs.gov/gmted_viewer/viewer.htm</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__AER_AI_20240124T222754_20240125T000925_32554_03_020600_20240126T121413.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -1696,19 +1621,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface_air_pressure</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface air pressure</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__AER_AI_20240124T222754_20240125T000925_32554_03_020600_20240126T121413.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>Pa</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -1745,19 +1670,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>wind_speed</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>wind speed from ECMWF at 10 meter height level</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__AER_AI_20240124T222754_20240125T000925_32554_03_020600_20240126T121413.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m s-1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -1786,13 +1711,13 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>pixel corner index</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>This coordinate variable defines the indices for the pixel corners; index starts at 0 (counter-clockwise, starting from south-western corner of the pixel in ascending part of the orbit.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>4</cd:Dimension>
             <cd:Integer>
@@ -1827,16 +1752,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>time</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>offset from the reference start time of measurement</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>The reference start time is the start of the day.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>milliseconds since 2024-01-24 00:00:00</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -1860,16 +1785,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>across-track dimension index</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>This dimension variable defines the indices across-track; index starts at 0.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>X</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>450</cd:Dimension>
             <cd:Integer>
@@ -1904,10 +1829,10 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>latitude of the centre of the satellite footprint</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="valid_min">
               <cd:Array>
@@ -1928,10 +1853,10 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="bounds">
-              <cd:Text/>
+              <cd:FixedValue>/BAND34_PRODUCT/SUPPORT_DATA/GEOLOCATIONS/latitude_bounds</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>degrees_north</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -1969,10 +1894,10 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>longitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>longitude of the centre of the satellite footprint</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="valid_min">
               <cd:Array>
@@ -1993,10 +1918,10 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="bounds">
-              <cd:Text/>
+              <cd:FixedValue>/BAND34_PRODUCT/SUPPORT_DATA/GEOLOCATIONS/longitude_bounds</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>degrees_east</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -2022,16 +1947,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>along-track dimension index</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>This dimension variable defines the indices along-track; index starts at 0.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>Y</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>4172</cd:Dimension>
             <cd:Integer>
@@ -2066,16 +1991,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>scene LER</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>The scene LER must not be used as surface reflectivity unless the scene is absolutely cloud-free and aerosol-free.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="coordinates">
-              <cd:Text/>
+              <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -2113,16 +2038,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>scene LER precision</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>See section 9.3.1 in the TROPOMI surface DLER ATBD (S5P-KNMI-L3-0301-RP).</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="coordinates">
-              <cd:Text/>
+              <cd:FixedValue>/BAND34_PRODUCT/longitude /BAND34_PRODUCT/latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -2157,19 +2082,19 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>time</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>reference time for the measurements</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>The time in this variable corresponds to the time in the time_reference global attribute.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>T</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>seconds since 2010-01-01 00:00:00</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Integer>
@@ -2195,13 +2120,13 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>time</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="origin">
-              <cd:Text/>
+              <cd:FixedValue>S5P_OFFL_L2__AER_AI_20240124T222754_20240125T000925_32554_03_020600_20240126T121413.nc</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>time of observation as ISO 8601 date-time string</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -2223,13 +2148,13 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>radiation_wavelength</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>central wavelength of each wavelength band</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>nm</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>13</cd:Dimension>
             <cd:Float>
@@ -2246,10 +2171,10 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>width of each wavelength band</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>nm</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>13</cd:Dimension>
             <cd:Float>
@@ -2292,19 +2217,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>toa_bidirectional_reflectance</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>band reflectance</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L1B_RA_BD5_20240124T222754_20240125T000925_32554_03_020100_20240125T015156.nc S5P_OFFL_L1B_RA_BD6_20240124T222754_20240125T000925_32554_03_020100_20240125T015156.nc S5P_OFFL_L1B_IR_UVN_20240124T121854_20240124T140024_32548_03_020100_20240124T154916.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -2342,10 +2267,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>status_flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>spectral channel quality flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -2357,7 +2282,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>no_error missing bad_pixel processing_error saturated transient rts underflow</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_masks">
                       <cd:Array>
@@ -2369,16 +2294,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This field is comparable to the spectral channel quality flag in the L1B product, but calculated for the individual wavelength bands.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L1B_RA_BD5_20240124T222754_20240125T000925_32554_03_020100_20240125T015156.nc S5P_OFFL_L1B_RA_BD6_20240124T222754_20240125T000925_32554_03_020100_20240125T015156.nc S5P_OFFL_L1B_IR_UVN_20240124T121854_20240124T140024_32548_03_020100_20240124T154916.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -2386,6 +2311,76 @@
                     <cd:Dimension>7</cd:Dimension>
                     <cd:Integer>
                       <cd:NativeType>uint8</cd:NativeType>
+                    </cd:Integer>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="cloud_shadow_flag">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:FixedValue>status_flag</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:FixedValue>cloud shadow flag</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_values">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint16</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_meanings">
+                      <cd:FixedValue>no_cloud_shadow pcsf_set scsf_set_772 undetermined</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_masks">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint16</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:FixedValue>This flag contains the geometry-based potential cloud shadow flag (PCSF), which is derived from the the viewing and solar angles, cloud fraction, and cloud height, and the spectral cloud shadow flag (SCSF), which is a subset of the PCSF and which is based on the contrast parameter Gamma. The SCSF is calculated for 772.0 nm.</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:FixedValue>1</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4172</cd:Dimension>
+                    <cd:Dimension>448</cd:Dimension>
+                    <cd:Integer>
+                      <cd:NativeType>uint32</cd:NativeType>
                     </cd:Integer>
                   </cd:Array>
                 </cd:Field>
@@ -2420,10 +2415,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>status_flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>ground pixel quality flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -2435,7 +2430,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>no_error solar_eclipse sun_glint_possible descending night geo_boundary_crossing geolocation_error</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_masks">
                       <cd:Array>
@@ -2447,13 +2442,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -2490,13 +2485,13 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>latitudes of the four corners of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -2517,7 +2512,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_north</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -2556,13 +2551,13 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>longitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>longitudes of the four corners of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -2583,59 +2578,12 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_east</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
                     <cd:Dimension>448</cd:Dimension>
                     <cd:Dimension>4</cd:Dimension>
-                    <cd:Float>
-                      <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
-                    </cd:Float>
-                  </cd:Array>
-                </cd:Field>
-                <cd:Field name="relative_azimuth_angle">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="FillValue" real_name="_FillValue">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Float>
-                          <cd:NativeType>float</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Float>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
-                      <cd:Integer>
-                        <cd:NativeType>int32</cd:NativeType>
-                        <cd:LittleEndian/>
-                      </cd:Integer>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="comment">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -2669,10 +2617,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>satellite altitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>The altitude of the satellite with respect to the geodetic sub-satellite point on the WGS84 reference ellipsoid. This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -2693,7 +2641,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -2730,10 +2678,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>sub-satellite latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Latitude of the geodetic sub-satellite point on the WGS84 reference ellipsoid. This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -2754,7 +2702,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_north</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -2791,10 +2739,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>sub-satellite longitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Longitude of the geodetic sub-satellite point on the WGS84 reference ellipsoid. This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -2815,7 +2763,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_east</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -2852,10 +2800,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>fractional satellite orbit phase</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Relative offset [0.0, ..., 1.0] of the measurement in the orbit. This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -2876,7 +2824,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -2913,10 +2861,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar azimuth angle of the centre of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -2937,10 +2885,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -2978,13 +2926,13 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar_zenith_angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar zenith angle of the centre of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -3005,10 +2953,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -3046,10 +2994,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>viewing azimuth angle of the centre of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -3070,10 +3018,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -3111,13 +3059,13 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>sensor_zenith_angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>viewing zenith angle of the centre of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -3138,10 +3086,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -3183,7 +3131,7 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>absorbing aerosol index retrieved from the 354/388-nm wavelength pair</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="radiation_wavelength">
                       <cd:Array>
@@ -3195,111 +3143,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__AER_AI_20240124T222754_20240125T000925_32554_03_020600_20240126T121413.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
-                    <cd:Float>
-                      <cd:NativeType>float</cd:NativeType>
-                    </cd:Float>
-                  </cd:Array>
-                </cd:Field>
-                <cd:Field name="cloud_fraction">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="FillValue" real_name="_FillValue">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Float>
-                          <cd:NativeType>float</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Float>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
-                      <cd:Integer>
-                        <cd:NativeType>int32</cd:NativeType>
-                        <cd:LittleEndian/>
-                      </cd:Integer>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="comment">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="origin">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>448</cd:Dimension>
-                    <cd:Float>
-                      <cd:NativeType>float</cd:NativeType>
-                    </cd:Float>
-                  </cd:Array>
-                </cd:Field>
-                <cd:Field name="cloud_height">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="FillValue" real_name="_FillValue">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Float>
-                          <cd:NativeType>float</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Float>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
-                      <cd:Integer>
-                        <cd:NativeType>int32</cd:NativeType>
-                        <cd:LittleEndian/>
-                      </cd:Integer>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="comment">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="origin">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -3336,19 +3186,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>geometrical cloud fraction determined from NPP-VIIRS observations (NOMINAL)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This geometrical cloud fraction is based on the smallest relative footprint size (scale factor 1.0). The definition used is: gcf = (conf_cloudy + prob_cloudy) / (conf_cloudy + prob_cloudy + conf_clear + prob_clear).</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__NP_BD6_20240124T222754_20240125T000925_32554_03_020000_20240126T121410.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -3385,19 +3235,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>geometrical cloud fraction determined from NPP-VIIRS observations (RELAXED)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This geometrical cloud fraction is based on the smallest relative footprint size (scale factor 1.0). The definition used is: gcf = conf_cloudy / (conf_cloudy + prob_cloudy + conf_clear + prob_clear).</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__NP_BD6_20240124T222754_20240125T000925_32554_03_020000_20240126T121410.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -3434,19 +3284,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>geometrical cloud fraction determined from NPP-VIIRS observations (STRICT)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This geometrical cloud fraction is based on the largest relative footprint size (scale factor 2.0). The definition used is: gcf = (conf_cloudy + prob_cloudy) / (conf_cloudy + prob_cloudy + conf_clear + prob_clear).</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__NP_BD6_20240124T222754_20240125T000925_32554_03_020000_20240126T121410.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -3483,22 +3333,22 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>atmosphere_mole_content_of_ozone</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>total ozone column from ECMWF model data</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>DU = Dobson unit, 2.687E16 molecules per cm2.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__AER_AI_20240124T222754_20240125T000925_32554_03_020600_20240126T121413.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>DU</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -3535,10 +3385,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>status_flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>snow/ice information based on ECMWF information presented in NISE format</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -3550,16 +3400,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>snow-free_land sea_ice_1_percent sea_ice_2_percent sea_ice_3_percent sea_ice_4_percent sea_ice_5_percent sea_ice_6_percent sea_ice_7_percent sea_ice_8_percent sea_ice_9_percent sea_ice_10_percent sea_ice_11_percent sea_ice_12_percent sea_ice_13_percent sea_ice_14_percent sea_ice_15_percent sea_ice_16_percent sea_ice_17_percent sea_ice_18_percent sea_ice_19_percent sea_ice_20_percent sea_ice_21_percent sea_ice_22_percent sea_ice_23_percent sea_ice_24_percent sea_ice_25_percent sea_ice_26_percent sea_ice_27_percent sea_ice_28_percent sea_ice_29_percent sea_ice_30_percent sea_ice_31_percent sea_ice_32_percent sea_ice_33_percent sea_ice_34_percent sea_ice_35_percent sea_ice_36_percent sea_ice_37_percent sea_ice_38_percent sea_ice_39_percent sea_ice_40_percent sea_ice_41_percent sea_ice_42_percent sea_ice_43_percent sea_ice_44_percent sea_ice_45_percent sea_ice_46_percent sea_ice_47_percent sea_ice_48_percent sea_ice_49_percent sea_ice_50_percent sea_ice_51_percent sea_ice_52_percent sea_ice_53_percent sea_ice_54_percent sea_ice_55_percent sea_ice_56_percent sea_ice_57_percent sea_ice_58_percent sea_ice_59_percent sea_ice_60_percent sea_ice_61_percent sea_ice_62_percent sea_ice_63_percent sea_ice_64_percent sea_ice_65_percent sea_ice_66_percent sea_ice_67_percent sea_ice_68_percent sea_ice_69_percent sea_ice_70_percent sea_ice_71_percent sea_ice_72_percent sea_ice_73_percent sea_ice_74_percent sea_ice_75_percent sea_ice_76_percent sea_ice_77_percent sea_ice_78_percent sea_ice_79_percent sea_ice_80_percent sea_ice_81_percent sea_ice_82_percent sea_ice_83_percent sea_ice_84_percent sea_ice_85_percent sea_ice_86_percent sea_ice_87_percent sea_ice_88_percent sea_ice_89_percent sea_ice_90_percent sea_ice_91_percent sea_ice_92_percent sea_ice_93_percent sea_ice_94_percent sea_ice_95_percent sea_ice_96_percent sea_ice_97_percent sea_ice_98_percent sea_ice_99_percent sea_ice_100_percent permanent_ice snow mixed_pixels_at_coastlines suspect_ice_value undefined ocean</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__FRESCO_20240124T222754_20240125T000925_32554_03_020600_20240126T121412.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -3596,19 +3446,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface_altitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface elevation in meters above sea level, based on GMTED2010</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__FRESCO_20240124T222754_20240125T000925_32554_03_020600_20240126T121412.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -3645,10 +3495,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>status_flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>land-water mask and surface classification based on a static database</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -3660,7 +3510,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>land water some_water coast value_covers_majority_of_pixel water+shallow_ocean water+shallow_inland_water water+ocean_coastline-lake_shoreline water+intermittent_water water+deep_inland_water water+continental_shelf_ocean water+deep_ocean land+urban_and_built-up_land land+dryland_cropland_and_pasture land+irrigated_cropland_and_pasture land+mixed_dryland-irrigated_cropland_and_pasture land+cropland-grassland_mosaic land+cropland-woodland_mosaic land+grassland land+shrubland land+mixed_shrubland-grassland land+savanna land+deciduous_broadleaf_forest land+deciduous_needleleaf_forest land+evergreen_broadleaf_forest land+evergreen_needleleaf_forest land+mixed_forest land+herbaceous_wetland land+wooded_wetland land+barren_or_sparsely_vegetated land+herbaceous_tundra land+wooded_tundra land+mixed_tundra land+bare_ground_tundra land+snow_or_ice</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_masks">
                       <cd:Array>
@@ -3672,19 +3522,19 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Flag indicating land/water and further surface classifications for the ground pixel.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>https://topotools.cr.usgs.gov/gmted_viewer/viewer.htm</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__FRESCO_20240124T222754_20240125T000925_32554_03_020600_20240126T121412.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -3713,13 +3563,13 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>pixel corner index</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>This coordinate variable defines the indices for the pixel corners; index starts at 0 (counter-clockwise, starting from south-western corner of the pixel in ascending part of the orbit.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>4</cd:Dimension>
             <cd:Integer>
@@ -3754,16 +3604,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>time</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>offset from the reference start time of measurement</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>The reference start time is the start of the day.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>milliseconds since 2024-01-24 00:00:00</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -3787,16 +3637,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>across-track dimension index</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>This dimension variable defines the indices across-track; index starts at 0.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>X</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>448</cd:Dimension>
             <cd:Integer>
@@ -3831,10 +3681,10 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>latitude of the centre of the satellite footprint</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="valid_min">
               <cd:Array>
@@ -3855,10 +3705,10 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="bounds">
-              <cd:Text/>
+              <cd:FixedValue>/BAND56_PRODUCT/SUPPORT_DATA/GEOLOCATIONS/latitude_bounds</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>degrees_north</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -3896,10 +3746,10 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>longitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>longitude of the centre of the satellite footprint</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="valid_min">
               <cd:Array>
@@ -3920,10 +3770,10 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="bounds">
-              <cd:Text/>
+              <cd:FixedValue>/BAND56_PRODUCT/SUPPORT_DATA/GEOLOCATIONS/longitude_bounds</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>degrees_east</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -3949,16 +3799,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>along-track dimension index</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>This dimension variable defines the indices along-track; index starts at 0.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>Y</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>4172</cd:Dimension>
             <cd:Integer>
@@ -3993,16 +3843,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>scene LER</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>The scene LER must not be used as surface reflectivity unless the scene is absolutely cloud-free and aerosol-free.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="coordinates">
-              <cd:Text/>
+              <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -4040,16 +3890,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>scene LER precision</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>See section 9.3.1 in the TROPOMI surface DLER ATBD (S5P-KNMI-L3-0301-RP).</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="coordinates">
-              <cd:Text/>
+              <cd:FixedValue>/BAND56_PRODUCT/longitude /BAND56_PRODUCT/latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -4084,19 +3934,19 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>time</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>reference time for the measurements</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>The time in this variable corresponds to the time in the time_reference global attribute.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>T</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>seconds since 2010-01-01 00:00:00</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Integer>
@@ -4122,13 +3972,13 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>time</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="origin">
-              <cd:Text/>
+              <cd:FixedValue>S5P_OFFL_L2__FRESCO_20240124T222754_20240125T000925_32554_03_020600_20240126T121412.nc</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>time of observation as ISO 8601 date-time string</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -4150,13 +4000,13 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>radiation_wavelength</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>central wavelength of each wavelength band</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>nm</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>7</cd:Dimension>
             <cd:Float>
@@ -4173,10 +4023,10 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>width of each wavelength band</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>nm</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>7</cd:Dimension>
             <cd:Float>
@@ -4219,19 +4069,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>toa_bidirectional_reflectance</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>band reflectance</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L1B_RA_BD7_20240124T222754_20240125T000925_32554_03_020100_20240125T015156.nc S5P_OFFL_L1B_IR_SIR_20240124T121854_20240124T140024_32548_03_020100_20240124T154916.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -4269,10 +4119,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>status_flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>spectral channel quality flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -4284,7 +4134,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>no_error missing bad_pixel processing_error saturated transient rts underflow</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_masks">
                       <cd:Array>
@@ -4296,16 +4146,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This field is comparable to the spectral channel quality flag in the L1B product, but calculated for the individual wavelength bands.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L1B_RA_BD7_20240124T222754_20240125T000925_32554_03_020100_20240125T015156.nc S5P_OFFL_L1B_IR_SIR_20240124T121854_20240124T140024_32548_03_020100_20240124T154916.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -4313,6 +4163,76 @@
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Integer>
                       <cd:NativeType>uint8</cd:NativeType>
+                    </cd:Integer>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="cloud_shadow_flag">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+                      <cd:Integer>
+                        <cd:NativeType>int32</cd:NativeType>
+                        <cd:LittleEndian/>
+                      </cd:Integer>
+                    </cd:Attribute>
+                    <cd:Attribute name="standard_name">
+                      <cd:FixedValue>status_flag</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:FixedValue>cloud shadow flag</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_values">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint16</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_meanings">
+                      <cd:FixedValue>no_cloud_shadow pcsf_set scsf_set_2314 undetermined</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="flag_masks">
+                      <cd:Array>
+                        <cd:Dimension>4</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>uint16</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:FixedValue>This flag contains the geometry-based potential cloud shadow flag (PCSF), which is derived from the the viewing and solar angles, cloud fraction, and cloud height, and the spectral cloud shadow flag (SCSF), which is a subset of the PCSF and which is based on the contrast parameter Gamma. The SCSF is calculated for 2314 nm.</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:FixedValue>1</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Dimension>1</cd:Dimension>
+                    <cd:Dimension>4172</cd:Dimension>
+                    <cd:Dimension>215</cd:Dimension>
+                    <cd:Integer>
+                      <cd:NativeType>uint32</cd:NativeType>
                     </cd:Integer>
                   </cd:Array>
                 </cd:Field>
@@ -4347,10 +4267,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>status_flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>ground pixel quality flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -4362,7 +4282,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>no_error solar_eclipse sun_glint_possible descending night geo_boundary_crossing geolocation_error</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_masks">
                       <cd:Array>
@@ -4374,13 +4294,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -4417,13 +4337,13 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>latitudes of the four corners of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -4444,7 +4364,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_north</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -4483,13 +4403,13 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>longitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>longitudes of the four corners of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -4510,59 +4430,12 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_east</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
                     <cd:Dimension>215</cd:Dimension>
                     <cd:Dimension>4</cd:Dimension>
-                    <cd:Float>
-                      <cd:NativeType>float</cd:NativeType>
-                      <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
-                    </cd:Float>
-                  </cd:Array>
-                </cd:Field>
-                <cd:Field name="relative_azimuth_angle">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="FillValue" real_name="_FillValue">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Float>
-                          <cd:NativeType>float</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Float>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
-                      <cd:Integer>
-                        <cd:NativeType>int32</cd:NativeType>
-                        <cd:LittleEndian/>
-                      </cd:Integer>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="comment">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>215</cd:Dimension>
                     <cd:Float>
                       <cd:NativeType>float</cd:NativeType>
                       <cd:Conversion numerator="1" denominator="1" invalid="9.96921e+36"/>
@@ -4596,10 +4469,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>satellite altitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>The altitude of the satellite with respect to the geodetic sub-satellite point on the WGS84 reference ellipsoid. This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -4620,7 +4493,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -4657,10 +4530,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>sub-satellite latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Latitude of the geodetic sub-satellite point on the WGS84 reference ellipsoid. This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -4681,7 +4554,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_north</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -4718,10 +4591,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>sub-satellite longitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Longitude of the geodetic sub-satellite point on the WGS84 reference ellipsoid. This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -4742,7 +4615,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees_east</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -4779,10 +4652,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>fractional satellite orbit phase</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Relative offset [0.0, ..., 1.0] of the measurement in the orbit. This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -4803,7 +4676,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -4840,10 +4713,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar azimuth angle of the centre of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -4864,10 +4737,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -4905,13 +4778,13 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar_zenith_angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>solar zenith angle of the centre of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -4932,10 +4805,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -4973,10 +4846,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>viewing azimuth angle of the centre of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -4997,10 +4870,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -5038,13 +4911,13 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>sensor_zenith_angle</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>viewing zenith angle of the centre of the satellite footprint</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This variable was copied from the L1B product.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -5065,10 +4938,10 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>degrees</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -5110,7 +4983,7 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>absorbing aerosol index retrieved from the 354/388-nm wavelength pair</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="radiation_wavelength">
                       <cd:Array>
@@ -5122,111 +4995,13 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__AER_AI_20240124T222754_20240125T000925_32554_03_020600_20240126T121413.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>215</cd:Dimension>
-                    <cd:Float>
-                      <cd:NativeType>float</cd:NativeType>
-                    </cd:Float>
-                  </cd:Array>
-                </cd:Field>
-                <cd:Field name="cloud_fraction">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="FillValue" real_name="_FillValue">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Float>
-                          <cd:NativeType>float</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Float>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
-                      <cd:Integer>
-                        <cd:NativeType>int32</cd:NativeType>
-                        <cd:LittleEndian/>
-                      </cd:Integer>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="comment">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="origin">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>215</cd:Dimension>
-                    <cd:Float>
-                      <cd:NativeType>float</cd:NativeType>
-                    </cd:Float>
-                  </cd:Array>
-                </cd:Field>
-                <cd:Field name="cloud_height">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="FillValue" real_name="_FillValue">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Float>
-                          <cd:NativeType>float</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Float>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
-                      <cd:Integer>
-                        <cd:NativeType>int32</cd:NativeType>
-                        <cd:LittleEndian/>
-                      </cd:Integer>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="comment">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="origin">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -5263,19 +5038,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>geometrical cloud fraction determined from NPP-VIIRS observations (NOMINAL)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This geometrical cloud fraction is based on the smallest relative footprint size (scale factor 1.0). The definition used is: gcf = (conf_cloudy + prob_cloudy) / (conf_cloudy + prob_cloudy + conf_clear + prob_clear).</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__NP_BD7_20240124T222754_20240125T000925_32554_03_020000_20240126T121410.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -5312,19 +5087,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>geometrical cloud fraction determined from NPP-VIIRS observations (RELAXED)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This geometrical cloud fraction is based on the smallest relative footprint size (scale factor 1.0). The definition used is: gcf = conf_cloudy / (conf_cloudy + prob_cloudy + conf_clear + prob_clear).</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__NP_BD7_20240124T222754_20240125T000925_32554_03_020000_20240126T121410.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -5361,71 +5136,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>geometrical cloud fraction determined from NPP-VIIRS observations (STRICT)</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>This geometrical cloud fraction is based on the largest relative footprint size (scale factor 2.0). The definition used is: gcf = (conf_cloudy + prob_cloudy) / (conf_cloudy + prob_cloudy + conf_clear + prob_clear).</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__NP_BD7_20240124T222754_20240125T000925_32554_03_020000_20240126T121410.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Dimension>1</cd:Dimension>
-                    <cd:Dimension>4172</cd:Dimension>
-                    <cd:Dimension>215</cd:Dimension>
-                    <cd:Float>
-                      <cd:NativeType>float</cd:NativeType>
-                    </cd:Float>
-                  </cd:Array>
-                </cd:Field>
-                <cd:Field name="ozone_column">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="FillValue" real_name="_FillValue">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Float>
-                          <cd:NativeType>float</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Float>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
-                      <cd:Integer>
-                        <cd:NativeType>int32</cd:NativeType>
-                        <cd:LittleEndian/>
-                      </cd:Integer>
-                    </cd:Attribute>
-                    <cd:Attribute name="standard_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="comment">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="origin">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -5462,10 +5185,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>status_flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>snow/ice information based on ECMWF information presented in NISE format</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -5477,16 +5200,16 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>snow-free_land sea_ice_1_percent sea_ice_2_percent sea_ice_3_percent sea_ice_4_percent sea_ice_5_percent sea_ice_6_percent sea_ice_7_percent sea_ice_8_percent sea_ice_9_percent sea_ice_10_percent sea_ice_11_percent sea_ice_12_percent sea_ice_13_percent sea_ice_14_percent sea_ice_15_percent sea_ice_16_percent sea_ice_17_percent sea_ice_18_percent sea_ice_19_percent sea_ice_20_percent sea_ice_21_percent sea_ice_22_percent sea_ice_23_percent sea_ice_24_percent sea_ice_25_percent sea_ice_26_percent sea_ice_27_percent sea_ice_28_percent sea_ice_29_percent sea_ice_30_percent sea_ice_31_percent sea_ice_32_percent sea_ice_33_percent sea_ice_34_percent sea_ice_35_percent sea_ice_36_percent sea_ice_37_percent sea_ice_38_percent sea_ice_39_percent sea_ice_40_percent sea_ice_41_percent sea_ice_42_percent sea_ice_43_percent sea_ice_44_percent sea_ice_45_percent sea_ice_46_percent sea_ice_47_percent sea_ice_48_percent sea_ice_49_percent sea_ice_50_percent sea_ice_51_percent sea_ice_52_percent sea_ice_53_percent sea_ice_54_percent sea_ice_55_percent sea_ice_56_percent sea_ice_57_percent sea_ice_58_percent sea_ice_59_percent sea_ice_60_percent sea_ice_61_percent sea_ice_62_percent sea_ice_63_percent sea_ice_64_percent sea_ice_65_percent sea_ice_66_percent sea_ice_67_percent sea_ice_68_percent sea_ice_69_percent sea_ice_70_percent sea_ice_71_percent sea_ice_72_percent sea_ice_73_percent sea_ice_74_percent sea_ice_75_percent sea_ice_76_percent sea_ice_77_percent sea_ice_78_percent sea_ice_79_percent sea_ice_80_percent sea_ice_81_percent sea_ice_82_percent sea_ice_83_percent sea_ice_84_percent sea_ice_85_percent sea_ice_86_percent sea_ice_87_percent sea_ice_88_percent sea_ice_89_percent sea_ice_90_percent sea_ice_91_percent sea_ice_92_percent sea_ice_93_percent sea_ice_94_percent sea_ice_95_percent sea_ice_96_percent sea_ice_97_percent sea_ice_98_percent sea_ice_99_percent sea_ice_100_percent permanent_ice snow mixed_pixels_at_coastlines suspect_ice_value undefined ocean</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__NO2____20240124T222754_20240125T000925_32554_03_020600_20240126T143018.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -5523,19 +5246,19 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface_altitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>surface elevation in meters above sea level, based on GMTED2010</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__CH4____20240124T222754_20240125T000925_32554_03_020600_20240126T143015.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>m</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -5572,10 +5295,10 @@
                       </cd:Integer>
                     </cd:Attribute>
                     <cd:Attribute name="standard_name">
-                      <cd:Text/>
+                      <cd:FixedValue>status_flag</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:Text/>
+                      <cd:FixedValue>land-water mask and surface classification based on a static database</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
@@ -5587,7 +5310,7 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
+                      <cd:FixedValue>land water some_water coast value_covers_majority_of_pixel water+shallow_ocean water+shallow_inland_water water+ocean_coastline-lake_shoreline water+intermittent_water water+deep_inland_water water+continental_shelf_ocean water+deep_ocean land+urban_and_built-up_land land+dryland_cropland_and_pasture land+irrigated_cropland_and_pasture land+mixed_dryland-irrigated_cropland_and_pasture land+cropland-grassland_mosaic land+cropland-woodland_mosaic land+grassland land+shrubland land+mixed_shrubland-grassland land+savanna land+deciduous_broadleaf_forest land+deciduous_needleleaf_forest land+evergreen_broadleaf_forest land+evergreen_needleleaf_forest land+mixed_forest land+herbaceous_wetland land+wooded_wetland land+barren_or_sparsely_vegetated land+herbaceous_tundra land+wooded_tundra land+mixed_tundra land+bare_ground_tundra land+snow_or_ice</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="flag_masks">
                       <cd:Array>
@@ -5599,19 +5322,19 @@
                       </cd:Array>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:Text/>
+                      <cd:FixedValue>Flag indicating land/water and further surface classifications for the ground pixel.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="coordinates">
-                      <cd:Text/>
+                      <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="source">
-                      <cd:Text/>
+                      <cd:FixedValue>https://topotools.cr.usgs.gov/gmted_viewer/viewer.htm</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="origin">
-                      <cd:Text/>
+                      <cd:FixedValue>S5P_OFFL_L2__CH4____20240124T222754_20240125T000925_32554_03_020600_20240126T143015.nc</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="units">
-                      <cd:Text/>
+                      <cd:FixedValue>1</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Dimension>1</cd:Dimension>
                     <cd:Dimension>4172</cd:Dimension>
@@ -5640,13 +5363,13 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>pixel corner index</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>This coordinate variable defines the indices for the pixel corners; index starts at 0 (counter-clockwise, starting from south-western corner of the pixel in ascending part of the orbit.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>4</cd:Dimension>
             <cd:Integer>
@@ -5681,16 +5404,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>time</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>offset from the reference start time of measurement</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>The reference start time is the start of the day.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>milliseconds since 2024-01-24 00:00:00</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -5714,16 +5437,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>across-track dimension index</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>This dimension variable defines the indices across-track; index starts at 0.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>X</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>215</cd:Dimension>
             <cd:Integer>
@@ -5758,10 +5481,10 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>latitude of the centre of the satellite footprint</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="valid_min">
               <cd:Array>
@@ -5782,10 +5505,10 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="bounds">
-              <cd:Text/>
+              <cd:FixedValue>/BAND78_PRODUCT/SUPPORT_DATA/GEOLOCATIONS/latitude_bounds</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>degrees_north</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -5823,10 +5546,10 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>longitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>longitude of the centre of the satellite footprint</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="valid_min">
               <cd:Array>
@@ -5847,10 +5570,10 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="bounds">
-              <cd:Text/>
+              <cd:FixedValue>/BAND78_PRODUCT/SUPPORT_DATA/GEOLOCATIONS/longitude_bounds</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>degrees_east</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -5876,16 +5599,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>along-track dimension index</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>This dimension variable defines the indices along-track; index starts at 0.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>Y</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>4172</cd:Dimension>
             <cd:Integer>
@@ -5920,16 +5643,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>scene LER</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>The scene LER must not be used as surface reflectivity unless the scene is absolutely cloud-free and aerosol-free.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="coordinates">
-              <cd:Text/>
+              <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -5967,16 +5690,16 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>scene LER precision</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>See section 9.3.1 in the TROPOMI surface DLER ATBD (S5P-KNMI-L3-0301-RP).</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="coordinates">
-              <cd:Text/>
+              <cd:FixedValue>/BAND78_PRODUCT/longitude /BAND78_PRODUCT/latitude</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>1</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -6011,19 +5734,19 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>time</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>reference time for the measurements</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="comment">
-              <cd:Text/>
+              <cd:FixedValue>The time in this variable corresponds to the time in the time_reference global attribute.</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="axis">
-              <cd:Text/>
+              <cd:FixedValue>T</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>seconds since 2010-01-01 00:00:00</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Integer>
@@ -6049,13 +5772,13 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>time</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="origin">
-              <cd:Text/>
+              <cd:FixedValue>S5P_OFFL_L2__CH4____20240124T222754_20240125T000925_32554_03_020600_20240126T143015.nc</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>time of observation as ISO 8601 date-time string</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
@@ -6077,13 +5800,13 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="standard_name">
-              <cd:Text/>
+              <cd:FixedValue>radiation_wavelength</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>central wavelength of each wavelength band</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>nm</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Float>
@@ -6100,10 +5823,10 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:Text/>
+              <cd:FixedValue>width of each wavelength band</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units">
-              <cd:Text/>
+              <cd:FixedValue>nm</cd:FixedValue>
             </cd:Attribute>
             <cd:Dimension>1</cd:Dimension>
             <cd:Float>
