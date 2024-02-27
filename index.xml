@@ -166,4 +166,16 @@
       </cd:DetectionRule>
     </cd:ProductDefinition>
   </cd:ProductType>
+  <cd:ProductType name="L2__OCLO__">
+    <cd:Description>OCLO L2 file</cd:Description>
+    <cd:ProductDefinition id="L2__OCLO__" format="hdf5" version="0">
+      <cd:Description>This definition is based on version 1.1.0 of the S5P OCLO Product User Manual 
+        Specification S5p+I_OCLO_IUP-UB_PUM
+      </cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
+        <cd:MatchExpression>substr(9,10,filename())=="L2__OCLO__"</cd:MatchExpression>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
 </cd:ProductClass>
