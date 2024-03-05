@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="L2__OCLO__" format="hdf5" last-modified="2024-02-26">
+<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="L2__OCLO__" format="hdf5" last-modified="2024-03-05">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -1173,7 +1173,175 @@
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
-                <cd:Field name="relative_azimuth_angle">
+                <cd:Field name="satellite_altitude">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:FixedValue>satellite altitude</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:FixedValue>m</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="satellite_latitude">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:FixedValue>sub-satellite latitude</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:FixedValue>degrees_north</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="satellite_longitude">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:FixedValue>sub-satellite longitude</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:FixedValue>degrees_east</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="satellite_orbit_phase">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:FixedValue>fractional satellite orbit phase</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:FixedValue>1</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="solar_azimuth_angle">
                   <cd:Array>
                     <cd:Attribute name="FillValue" real_name="_FillValue">
                       <cd:Array>
@@ -1188,10 +1356,10 @@
                       <cd:FixedValue>degree</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="long_name">
-                      <cd:FixedValue>relative azimuth angle at surface</cd:FixedValue>
+                      <cd:FixedValue>solar azimuth angle at surface</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="comment">
-                      <cd:FixedValue>Relative azimuth angle between sun and viewing direction at the ground pixel location on the reference ellipsoid.</cd:FixedValue>
+                      <cd:FixedValue>Azimuth angle of the sun at the ground pixel location on the reference ellipsoid.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
@@ -1241,6 +1409,55 @@
                     </cd:Attribute>
                     <cd:Attribute name="comment">
                       <cd:FixedValue>Solar zenith angle at the surface. Angle is measured away from the vertical.</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:FixedValue>/PRODUCT/longitude /PRODUCT/latitude</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="viewing_azimuth_angle">
+                  <cd:Array>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:FixedValue>degree</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:FixedValue>viewing azimuth angle at surface</cd:FixedValue>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:FixedValue>Azimuth angle of viewing direction at the ground pixel location on the reference ellipsoid.</cd:FixedValue>
                     </cd:Attribute>
                     <cd:Attribute name="valid_min">
                       <cd:Array>
