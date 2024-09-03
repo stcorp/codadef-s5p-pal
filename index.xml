@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductClass xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" name="S5P_PAL" last-modified="2024-01-25">
+<cd:ProductClass xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" name="S5P_PAL" last-modified="2024-08-16">
   <cd:Description>S5P-PAL products</cd:Description>
   <cd:ProductType name="AUX_BGBRO_">
     <cd:Description>BGBRO background correction file</cd:Description>
@@ -175,6 +175,16 @@
       <cd:DetectionRule>
         <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
         <cd:MatchExpression>substr(9,10,filename())=="L2__OCLO__"</cd:MatchExpression>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
+  <cd:ProductType name="L2__HDO__S">
+    <cd:Description>SRON HDO L2 file</cd:Description>
+    <cd:ProductDefinition id="L2__HDO__S" format="hdf5" version="0">
+      <cd:Description></cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
+        <cd:MatchExpression>substr(9,10,filename())=="L2__HDO__S"</cd:MatchExpression>
       </cd:DetectionRule>
     </cd:ProductDefinition>
   </cd:ProductType>
