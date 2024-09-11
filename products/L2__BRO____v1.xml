@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="L2__BRO____v1" format="hdf5" last-modified="2024-01-17">
+<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="L2__BRO____v1" format="hdf5" last-modified="2024-09-11">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -2680,9 +2680,7 @@
             <cd:Attribute name="long_name">
               <cd:FixedValue>offset from reference start time of measurement</cd:FixedValue>
             </cd:Attribute>
-            <cd:Attribute name="units">
-              <cd:FixedValue>milliseconds since 2023-12-25 00:00:00</cd:FixedValue>
-            </cd:Attribute>
+            <cd:Attribute name="units"/>
             <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
               <cd:Integer>
                 <cd:NativeType>int32</cd:NativeType>

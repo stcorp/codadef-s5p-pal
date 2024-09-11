@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="L2__SCNLER" format="hdf5" last-modified="2024-02-14">
+<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="L2__SCNLER" format="hdf5" last-modified="2024-09-11">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -1760,9 +1760,7 @@
             <cd:Attribute name="comment">
               <cd:FixedValue>The reference start time is the start of the day.</cd:FixedValue>
             </cd:Attribute>
-            <cd:Attribute name="units">
-              <cd:FixedValue>milliseconds since 2024-01-24 00:00:00</cd:FixedValue>
-            </cd:Attribute>
+            <cd:Attribute name="units"/>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
             <cd:Integer>
@@ -3612,9 +3610,7 @@
             <cd:Attribute name="comment">
               <cd:FixedValue>The reference start time is the start of the day.</cd:FixedValue>
             </cd:Attribute>
-            <cd:Attribute name="units">
-              <cd:FixedValue>milliseconds since 2024-01-24 00:00:00</cd:FixedValue>
-            </cd:Attribute>
+            <cd:Attribute name="units"/>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
             <cd:Integer>
@@ -5412,9 +5408,7 @@
             <cd:Attribute name="comment">
               <cd:FixedValue>The reference start time is the start of the day.</cd:FixedValue>
             </cd:Attribute>
-            <cd:Attribute name="units">
-              <cd:FixedValue>milliseconds since 2024-01-24 00:00:00</cd:FixedValue>
-            </cd:Attribute>
+            <cd:Attribute name="units"/>
             <cd:Dimension>1</cd:Dimension>
             <cd:Dimension>4172</cd:Dimension>
             <cd:Integer>

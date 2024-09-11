@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="L2__AER_OT_v1" format="hdf5" last-modified="2024-01-30">
+<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="L2__AER_OT_v1" format="hdf5" last-modified="2024-09-11">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -1895,9 +1895,7 @@
                 <cd:LittleEndian/>
               </cd:Integer>
             </cd:Attribute>
-            <cd:Attribute name="units">
-              <cd:FixedValue>milliseconds since 2024-01-01 00:00:00</cd:FixedValue>
-            </cd:Attribute>
+            <cd:Attribute name="units"/>
             <cd:Attribute name="long_name">
               <cd:FixedValue>offset from reference start time of measurement</cd:FixedValue>
             </cd:Attribute>
