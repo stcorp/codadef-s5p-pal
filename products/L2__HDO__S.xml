@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition id="L2__HDO__S" format="hdf5" last-modified="2024-09-01" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<cd:ProductDefinition id="L2__HDO__S" format="hdf5" last-modified="2024-09-11" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -2207,6 +2207,37 @@
               </cd:Integer>
             </cd:Attribute>
             <cd:Dimension>4</cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>int32</cd:NativeType>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="delta_time">
+          <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>2</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:FixedValue>offset from reference start time of measurement</cd:FixedValue>
+            </cd:Attribute>
+            <cd:Attribute name="units"/>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
             <cd:Integer>
               <cd:NativeType>int32</cd:NativeType>
             </cd:Integer>
