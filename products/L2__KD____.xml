@@ -62,7 +62,10 @@
       </cd:Array>
     </cd:Attribute>
     <cd:Attribute name="input_files">
-      <cd:Text/>
+      <cd:Array>
+        <cd:Dimension/>
+        <cd:Text/>
+      </cd:Array>
     </cd:Attribute>
     <cd:Attribute name="time_reference">
       <cd:Text/>
