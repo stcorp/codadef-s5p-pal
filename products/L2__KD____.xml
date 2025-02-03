@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition id="L2__KD____" format="hdf5" last-modified="2025-01-07" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<cd:ProductDefinition id="L2__KD____" format="hdf5" last-modified="2025-02-03" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -11,6 +11,9 @@
       <cd:Text/>
     </cd:Attribute>
     <cd:Attribute name="history">
+      <cd:Text/>
+    </cd:Attribute>
+    <cd:Attribute name="summary">
       <cd:Text/>
     </cd:Attribute>
     <cd:Attribute name="creator_name">
@@ -76,6 +79,9 @@
     <cd:Attribute name="time_coverage_end">
       <cd:Text/>
     </cd:Attribute>
+    <cd:Attribute name="time_coverage_resolution">
+      <cd:Text/>
+    </cd:Attribute>
     <cd:Attribute name="geospatial_lat_max">
       <cd:Text/>
     </cd:Attribute>
@@ -99,9 +105,6 @@
     </cd:Attribute>
     <cd:Field name="METADATA">
       <cd:Record>
-        <cd:Field name="ALGORITHM_SETTINGS">
-          <cd:Record/>
-        </cd:Field>
         <cd:Field name="DOAS_RETRIEVAL">
           <cd:Record>
             <cd:Attribute name="processing_algorithm">
@@ -335,6 +338,228 @@
             </cd:Float>
           </cd:Array>
         </cd:Field>
+        <cd:Field name="qa_value_UV">
+          <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>3</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>uint8</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="scale_factor">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>double</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="add_offset">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>double</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="valid_min">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>uint8</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="valid_max">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>uint8</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="coordinates">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>uint8</cd:NativeType>
+              <cd:Conversion numerator="0.01" denominator="1" invalid="255"/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="qa_value_UVAB">
+          <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>3</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>uint8</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="scale_factor">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>double</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="add_offset">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>double</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="valid_min">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>uint8</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="valid_max">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>uint8</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="coordinates">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>uint8</cd:NativeType>
+              <cd:Conversion numerator="0.01" denominator="1" invalid="255"/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Field>
+        <cd:Field name="qa_value_blue">
+          <cd:Array>
+            <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+              <cd:Array>
+                <cd:Dimension>3</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int32</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="FillValue" real_name="_FillValue">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>uint8</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="units">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="long_name">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Attribute name="scale_factor">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>double</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="add_offset">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Float>
+                  <cd:NativeType>double</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Float>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="valid_min">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>uint8</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="valid_max">
+              <cd:Array>
+                <cd:Dimension>1</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>uint8</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
+            <cd:Attribute name="coordinates">
+              <cd:Text/>
+            </cd:Attribute>
+            <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+            <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+            <cd:Integer>
+              <cd:NativeType>uint8</cd:NativeType>
+              <cd:Conversion numerator="0.01" denominator="1" invalid="255"/>
+            </cd:Integer>
+          </cd:Array>
+        </cd:Field>
         <cd:Field name="SUPPORT_DATA">
           <cd:Record>
             <cd:Field name="DETAILED_RESULTS">
@@ -479,6 +704,62 @@
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
+                <cd:Field name="VRS_fit_factor_UVAB_error">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="VRS_fit_factor_UVA_error">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
                 <cd:Field name="VRS_fit_factor_blue">
                   <cd:Array>
                     <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
@@ -510,16 +791,38 @@
                     </cd:Float>
                   </cd:Array>
                 </cd:Field>
+                <cd:Field name="VRS_fit_factor_blue_error">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
               </cd:Record>
             </cd:Field>
             <cd:Field name="GEOLOCATIONS">
               <cd:Record>
-                <cd:Attribute name="posList">
-                  <cd:Text/>
-                </cd:Attribute>
-                <cd:Attribute name="geojson_footprint">
-                  <cd:Text/>
-                </cd:Attribute>
                 <cd:Field name="latitude_bounds">
                   <cd:Array>
                     <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
@@ -655,6 +958,266 @@
                   </cd:Array>
                 </cd:Field>
                 <cd:Field name="solar_zenith_angle">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="satellite_altitude">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="satellite_latitude">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="satellite_longitude">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="satellite_orbit_phase">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>2</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="solar_azimuth_angle">
+                  <cd:Array>
+                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
+                      <cd:Array>
+                        <cd:Dimension>3</cd:Dimension>
+                        <cd:Integer>
+                          <cd:NativeType>int32</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Integer>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="FillValue" real_name="_FillValue">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="units">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="long_name">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="comment">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_min">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="valid_max">
+                      <cd:Array>
+                        <cd:Dimension>1</cd:Dimension>
+                        <cd:Float>
+                          <cd:NativeType>float</cd:NativeType>
+                          <cd:LittleEndian/>
+                        </cd:Float>
+                      </cd:Array>
+                    </cd:Attribute>
+                    <cd:Attribute name="coordinates">
+                      <cd:Text/>
+                    </cd:Attribute>
+                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
+                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
+                    <cd:Float>
+                      <cd:NativeType>float</cd:NativeType>
+                    </cd:Float>
+                  </cd:Array>
+                </cd:Field>
+                <cd:Field name="viewing_azimuth_angle">
                   <cd:Array>
                     <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
                       <cd:Array>
