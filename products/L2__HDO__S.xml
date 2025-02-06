@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition id="L2__HDO__S" format="hdf5" last-modified="2024-09-11" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<cd:ProductDefinition id="L2__HDO__S" format="hdf5" last-modified="2025-02-06" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -2223,6 +2223,12 @@
                 </cd:Integer>
               </cd:Array>
             </cd:Attribute>
+            <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
+              <cd:Integer>
+                <cd:NativeType>int32</cd:NativeType>
+                <cd:LittleEndian/>
+              </cd:Integer>
+            </cd:Attribute>
             <cd:Attribute name="FillValue" real_name="_FillValue">
               <cd:Array>
                 <cd:Dimension>1</cd:Dimension>
@@ -2233,9 +2239,18 @@
               </cd:Array>
             </cd:Attribute>
             <cd:Attribute name="long_name">
-              <cd:FixedValue>offset from reference start time of measurement</cd:FixedValue>
+              <cd:FixedValue>offset of start time of measurement relative to time_reference</cd:FixedValue>
             </cd:Attribute>
             <cd:Attribute name="units"/>
+            <cd:Attribute name="ChunkSizes" real_name="_ChunkSizes">
+              <cd:Array>
+                <cd:Dimension>2</cd:Dimension>
+                <cd:Integer>
+                  <cd:NativeType>int64</cd:NativeType>
+                  <cd:LittleEndian/>
+                </cd:Integer>
+              </cd:Array>
+            </cd:Attribute>
             <cd:Dimension><![CDATA[$time]]></cd:Dimension>
             <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
             <cd:Integer>
