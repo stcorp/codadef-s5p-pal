@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductClass xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" name="S5P_PAL" last-modified="2025-02-03">
+<cd:ProductClass xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" name="S5P_PAL" last-modified="2025-09-08">
   <cd:Description>S5P-PAL products</cd:Description>
   <cd:ProductType name="AUX_BGBRO_">
     <cd:Description>BGBRO background correction file</cd:Description>
@@ -169,7 +169,7 @@
   <cd:ProductType name="L2__OCLO__">
     <cd:Description>OCLO L2 file</cd:Description>
     <cd:ProductDefinition id="L2__OCLO__" format="hdf5" version="0">
-      <cd:Description>This definition is based on version 1.1.0 of the S5P OCLO Product User Manual 
+      <cd:Description>This definition is based on version 1.1.0 of the S5P OCLO Product User Manual
         Specification S5p+I_OCLO_IUP-UB_PUM
       </cd:Description>
       <cd:DetectionRule>
@@ -190,9 +190,29 @@
   </cd:ProductType>
   <cd:ProductType name="L2__KD____">
     <cd:Description>AWI Ocean Color diffuse attenuation (KD) L2 file</cd:Description>
-    <cd:ProductDefinition id="L2__KD____" format="hdf5" version="0">
-      <cd:Description>This definition is based on version 1.1.0 of the S5P KD Product User Manual
+    <cd:ProductDefinition id="L2__KD____v0" format="hdf5" version="0">
+      <cd:Description>This definition is based on version 1.0 of the S5P KD Product User Manual
         Product Format Specifications PAL-S5POC-PUM-v1
+      </cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
+        <cd:MatchExpression>substr(9,10,filename())=="L2__KD____"</cd:MatchExpression>
+        <cd:MatchExpression>substr(60,8,filename())=="_010000_"</cd:MatchExpression>
+      </cd:DetectionRule>
+      <cd:DetectionRule>
+        <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
+        <cd:MatchExpression>substr(9,10,filename())=="L2__KD____"</cd:MatchExpression>
+        <cd:MatchExpression>substr(60,8,filename())=="_010001_"</cd:MatchExpression>
+      </cd:DetectionRule>
+      <cd:DetectionRule>
+        <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
+        <cd:MatchExpression>substr(9,10,filename())=="L2__KD____"</cd:MatchExpression>
+        <cd:MatchExpression>substr(60,8,filename())=="_010002_"</cd:MatchExpression>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+    <cd:ProductDefinition id="L2__KD____v1" format="hdf5" version="1">
+      <cd:Description>This definition is based on version 1.1 of the S5P KD Product User Manual
+        Product Format Specifications PAL-S5POC-PUM-v1.1
       </cd:Description>
       <cd:DetectionRule>
         <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
