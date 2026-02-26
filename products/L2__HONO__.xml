@@ -2155,4 +2155,28 @@
       </cd:Record>
     </cd:Field>
   </cd:Record>
+  <cd:ProductVariable name="time">
+    <cd:Init><![CDATA[$time = dim(/PRODUCT/time, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="scanline">
+    <cd:Init><![CDATA[$scanline = dim(/PRODUCT/scanline, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="ground_pixel">
+    <cd:Init><![CDATA[$ground_pixel = dim(/PRODUCT/ground_pixel, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="corner">
+    <cd:Init><![CDATA[$corner = dim(/PRODUCT/corner, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="layer">
+    <cd:Init><![CDATA[$layer = dim(/PRODUCT/layer, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="ah">
+    <cd:Init><![CDATA[$ah = dim(/PRODUCT/ah, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="aod">
+    <cd:Init><![CDATA[$aod = dim(/PRODUCT/aod, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="ssa">
+    <cd:Init><![CDATA[$ssa = dim(/PRODUCT/ssa, 0)]]></cd:Init>
+  </cd:ProductVariable>
 </cd:ProductDefinition>
