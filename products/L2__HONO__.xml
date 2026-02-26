@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cd:ProductDefinition id="untitled" format="hdf5" last-modified="2026-02-24" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+<cd:ProductDefinition id="L2__HONO__" format="hdf5" last-modified="2026-02-24" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
   <cd:Record>
     <cd:Attribute name="Conventions">
       <cd:Text/>
@@ -1849,7 +1849,7 @@
                 <cd:LittleEndian/>
               </cd:Integer>
             </cd:Attribute>
-            <cd:Dimension>34</cd:Dimension>
+            <cd:Dimension><![CDATA[$layer]]></cd:Dimension>
             <cd:Float>
               <cd:NativeType>float</cd:NativeType>
             </cd:Float>
