@@ -230,4 +230,18 @@
       </cd:DetectionRule>
     </cd:ProductDefinition>
   </cd:ProductType>
+  <cd:ProductType name="L2__GRASP_">
+    <cd:Description>GRASP L2 file</cd:Description>
+    <cd:ProductDefinition id="L2__GRASP_" format="hdf5" version="0">
+      <cd:Description></cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
+        <cd:MatchExpression>substr(4,10,filename())=="GRASP_L2M_"</cd:MatchExpression>
+      </cd:DetectionRule>
+      <cd:DetectionRule>
+        <cd:MatchExpression>substr(0,3,filename())=="S5P"</cd:MatchExpression>
+        <cd:MatchExpression>substr(4,10,filename())=="GRASP_L2S_"</cd:MatchExpression>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
 </cd:ProductClass>
