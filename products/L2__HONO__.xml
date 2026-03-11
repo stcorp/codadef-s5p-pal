@@ -249,7 +249,7 @@
                     </cd:Attribute>
                     <cd:Attribute name="flag_values">
                       <cd:Array>
-                        <cd:Dimension>5</cd:Dimension>
+                        <cd:Dimension>4</cd:Dimension>
                         <cd:Integer>
                           <cd:NativeType>int32</cd:NativeType>
                           <cd:LittleEndian/>
@@ -549,88 +549,6 @@
             </cd:Field>
             <cd:Field name="GEOLOCATIONS">
               <cd:Record>
-                <cd:Field name="geolocation_flags">
-                  <cd:Array>
-                    <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
-                      <cd:Array>
-                        <cd:Dimension>3</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>int32</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="FillValue" real_name="_FillValue">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>uint8</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="coordinates">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="flag_masks">
-                      <cd:Array>
-                        <cd:Dimension>7</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>uint8</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="flag_meanings">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="flag_values">
-                      <cd:Array>
-                        <cd:Dimension>7</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>uint8</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="long_name">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="max_val">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>uint8</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="min_val">
-                      <cd:Array>
-                        <cd:Dimension>1</cd:Dimension>
-                        <cd:Integer>
-                          <cd:NativeType>uint8</cd:NativeType>
-                          <cd:LittleEndian/>
-                        </cd:Integer>
-                      </cd:Array>
-                    </cd:Attribute>
-                    <cd:Attribute name="units">
-                      <cd:Text/>
-                    </cd:Attribute>
-                    <cd:Attribute name="Netcdf4Dimid" real_name="_Netcdf4Dimid">
-                      <cd:Integer>
-                        <cd:NativeType>int32</cd:NativeType>
-                        <cd:LittleEndian/>
-                      </cd:Integer>
-                    </cd:Attribute>
-                    <cd:Dimension><![CDATA[$time]]></cd:Dimension>
-                    <cd:Dimension><![CDATA[$scanline]]></cd:Dimension>
-                    <cd:Dimension><![CDATA[$ground_pixel]]></cd:Dimension>
-                    <cd:Integer>
-                      <cd:NativeType>uint8</cd:NativeType>
-                    </cd:Integer>
-                  </cd:Array>
-                </cd:Field>
                 <cd:Field name="latitude_bounds">
                   <cd:Array>
                     <cd:Attribute name="Netcdf4Coordinates" real_name="_Netcdf4Coordinates">
